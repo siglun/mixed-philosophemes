@@ -37,12 +37,9 @@
       <docAuthor>
 	<name>Sigfrid Lundberg</name>
 	<address>
-	  <addrLine>slu@kb.dk</addrLine>
-	  <addrLine>Digital Transformation</addrLine>
-	  <addrLine>Royal Danish Library</addrLine>
-	  <addrLine>Post box 2149</addrLine>
-	  <addrLine>1016 Copenhagen K</addrLine>
-	  <addrLine>Denmark</addrLine>
+	  <!-- addrLine>sigfrid@sigfrid-lundberg.se</addrLine -->
+          <addrLine>Lund</addrLine>
+          <addrLine>Sweden</addrLine>
 	</address>
       </docAuthor>
     </front>
