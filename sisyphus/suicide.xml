@@ -42,6 +42,27 @@
           <addrLine>Sweden</addrLine>
 	</address>
       </docAuthor>
+      <div type="abstract">
+        <p>bla bla bla</p>§
+      </div>
     </front>
+    <body>
+      <div>
+        <head>Introduction</head>
+        <p>bla bla bla</p>
+      </div>
+      <div>
+        <head>References</head>
+        <listBibl>
+          <bibl xml:id="nfsgrundtvig">
+            <author>Wikipedia</author>
+            <date>2003</date>
+            <title level="a">N. F. S. Grundtvig</title>
+            <title level="m">Wikipedia, the free encyclopedia</title>
+            <ref target="https://en.wikipedia.org/wiki/N._F._S._Grundtvig"/>
+          </bibl>
+        </listBibl>
+      </div>
+    </body>
   </text>
 </TEI>
