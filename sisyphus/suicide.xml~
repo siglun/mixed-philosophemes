@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/siglun/danish-sonnets/main/render.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="root">
+  <teiHeader xml:id="header">
+    <fileDesc xml:id="md">
+      <titleStmt xml:id="titles">
+        <title type="main">Sisyphus, Climate change and the
+        Philosophical Suicide</title>
+        <title type="sub">Musings of an evolutionary biologist</title>
+        <author>
+	  <persName>
+	    <forename>Sigfrid</forename>
+	    <surname>Lundberg</surname>
+	  </persName>
+	</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+	<titlePart>
+          <title type="main">Sex, death and sonnets</title>
+          <title type="sub">Musings of a software developer</title>
+        </titlePart>
+      </docTitle>
+      <docAuthor>
+	<name>Sigfrid Lundberg</name>
+	<address>
+	  <addrLine>slu@kb.dk</addrLine>
+	  <addrLine>Digital Transformation</addrLine>
+	  <addrLine>Royal Danish Library</addrLine>
+	  <addrLine>Post box 2149</addrLine>
+	  <addrLine>1016 Copenhagen K</addrLine>
+	  <addrLine>Denmark</addrLine>
+	</address>
+      </docAuthor>
