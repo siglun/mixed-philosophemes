@@ -4,8 +4,7 @@
   <teiHeader xml:id="header">
     <fileDesc xml:id="md">
       <titleStmt xml:id="titles">
-        <title type="main">Sisyphus, Climate change and the
-        Philosophical Suicide</title>
+        <title type="main">Sisyphus, Climate change and the Philosophical Suicide</title>
         <title type="sub">Musings of an evolutionary biologist</title>
         <author>
 	  <persName>
@@ -28,8 +27,7 @@
     <front>
       <docTitle>
 	<titlePart>
-           <title type="main">Sisyphus, Climate change and the
-§        Philosophical Suicide</title>
+           <title type="main">Sisyphus, Climate change and the Philosophical Suicide</title>
 <title type="sub">Musings of an evolutionary biologist</title>
 
         </titlePart>
@@ -43,7 +41,7 @@
 	</address>
       </docAuthor>
       <div type="abstract">
-        <p>bla bla bla</p>§
+        <p>bla bla bla</p>
       </div>
     </front>
     <body>
