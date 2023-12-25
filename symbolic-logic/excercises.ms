@@ -10,7 +10,7 @@ Examples and ercercises
 .LP
 Formulate in human language:
 .EQ
-a b <= 0 \[AN] \[NO]a=0 -> b=0 \[OR] (a<0 \[AN] b>0) \[OR] (a>0 \[AN] b<0)
+a b <= 0 \[AN] \[no]a=0 -> b=0 \[OR] (a<0 \[AN] b>0) \[OR] (a>0 \[AN] b<0)
 .EN
 .IP 1
 if a times b is less \fB or \fP equal to 0 \fB and \fP is not 0
