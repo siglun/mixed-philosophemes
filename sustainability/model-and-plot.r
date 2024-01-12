@@ -9,13 +9,44 @@ require(deSolve)
 
 parameters <- c(AT = 100,
                 RT = 1,
-                CT = 1,
-                gamma = 0.01,
-                m = 0.1)
+                am,
+                aa,
+                awv,
+                aw,
+                ai,
+                krm,
+                krw,
+                kxn,
+                
+                betavv,
+                betaav,
+                betaiv,
+
+                betava,
+                betaaa,
+                betaia,
+
+                betavi,
+                betaai,
+                betaii,
+                
+                mad,
+                ra,
+                rv,
+                rx,
+                KP,
+                kxn,
+                mjuv,
+                ra,
+                Kc,
+                mad,
+                ri,
+                Kc)
 
 state <- c(Av = 98,
            Aa = 1,
            Ai = 0,
+           Aw = 0,
            Rv = 1,
            Rm = 0,
            Rw = 0,
@@ -38,23 +69,22 @@ lorenz <- function(t, state, parameters) {
         dAv <- - ( am * ni + aa * na ) * (AT - Aa - Ai -Aw) + awv * Aw
         dAa <- aa * na * (AT - Aa - Ai) - aw * Aa
         dAi <- am * ni * (AT - Aa - Ai) - ai * Ai
-        dAw <- aw * Aa + ai * Ai - awv * Aw
-
-        dRv <- -krm * (RT - Rm - Rw)*ni
+        dAw <- aw * Aa + ai * Ai - awv * Aw        
+        dRv <- -krm * (RT - Rm - Rw)*ni        
         dRm <- krm * (RT - Rm - Rw)*ni - krw * Rm
         dRw <- krw * Rm
 
 #        dCf <- 1
-
-        dnv <- betavv*nv*yv - mad*nv
+        dnv <- (betavv*yv + betaav*ya + betaiv*yi - mad)*nv
         dx  <- rx*x*(1-x/(Av*KP)) - kxn*x*nv
-        dyv <- kxn*x*nv - (betavv*nv + mjuv)*yv
+        dyv <- rv*kxn*x*nv               - (betavv*nv + betava*na + betavi*ni + mjuv)*yv
+        
+        dna <- (betava*yv + betaaa*ya + betaia*yi  - mad)*na
+        dya <- ra*na*(1-(na+ni)/(Aa*Kc)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
+        
+        dni <- (betavi*yv + betaai*ya + betaii*yi - mad)*ni                
+        dyi <- ri*ni*(1-(na+ni)/(Aa*Kc)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
 
-        dna <- betaaa*na*ya - mad*na
-        dya <- ra*na*(1-(na+ni)/(Aa*KP)) - (betaaa*na + mjuv)*ya
-                
-        dni <- betaii*ni*yi - mad*ni
-        dyi <- ri*ni*(1-(na+ni)/(Aa*KP)) - (betaii*ni + mjuv)*yi
 
 
 
