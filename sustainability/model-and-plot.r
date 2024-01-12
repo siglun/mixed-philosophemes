@@ -3,16 +3,30 @@
 require(deSolve)
 
 ## ==============================================================================
-## Numerical solution of the SIR epidemiological model, a
-## system of ordinary differential equations with state variables
-## # susceptible (X), # infected (Y) # resistant (Z)
+## Numerical solution of a far too complex model, a
+## system of ordinary differential equations
 ## ==============================================================================
 
-parameters <- c(beta  = 0.01,
+parameters <- c(AT = 100,
+                RT = 1,
+                CT = 1,
                 gamma = 0.01,
                 m = 0.1)
 
-state <- c(X = 100, Y = 1, Z = 0)
+state <- c(Av = 98,
+           Aa = 1,
+           Ai = 0,
+           Rv = 1,
+           Rm = 0,
+           Rw = 0,
+#           Cf = 1,
+           nv = 1,
+           yv = 0,
+           na = 0,
+           ya = 0,
+           ni = 0,
+           yi = 0,
+           x  = 1)
 
 ## the ODE system
 
@@ -21,9 +35,28 @@ lorenz <- function(t, state, parameters) {
 
 # rate of change
 
-        dX <- -beta*X*Y + gamma*Z
-        dY <- beta * X * Y - m*Y 
-        dZ <- m*Y - gamma * Z
+        dAv <- - ( am * ni + aa * na ) * (AT - Aa - Ai -Aw) + awv * Aw
+        dAa <- aa * na * (AT - Aa - Ai) - aw * Aa
+        dAi <- am * ni * (AT - Aa - Ai) - ai * Ai
+        dAw <- aw * Aa + ai * Ai - awv * Aw
+
+        dRv <- -krm * (RT - Rm - Rw)*ni
+        dRm <- krm * (RT - Rm - Rw)*ni - krw * Rm
+        dRw <- krw * Rm
+
+#        dCf <- 1
+
+        dnv <- betavv*nv*yv - mad*nv
+        dx  <- rx*x*(1-x/(Av*KP)) - kxn*x*nv
+        dyv <- kxn*x*nv - (betavv*nv + mjuv)*yv
+
+        dna <- betaaa*na*ya - mad*na
+        dya <- ra*na*(1-(na+ni)/(Aa*KP)) - (betaaa*na + mjuv)*ya
+                
+        dni <- betaii*ni*yi - mad*ni
+        dyi <- ri*ni*(1-(na+ni)/(Aa*KP)) - (betaii*ni + mjuv)*yi
+
+
 
 # return the rate of change
 
