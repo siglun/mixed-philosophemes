@@ -9,39 +9,37 @@ require(deSolve)
 
 parameters <- c(AT = 100,
                 RT = 1,
-                am,
-                aa,
-                awv,
-                aw,
-                ai,
-                krm,
-                krw,
-                kxn,
+                am = 0.01,
+                aa = 0.01,
+                awv = 0.01,
+                aw = 0.01,
+                ai = 0.01,
+                krm = 0.01,
+                krw = 0.01,
+                kxn = 0.01,
                 
-                betavv,
-                betaav,
-                betaiv,
+                betavv = 0.01,
+                betaav = 0.01,
+                betaiv = 0.01,
 
-                betava,
-                betaaa,
-                betaia,
+                betava = 0.01,
+                betaaa = 0.01,
+                betaia = 0.01,
 
-                betavi,
-                betaai,
-                betaii,
+                betavi = 0.01,
+                betaai = 0.01,
+                betaii = 0.01,
                 
-                mad,
-                ra,
-                rv,
-                rx,
-                KP,
-                kxn,
-                mjuv,
-                ra,
-                Kc,
-                mad,
-                ri,
-                Kc)
+                mad = 0.02,
+                ra  = 0.01,
+                rv = 0.01,
+                rx  = 0.01,
+                KP = 1000,
+                kxn  = 0.01,
+                mjuv = 0.05,
+                ra  = 0.01,
+                Kc =100,
+                ri = 0.01)
 
 state <- c(Av = 98,
            Aa = 1,
@@ -103,6 +101,6 @@ out <- ode(y = state, times = times, func = lorenz, parms = parameters)
 head(out)
 
 par(oma = c(0, 0, 3, 0))
-matplot(out[,"time"],out[,2:4], xlab = "Time (days)", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[,2:4], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
 mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
