@@ -18,17 +18,17 @@ parameters <- c(AT = 100,
                 krw = 0.01,
                 kxn = 0.01,
                 
-                betavv = 0.01,
-                betaav = 0.01,
-                betaiv = 0.01,
+                betavv = 0.1,
+                betaav = 0.1,
+                betaiv = 0.1,
 
-                betava = 0.01,
-                betaaa = 0.01,
-                betaia = 0.01,
+                betava = 0.1,
+                betaaa = 0.1,
+                betaia = 0.1,
 
-                betavi = 0.01,
-                betaai = 0.01,
-                betaii = 0.01,
+                betavi = 0.1,
+                betaai = 0.1,
+                betaii = 0.1,
                 
                 mad = 0.02,
                 ra  = 0.01,
@@ -41,25 +41,24 @@ parameters <- c(AT = 100,
                 Kc =100,
                 ri = 0.01)
 
-state <- c(Av = 98,
+state <- c(Av = 99,
            Aa = 1,
            Ai = 0,
            Aw = 0,
            Rv = 1,
            Rm = 0,
            Rw = 0,
-#           Cf = 1,
            nv = 1,
-           yv = 0,
-           na = 0,
-           ya = 0,
-           ni = 0,
-           yi = 0,
-           x  = 1)
+           x  = 1,
+           yv = 1,
+           na = 1,
+           ya = 1,
+           ni = 1,
+           yi = 1)
 
 ## the ODE system
 
-lorenz <- function(t, state, parameters) {
+worldmodel <- function(t, state, parameters) {
     with(as.list(c(state, parameters)),{
 
 # rate of change
@@ -67,7 +66,8 @@ lorenz <- function(t, state, parameters) {
         dAv <- - ( am * ni + aa * na ) * (AT - Aa - Ai -Aw) + awv * Aw
         dAa <- aa * na * (AT - Aa - Ai) - aw * Aa
         dAi <- am * ni * (AT - Aa - Ai) - ai * Ai
-        dAw <- aw * Aa + ai * Ai - awv * Aw        
+        dAw <- aw * Aa + ai * Ai - awv * Aw
+        
         dRv <- -krm * (RT - Rm - Rw)*ni        
         dRm <- krm * (RT - Rm - Rw)*ni - krw * Rm
         dRw <- krw * Rm
@@ -94,13 +94,15 @@ lorenz <- function(t, state, parameters) {
 
 }
 
-times <- seq(0, 100, by = 0.01)
+time <- seq(0, 1000, by = 10.0)
 
-out <- ode(y = state, times = times, func = lorenz, parms = parameters)
+out <- ode(y = state, times = time, func = worldmodel, parms = parameters)
 
 head(out)
 
-par(oma = c(0, 0, 3, 0))
-matplot(out[,"time"],out[,2:4], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
-mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
+# plot(out)
+
+
+# matplot(out[,"time"],out[,2:4], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+# legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
+# mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
