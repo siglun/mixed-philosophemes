@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-require(deSolve)
+library(deSolve)
 
 ## ==============================================================================
 ## Numerical solution of a far too complex model, a
@@ -88,7 +88,7 @@ lorenz <- function(t, state, parameters) {
 
 # return the rate of change
 
-        list(c(dX, dY, dZ))
+        list(c(dAv, dAa, dAi, dAw, dRv, dRm, dRw, dnv, dx, dyv, dna, dya, dni, dyi))
 
     })
 
