@@ -3,7 +3,10 @@
 <xi:include href="aporia.xml"/>
 <xi:include href="aristoteles.xml"/>
 <xi:include href="atom.xml"/>
+<xi:include href="cicero.xml"/>
+<xi:include href="demiurgen.xml"/>
 <xi:include href="demokritos.xml"/>
+<xi:include href="detgoda.xml"/>
 <xi:include href="element.xml"/>
 <xi:include href="elenchus.xml"/>
 <xi:include href="endoxa.xml"/>
@@ -26,11 +29,16 @@
 <xi:include href="kunskap.xml"/>
 <xi:include href="lucretius.xml"/>
 <xi:include href="nyplatonism.xml"/>
+<xi:include href="origenes.xml"/>
 <xi:include href="parmenides.xml"/>
+<xi:include href="partikulaerer.xml"/>
 <xi:include href="platon.xml"/>
 <xi:include href="plotinus.xml"/>
 <xi:include href="sjael.xml"/>
+<xi:include href="skepticism.xml"/>
 <xi:include href="sokrates.xml"/>
+<xi:include href="teodiceproblemet.xml"/>
 <xi:include href="treenigheten.xml"/>
+<xi:include href="universalier.xml"/>
 <xi:include href="vetenskaperna.xml"/>
 </body>
