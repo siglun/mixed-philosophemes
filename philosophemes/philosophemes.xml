@@ -185,9 +185,40 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="gnosticism">Gnosticism</name>en och gnostikerna</head>
+
+  <p>Gnostikerna var en grup tidiga kristna
+  </p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="herakleitos">Herakleitos</name></head>
 
   <p>Grekisk filosof c:a 540–460 f.Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="hypostaserna">[De tre] hypostaserna</name></head>
+
+  <table rows="4" cols="2">
+    <head/>
+    <row role="label">
+      <cell>Plotinus' tre hypostaser</cell>
+      <cell>Kristen teologi</cell>
+    </row>
+    <row role="data">
+      <cell rend="text">Det Ena</cell>
+      <cell rend="text">Fadern</cell>
+    </row>
+    <row role="data">
+      <cell rend="text">Intellektet</cell>
+      <cell rend="text">Sonen</cell>
+    </row>
+    <row role="data">
+      <cell rend="text">Själen</cell>
+      <cell rend="text">Den Helige Ande</cell>
+    </row>
+  </table>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -215,6 +246,13 @@
   <head><name key="sokrates">Sokrates</name></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="treenigheten">Treenigheten</name></head>
+
+  <p>Tron på Gud, hans son och den helige anden. Alltså tre enheter
+  som är en. Se <ref target="hypostaserna">de tre hypostaserna</ref></p>
   
 </div>
 </body>

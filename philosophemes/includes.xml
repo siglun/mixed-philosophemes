@@ -14,9 +14,12 @@
 <xi:include href="foeraendring.xml"/>
 <xi:include href="foerklaring.xml"/>
 <xi:include href="form.xml"/>
+<xi:include href="gnosticism.xml"/>
 <xi:include href="herakleitos.xml"/>
+<xi:include href="hypostaserna.xml"/>
 <xi:include href="parmenides.xml"/>
 <xi:include href="platon.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="sokrates.xml"/>
+<xi:include href="treenigheten.xml"/>
 </body>
