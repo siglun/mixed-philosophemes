@@ -71,6 +71,21 @@
   <p>Se också <ref target="element.xml">Element</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="augustinus">Augustinus</name> (354 - 430 e. Kr.)</head>
+
+  <p><ref target="nyplatonism.xml">nyplatonsk</ref> senantik, kristen filosof.</p>
+
+  <q>Sanna filosofer älskar Gud, eftersom Gud är visdom.</q>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="boëthius">Boëthius, Manlius Severinus</name> (c:a 480 - 524)</head>
+
+  <p>Romersk politiker, översättare och filosof. Berömd för
+  <title>Filosofiens tröst</title> (De consolatione philosophiae).</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="cicero">Marcus Tullius Cicero</name></head>
 
   <p>(106 - 43 f. Kr.) romersk politiker, jurist, orator och filosof.
@@ -419,8 +434,48 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="primusmotor">Primus motor</name></head>
+
+  <p>Den förste röraren<lb/>
+  Den orörde röraren.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="psyche">Psyche</name></head>
+
+  <p>Grekiska för <ref target="sjael.xml">själ (se d:o)</ref>.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="rättrådighet">Rättrådighet</name> och själslig balans</head>
+
+  <p>Själslig balans uppnås genom att genomskåda fantasier och
+  förutfattade meningar; tankemönster vi skapar själva och som eldas
+  genom begäret.</p>
+
+  <p>Man kan uppnå <ref target="eudaimonia.xml">Eudaimonia</ref> genom
+  att se verkligheten som den faktiskt är.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="reductioadabsurdum">Reductio ad absurdum</name></head>
+
+  <p>Bevis genom att visa genom visa att negationen till satsen man
+  vill bevisa leder till motsägelser, visar man satsen sanning.
+  Zenons paradoxer, till exempel den om Akilles och sköldpaddan är
+  sådana. Dock felaktiga av matematiska skäl.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="seneca">Seneca, Lucius Annaeus</name> (4 f. Kr. - 65 e. Kr.)</head>
+
+  <p><ref target="stoicism.xml">Stoisk</ref> filosof, senator,
+  intellektuell och skriftställare.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="själ">Själ</name></head>
-  <p>Enligt <ref target="platon.xml">Platons</ref> teori om själen har
+  <p>Enligt <ref target="platon.xml">Platons</ref> teori om den odödliga själen har
   denna följande delar</p>
   <list>
     <item>Förnuftet (Nous)</item>
@@ -445,6 +500,44 @@
   <head><name key="sokrates">Sokrates</name></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="stoicism.xml">Stoicismen</name></head>
+
+  <p>Grundades av <ref target="zenonavkition.xml">Zenon från
+  Kition</ref> (på Cypern).</p>
+
+  <p>Stoikerna var på sin tid precis som epikureerna kända för sin
+  självhjälpspsykologi med stoiskt leverne. Deras bestående insats för
+  filosofin var dock att de utvecklade satslogiken. De kom också med
+  en del viktiga bidrag till språkfilosofin.</p>
+
+  <p>Exempel på satslogisk slutledning i stoisk stil:</p>
+
+  <p>Om Platon lever, så andas Platon.<lb/>
+  Platon lever,<lb/>
+  Alltså andas Platon.</p>
+
+  <p>Stoikerna accepterade <ref target="form.xml">Aristoteles
+  formlära</ref>, men var <quote>samvestgranna</quote>
+  materialister. Om man får tro Kenny.</p>
+
+  <p>Stoicismen levde länge, in i det Romerska imperiets tid. <ref target="seneca.xml">Seneca</ref> dömdes till döden och lät sig
+  avrättas med gift precis som Sokrates. Han mötte döden med stoiskt
+  lugn.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="subjektivism">Subjektivism</name></head>
+
+  <p>Sofisterna i antika Grekland är exempel på radikal
+  subjektivism. Protagoras i <ref target="platon.xml">Platons</ref>
+  dialog med samma namn menade att allt vad människor tycker och
+  observerar angående ett ting vara sant utifrån deras perspektiv.</p>
+
+  <p>Sokrates påpekar att i så fall måste även påståendet att bara en
+  utsaga om detta ting kan vara sant.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -479,6 +572,12 @@
   är sådan som handlar om hur man bör göra eller vara. Produktiv
   vetenskap handlar om hantverk, konst och alla aktiviteter som
   producerar ett eller annat.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="zenon från kition">Zenon från Kition</name></head>
+
+  <p>Filosof från Kition på Cypern. c:a 335 bce - c:a 263.</p>
   
 </div>
 </body>
