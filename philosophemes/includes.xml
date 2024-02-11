@@ -3,6 +3,8 @@
 <xi:include href="aporia.xml"/>
 <xi:include href="aristoteles.xml"/>
 <xi:include href="atom.xml"/>
+<xi:include href="augustinus.xml"/>
+<xi:include href="boethius.xml"/>
 <xi:include href="cicero.xml"/>
 <xi:include href="demiurgen.xml"/>
 <xi:include href="demokritos.xml"/>
@@ -34,11 +36,19 @@
 <xi:include href="partikulaerer.xml"/>
 <xi:include href="platon.xml"/>
 <xi:include href="plotinus.xml"/>
+<xi:include href="primusmotor.xml"/>
+<xi:include href="psyche.xml"/>
+<xi:include href="raettraadighet.xml"/>
+<xi:include href="reductio.xml"/>
+<xi:include href="seneca.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="skepticism.xml"/>
 <xi:include href="sokrates.xml"/>
+<xi:include href="stoicism.xml"/>
+<xi:include href="subjektivism.xml"/>
 <xi:include href="teodiceproblemet.xml"/>
 <xi:include href="treenigheten.xml"/>
 <xi:include href="universalier.xml"/>
 <xi:include href="vetenskaperna.xml"/>
+<xi:include href="zenonavkition.xml"/>
 </body>
