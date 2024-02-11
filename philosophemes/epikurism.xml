@@ -14,7 +14,12 @@
     <item>Hur är kosmos organiserat?</item>
   </list>
 
-  <p>Enligt <ref target="lucretius.xml">Lucretius</ref> leder ökad <ref target="kunskap.xml">kunskap</ref> till ökad lycka. Han omfamnar </p>
+  <p>Enligt <ref target="lucretius.xml">Lucretius</ref> leder ökad
+  <ref target="kunskap.xml">kunskap</ref> till ökad lycka. Han
+  omfamnar liksom <ref target="epikuros.xml">Epikuros</ref> läran om
+  <ref target="eudaimonia.xml">Eudaimonia</ref>.</p>
+
+  <p>Epikuréerna förespråkar <ref target="atom.xml">atomteorin</ref>.</p>
   
 </div>
 
