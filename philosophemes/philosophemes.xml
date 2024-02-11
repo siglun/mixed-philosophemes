@@ -59,15 +59,44 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="atom">Atom</name> och atomlära</head>
   <list>
-    <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
-    <item><ref target="epikuros.xml">Epikuros</ref> inspirerades av <ref target="demokritos.xml">Demokritos</ref>, men menade att alla atomer föll nedåt.</item>
+    <item><ref target="demokritos.xml">Demokritos</ref> hävdade att
+    materien består av virvlar av atomer</item>
+    <item><ref target="epikuros.xml">Epikuros</ref> inspirerades av
+    <ref target="demokritos.xml">Demokritos</ref>, men menade att alla
+    atomer föll nedåt. Epikuréerna ansåg att våra kroppar består av
+    atomer. I synnerhet att det finns två slag, kropps- och
+    själsatomer, kallade Anima och Animus.</item>
   </list>
 
   <p>Se också <ref target="element.xml">Element</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="cicero">Marcus Tullius Cicero</name></head>
+
+  <p>(106 - 43 f. Kr.) romersk politiker, jurist, orator och filosof.
+  Konsul 63 f. Kr. Översatte filosofisk litteratur från grekiska till
+  latin.</p>
+
+  <p>Inspirerad av <ref target="sokrates.xml">Sokrates</ref> och <ref target="platon.xml">Platon</ref> men har mer <ref target="skepticism.xml">skepticistiska</ref> böjelser.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="demiurgen">Demiurgen</name></head>
+
+  <p>Jordens skapare enligt somliga platonska och nyplatonska
+  filosofer. Idéen finns även hos nypytagoreerna.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="demokritos">Demokritos</name></head>
 
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="godasidé">[Det] godas idé</name></head>
+
+  <p>I solallegorin använder <ref target="platon.xml">Platon</ref>
+  solen som en liknelse för det godas idé</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -127,7 +156,12 @@
     <item>Hur är kosmos organiserat?</item>
   </list>
 
-  <p>Enligt <ref target="lucretius.xml">Lucretius</ref> leder ökad <ref target="kunskap.xml">kunskap</ref> till ökad lycka. Han omfamnar </p>
+  <p>Enligt <ref target="lucretius.xml">Lucretius</ref> leder ökad
+  <ref target="kunskap.xml">kunskap</ref> till ökad lycka. Han
+  omfamnar liksom <ref target="epikuros.xml">Epikuros</ref> läran om
+  <ref target="eudaimonia.xml">Eudaimonia</ref>.</p>
+
+  <p>Epikuréerna förespråkar <ref target="atom.xml">atomteorin</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -203,8 +237,16 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="gnosticism">Gnosticism</name>en och gnostikerna</head>
 
-  <p>Gnostikerna var en grup tidiga kristna
-  </p>
+  <p>Gnostikerna var en grup tidiga kristna aktiva före <ref target="treenigheten.xml">treenigheten</ref> etablerats.</p>
+
+  <p>Genom historien har gnostikerna varit tämligen okända för
+  forskningen, men en rad mycket åldriga handskrifter upptäcktes 1945
+  i byn Nag Hamadi i Sinaiöknen. Dessa papyrusrullar var ända från 100
+  - 300-talet e. Kr., och ger nya källor.</p>
+
+  <p>En intressant detalj är att gnostikerna var anhängare av teorin
+  att världen skapats av en oskickliga <ref target="demiurg.xml">demiurg</ref> vilket ger en bekväm förklaring
+  till <ref target="teodiceproblemet.xml">teodiceproblemet</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -288,6 +330,9 @@
   <p>Kunskap är rättfärdigad sann åtsikt/tro (justified true
   beliefe). Se <ref target="platon.xml">Platons</ref> dialog
   Theaitetos.</p>
+
+  <p>
+  </p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -341,9 +386,24 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="origenes">Origenes</name></head>
+
+  <p>Hellenistisk filosof, bibeltolkare, teolog och kyrkofader.  c:a
+  85 – c:a 253 e. Kr.</p>
+
+  <p>Känd för sin lösning på <ref target="teodiceproblemet.xml">teodiceproblemet.</ref></p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="parmenides">Parmenides</name></head>
 
   <p>Grekisk filosof sent under 500-talet - mitten av 400 Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="partikulärer">Partikulärer</name></head>
+
+  <p>Se <ref target="universalier.xml">Universalier</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -369,9 +429,29 @@
   </list>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="skepticism">Skepticism</name></head>
+
+  <p>Skepticister finns i olika schatteringar. De har det gemensamt
+  att de tvivlar och förnekar. Pyrrhon är en av de tidiga skeptikerna,
+  som förnekade all kunskap och därför inte heller skrev några
+  böcker.</p>
+
+  <p>Efter <ref target="platon.xml">Platons</ref> död togs hans
+  akademi över av skeptiker som behärskade den i 200 år. Den skolan
+  benämns akademiska skeptiker.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="sokrates">Sokrates</name></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="teodicéproblemet">Teodicéproblemet</name></head>
+
+  <p>Problemet om hur en god <ref target="gud.xml">Gud (se d:o)</ref>
+  kan skapa en värld med så mycket ont som vår.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -379,6 +459,15 @@
 
   <p>Tron på Gud, hans son och den helige anden. Alltså tre enheter
   som är en. Se <ref target="hypostaserna">de tre hypostaserna</ref></p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="universalier">Universalier</name></head>
+
+  <p>Universalieproblemet är frågan om det bara finns finns enskilda
+  ting, partikulärer, eller om det även finns allmänna ting,
+  universalier. Dessa är besläktade med Platons <ref target="form.xml">former</ref>, men problemet finns för alla begrepp
+  oavsett Platons idéer.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
