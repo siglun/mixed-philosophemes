@@ -1,4 +1,0 @@
-#!/bin/bash
-
-
-ls *.xml | grep -v philosophems | perl -ne 'chomp; print  \'<xi:include href="\'.$_.\'"/>\'."\n";'
