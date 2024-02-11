@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="själ">Själ</name></head>
-  <p>Enligt Platons teori om själen har denna följande delar</p>
+  <p>Enligt <ref target="platon.xml">Platons</ref> teori om själen har
+  denna följande delar</p>
   <list>
     <item>Förnuftet (Nous)</item>
     <item>Modet</item>
