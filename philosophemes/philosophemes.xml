@@ -40,17 +40,17 @@
       </div>
     </front>      
       <body xmlns:xi="http://www.w3.org/2001/XInclude">
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="akrasia">Akrasia</head>
   <p>Viljesvaghet. När man gör fel trots att man vet bättre</p>
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="aporia">Aporia</head>
   <p>Logiska svårigheter</p>
   <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
 
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="atom">Atom och atomlära</head>
   <list>
     <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
@@ -59,12 +59,12 @@
 
   <p>Se också <ref target="element.xml">Element</ref></p>
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="demokritos">Demokritos</head>
 
   
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="element">[Grundläggande] element/substans</head>
   <list>
     <item><ref target="thales.xml">Thales</ref> menade att allting bestod av vatten</item>
@@ -81,7 +81,7 @@
 
 
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="elenchus">Elenchus</head>
   <p>En sokratisk undersökning eller korsförhör</p>
   <list>
@@ -91,7 +91,7 @@
   </list>
 
 </div>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="själ">Själ</head>
   <p>Enligt Platons teori om själen har denna följande delar</p>
   <list>
