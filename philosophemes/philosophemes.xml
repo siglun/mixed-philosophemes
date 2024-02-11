@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/siglun/danish-sonnets/main/render.xsl" type="text/xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude" 
+     xml:id="root">
+  <teiHeader xml:id="header">
+    <fileDesc xml:id="md">
+      <titleStmt xml:id="titles">
+        <title type="main">Philosophemer</title>
+        <title type="sub">blandade av en pensionerad software engineer</title>
+        <author>
+	  <persName>
+	    <forename>Sigfrid</forename>
+	    <surname>Lundberg</surname>
+	  </persName>
+	</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+	<titlePart>
+          <title type="main">Philosophemer</title>
+          <title type="sub">blandade av en pensionerad mjukvaruingenjör</title>
+        </titlePart>
+      </docTitle>
+      <docAuthor>
+	<name>Sigfrid Lundberg</name>
+      </docAuthor>
+      <div type="abstract">
+        <p>
+        </p>
+      </div>
+    </front>      
+    <body>
+      <xi:include href="akrasia.xml"/>
+      <xi:include href="aporia.xml"/>
+      <xi:include href="elenchus.xml"/>
+      <xi:include href="sjael.xml"/>
+  </body>
+  </text>
+</TEI>
