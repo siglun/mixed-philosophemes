@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="elenchus">Elenchus</head>
+  <p>En sokratisk undersökning eller korsförhör</p>
+  <list>
+    <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep p</item>
+    <item>Partnern och Sokrates går igenom ett och enas kring antal andra relaterade begrepp (q, r, ...)</item>
+    <item>Sokrates visar att p:s negation följer av  (q, r, ...)</item>
+  </list>
+
+</div>
