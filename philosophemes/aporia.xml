@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<div xml:ns="http://www.tei-c.org/ns/1.0">
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head key="aporia">Aporia</head>
   <p>Logiska svårigheter</p>
   <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
