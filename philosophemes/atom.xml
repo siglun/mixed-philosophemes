@@ -1,5 +1,5 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="atom">Atom och atomlära</head>
+  <head><name key="atom">Atom</name> och atomlära</head>
   <list>
     <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
     <item><ref target="epikuros.xml">Epikuros</ref> inspirerades av <ref target="demokritos.xml">Demokritos</ref>, men menade att alla atomer föll nedåt.</item>
