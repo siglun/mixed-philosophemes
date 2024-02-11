@@ -51,6 +51,12 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="aristoteles">Aristoteles</name></head>
+
+  <p>Grekisk filosof c:a 384 - 322 f. Kr. Lärljunge till Platon.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="atom">Atom</name> och atomlära</head>
   <list>
     <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
@@ -122,6 +128,31 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="euthyfron">Eutyfron</name>-dilemmat</head>
+
+  <p>Ett dilemma som uppstår i en <ref target="elenchus.xml">Elenchus</ref> (en sokratisk undersökning
+  eller korsförhör) i dialogen Eutyfron.</p>
+
+  <p>Problemet uppstår därför att man inte enkelt kan skilja på om</p>
+
+  <p>det fromma är fromt eftersom Gud älskar det.</p>
+
+  <p>eller</p>
+
+  <p>Gud älskar det fromma eftersom det är fromt.</p>
+
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="form">Form</name> eller idé</head>
+
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="platon">Platon</name></head>
+
+  <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till Sokrates.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="själ">Själ</name></head>
   <p>Enligt Platons teori om själen har denna följande delar</p>
   <list>
@@ -129,6 +160,12 @@
     <item>Modet</item>
     <item>Aptiten</item>
   </list>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="sokrates">Sokrates</name></head>
+
+  <p>Grekisk filosof c:a 469—399 f. Kr.</p>
+  
 </div>
 </body>
   </text>
