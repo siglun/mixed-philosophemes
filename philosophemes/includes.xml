@@ -5,5 +5,9 @@
 <xi:include href="demokritos.xml"/>
 <xi:include href="element.xml"/>
 <xi:include href="elenchus.xml"/>
+<xi:include href="endoxa.xml"/>
+<xi:include href="endoxiska_metoden.xml"/>
+<xi:include href="epikurism.xml"/>
+<xi:include href="epikuros.xml"/>
 <xi:include href="sjael.xml"/>
 </body>
