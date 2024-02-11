@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name  key="förklaring">Förklaring</name> eller orsak.</head>
+
+  <p>Man finner den första djupa analysen av begreppet förklaring hos
+  <ref target="aristoteles.xml">Aristoteles</ref>. Han menade att det
+  fanns fyra olika typer av orsaker till ett ting:</p>
+
+  <list>
+    <item>Den materiella orsaken</item>
+
+    <item>Den formella orsaken, alltså den <ref
+    target="form.xml">form</ref> som aktualiseras i tinget</item>
+
+    <item>Den verkande orsaken, alltså den kraft som utför arbetet.</item>
+
+    <item>Den finala orsaken. Det vill säga ändamålet.</item>
+  </list>
+
+    <p>Se också <ref target="foeraendring.xml">förändringens problem</ref></p>
+  
+</div>

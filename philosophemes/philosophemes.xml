@@ -143,8 +143,58 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="foeraendring">Förändringens problem</name></head>
+
+  <p><ref target="herakleitos">Herakleitos</ref> menade att allt förändras, förvandlas. Förändring är
+  tillvarons essens. <quote rend="italics">Panta rei</quote>, allting
+  flyter.</p>
+
+  <p><ref target="parmenides">Parmenides</ref> ansåg att förändring
+  var omöjlig. Någonting kan inte komma ur ingenting, alltså måste
+  allting ha funnits alltid. Dessutom, eftersom <hi rend="italics">ingenting</hi> inte kan finnas är universum fullt och
+  det finns ingen plats ledig.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="förklaring">Förklaring</name> eller orsak.</head>
+
+  <p>Man finner den första djupa analysen av begreppet förklaring hos
+  <ref target="aristoteles.xml">Aristoteles</ref>. Han menade att det
+  fanns fyra olika typer av orsaker till ett ting:</p>
+
+  <list>
+    <item>Den materiella orsaken</item>
+
+    <item>Den formella orsaken, alltså den <ref target="form.xml">form</ref> som aktualiseras i tinget</item>
+
+    <item>Den verkande orsaken, alltså den kraft som utför arbetet.</item>
+
+    <item>Den finala orsaken. Det vill säga ändamålet.</item>
+  </list>
+
+    <p>Se också <ref target="foeraendring.xml">förändringens problem</ref></p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="form">Form</name> eller idé</head>
 
+  <p>Teorin om former eller idéer formulerades först av <ref target="platon.xml">Platon</ref> som en förklaring för hur vi har
+  abstrakta begrepp som till exempel <quote>stol</quote>. I Platons
+  formulering är <quote>stoligheten</quote> även det en stol men i
+  idévärlden.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="herakleitos">Herakleitos</name></head>
+
+  <p>Grekisk filosof c:a 540–460 f.Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="parmenides">Parmenides</name></head>
+
+  <p>Grekisk filosof sent under 500-talet - mitten av 400 Kr.</p>
+  
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="platon">Platon</name></head>
