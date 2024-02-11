@@ -1,0 +1,9 @@
+<body   xmlns:xi="http://www.w3.org/2001/XInclude" >
+<xi:include href="akrasia.xml"/>
+<xi:include href="aporia.xml"/>
+<xi:include href="atom.xml"/>
+<xi:include href="demokritos.xml"/>
+<xi:include href="element.xml"/>
+<xi:include href="elenchus.xml"/>
+<xi:include href="sjael.xml"/>
+</body>
