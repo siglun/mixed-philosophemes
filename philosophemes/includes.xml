@@ -11,7 +11,11 @@
 <xi:include href="epikurism.xml"/>
 <xi:include href="epikuros.xml"/>
 <xi:include href="euthyfron-dilemmat.xml"/>
+<xi:include href="foeraendring.xml"/>
+<xi:include href="foerklaring.xml"/>
 <xi:include href="form.xml"/>
+<xi:include href="herakleitos.xml"/>
+<xi:include href="parmenides.xml"/>
 <xi:include href="platon.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="sokrates.xml"/>
