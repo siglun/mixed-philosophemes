@@ -41,17 +41,17 @@
     </front>      
       <body xmlns:xi="http://www.w3.org/2001/XInclude">
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="akrasia">Akrasia</head>
+  <head><name key="akrasia">Akrasia</name></head>
   <p>Viljesvaghet. När man gör fel trots att man vet bättre</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="aporia">Aporia</head>
+  <head><name key="aporia">Aporia</name></head>
   <p>Logiska svårigheter</p>
   <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="atom">Atom och atomlära</head>
+  <head><name key="atom">Atom</name> och atomlära</head>
   <list>
     <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
     <item><ref target="epikuros.xml">Epikuros</ref> inspirerades av <ref target="demokritos.xml">Demokritos</ref>, men menade att alla atomer föll nedåt.</item>
@@ -60,12 +60,12 @@
   <p>Se också <ref target="element.xml">Element</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="demokritos">Demokritos</head>
+  <head><name key="demokritos">Demokritos</name></head>
 
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="element">[Grundläggande] element/substans</head>
+  <head>[Grundläggande] <name key="element">element</name>/substans</head>
   <list>
     <item><ref target="thales.xml">Thales</ref> menade att allting bestod av vatten</item>
 
@@ -82,7 +82,7 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="elenchus">Elenchus</head>
+  <head><name key="elenchus">Elenchus</name></head>
   <p>En sokratisk undersökning eller korsförhör</p>
   <list>
     <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep p</item>
@@ -92,7 +92,7 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="själ">Själ</head>
+  <head><name key="själ">Själ</name></head>
   <p>Enligt Platons teori om själen har denna följande delar</p>
   <list>
     <item>Förnuftet (Nous)</item>

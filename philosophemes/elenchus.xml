@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head key="elenchus">Elenchus</head>
+  <head><name  key="elenchus">Elenchus</name></head>
   <p>En sokratisk undersökning eller korsförhör</p>
   <list>
     <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep p</item>
