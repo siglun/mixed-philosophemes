@@ -10,6 +10,7 @@
 <xi:include href="endoxiska_metoden.xml"/>
 <xi:include href="epikurism.xml"/>
 <xi:include href="epikuros.xml"/>
+<xi:include href="eudaimonia.xml"/>
 <xi:include href="euthyfron-dilemmat.xml"/>
 <xi:include href="foeraendring.xml"/>
 <xi:include href="foerklaring.xml"/>
@@ -20,6 +21,10 @@
 <xi:include href="ide.xml"/>
 <xi:include href="johannes-scotus.xml"/>
 <xi:include href="john-scottus.xml"/>
+<xi:include href="kant.xml"/>
+<xi:include href="kategori.xml"/>
+<xi:include href="kunskap.xml"/>
+<xi:include href="lucretius.xml"/>
 <xi:include href="nyplatonism.xml"/>
 <xi:include href="parmenides.xml"/>
 <xi:include href="platon.xml"/>
@@ -27,4 +32,5 @@
 <xi:include href="sjael.xml"/>
 <xi:include href="sokrates.xml"/>
 <xi:include href="treenigheten.xml"/>
+<xi:include href="vetenskaperna.xml"/>
 </body>
