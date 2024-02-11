@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="https://raw.githubusercontent.com/siglun/danish-sonnets/main/render.xsl" type="text/xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude" 
-     xml:id="root">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="root">
   <teiHeader xml:id="header">
     <fileDesc xml:id="md">
       <titleStmt xml:id="titles">
@@ -41,6 +39,67 @@
         </p>
       </div>
     </front>      
-      <xi:include href="includes.xml"/>
+      <body xmlns:xi="http://www.w3.org/2001/XInclude">
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="akrasia">Akrasia</head>
+  <p>Viljesvaghet. När man gör fel trots att man vet bättre</p>
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="aporia">Aporia</head>
+  <p>Logiska svårigheter</p>
+  <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
+
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="atom">Atom och atomlära</head>
+  <list>
+    <item><ref target="demokritos.xml">Demokritos</ref> hävdade att materien består av virvlar av atomer</item>
+    <item><ref target="epikuros.xml">Epikuros</ref> inspirerades av <ref target="demokritos.xml">Demokritos</ref>, men menade att alla atomer föll nedåt.</item>
+  </list>
+
+  <p>Se också <ref target="element.xml">Element</ref></p>
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="demokritos">Demokritos</head>
+
+  
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="element">[Grundläggande] element/substans</head>
+  <list>
+    <item><ref target="thales.xml">Thales</ref> menade att allting bestod av vatten</item>
+
+    <item><ref target="anaximenes.xml">Anaximenes</ref> ansåg att allt egentligen var luft</item>
+    <item><ref target="xenofanes.xml">Xenofanes</ref> slog ett slag för att elementet skulle vara jord.</item>
+    <item><ref target="herakleitos.xml">Herakleitos</ref> hävdade att allt var eld</item>
+    <item><ref target="empedokles.xml">Empedokles</ref> tyckte att allt borde bestå av eld, vatten, luft och jord i olika proportioner</item>
+    <item><ref target="anaxagoras.xml">Anaxagoras</ref> ansåg att det krävdes ett oändligt antal grundämnen</item>
+    <item><ref target="anaximandros.xml">Anaximandros</ref> tyckte att den grundläggande substansen måste vara neutralt och abstrakt, och föreslog Apeiron.</item>
+    <item>Se också <ref target="demokritos.xml">Demokritos</ref> och <ref target="epikuros.xml">Epikuros</ref> menade att allt bestod av <ref target="atom.xml">atomer, se d:o</ref></item>
+    <item>Stoikerna menade att universum i sin begynnelse var uppbyggt av eld, men att övriga element  uppkommer sedermera</item>
+  </list>
+
+
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="elenchus">Elenchus</head>
+  <p>En sokratisk undersökning eller korsförhör</p>
+  <list>
+    <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep p</item>
+    <item>Partnern och Sokrates går igenom ett och enas kring antal andra relaterade begrepp (q, r, ...)</item>
+    <item>Sokrates visar att p:s negation följer av  (q, r, ...)</item>
+  </list>
+
+</div>
+<div xml:ns="http://www.tei-c.org/ns/1.0">
+  <head key="själ">Själ</head>
+  <p>Enligt Platons teori om själen har denna följande delar</p>
+  <list>
+    <item>Förnuftet (Nous)</item>
+    <item>Modet</item>
+    <item>Aptiten</item>
+  </list>
+</div>
+</body>
   </text>
 </TEI>
