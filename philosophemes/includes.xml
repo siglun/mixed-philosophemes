@@ -17,8 +17,13 @@
 <xi:include href="gnosticism.xml"/>
 <xi:include href="herakleitos.xml"/>
 <xi:include href="hypostaserna.xml"/>
+<xi:include href="ide.xml"/>
+<xi:include href="johannes-scotus.xml"/>
+<xi:include href="john-scottus.xml"/>
+<xi:include href="nyplatonism.xml"/>
 <xi:include href="parmenides.xml"/>
 <xi:include href="platon.xml"/>
+<xi:include href="plotinus.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="sokrates.xml"/>
 <xi:include href="treenigheten.xml"/>
