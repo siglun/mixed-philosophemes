@@ -1,5 +1,6 @@
 <body   xmlns:xi="http://www.w3.org/2001/XInclude" >
 <xi:include href="akrasia.xml"/>
+<xi:include href="anaxagoras.xml"/>
 <xi:include href="aporia.xml"/>
 <xi:include href="aristoteles.xml"/>
 <xi:include href="atom.xml"/>
@@ -29,7 +30,9 @@
 <xi:include href="kant.xml"/>
 <xi:include href="kategori.xml"/>
 <xi:include href="kunskap.xml"/>
+<xi:include href="logos.xml"/>
 <xi:include href="lucretius.xml"/>
+<xi:include href="nous.xml"/>
 <xi:include href="nyplatonism.xml"/>
 <xi:include href="origenes.xml"/>
 <xi:include href="parmenides.xml"/>
