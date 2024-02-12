@@ -1,8 +1,11 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="materia">Materia</name></head>
 
-  <p>Vi accepterar tills vidare att materia är just materia, och inget
-  annat.</p>
+  <p>Tills vidare definierar vi materia som en substans som har
+  massa. <term key="materialism">Materialism</term> är en <term
+  key="monism">monistisk</term> <term>ontologi</term> som hävdar att
+  allt består av materia. <ref target="stoicism.xml">Stoicismen</ref>
+  är en materialism som utgår ifrån att allt är kroppar.</p>
   
 </div>
 
