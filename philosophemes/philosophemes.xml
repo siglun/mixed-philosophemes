@@ -45,6 +45,12 @@
   <p>Viljesvaghet. När man gör fel trots att man vet bättre</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="anaxagoras">Anaxagoras</name></head>
+
+  <p>Grekisk filosof, c:a 500 - 428 f. Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="aporia">Aporia</name></head>
   <p>Logiska svårigheter</p>
   <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
@@ -351,10 +357,27 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="logos">Logos</name></head>
+
+  <p>Dyker upp i filosofihistorien i <ref target="herakleitos.xml">Herakleitos</ref> första fragment, där
+  begreppet beskriver den logiska eller vederhäftiga <ref target="kunskap.xml">kunskapen</ref></p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="lucretius">Titus Lucretius Carus</name></head>
 
   <p>Romersk filosof 99 – c:a 55 f. Kr. Mest känd för den stora
   lärodikten <title>De rerum natura</title> (om naturens ordning).</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="nous">Nous</name></head>
+
+  <p>Enligt <ref target="anaxagoras">Anaxagoras</ref> betyder
+  <term>Nous</term> intellekt eller <quote>mind</quote>, som
+  framställs som den sanna orsaken till de naturliga fenomenen.</p>
+
+  <p>Se också <ref target="logos.xml">Logos</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -476,12 +499,17 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="själ">Själ</name></head>
   <p>Enligt <ref target="platon.xml">Platons</ref> teori om den odödliga själen har
-  denna följande delar</p>
+  tre delar</p>
+
   <list>
     <item>Förnuftet (Nous)</item>
     <item>Modet</item>
     <item>Aptiten</item>
   </list>
+
+  <p>Därutöver finns det tre olika typer av själar.</p>
+
+  
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="skepticism">Skepticism</name></head>
