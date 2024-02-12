@@ -13,7 +13,8 @@
     exclude-result-prefixes="t xi"
     version="1.0">
 
-  <xsl:param name="base_href">https://github.com/siglun/danish-sonnets/blob/main/</xsl:param>
+  <xsl:param name="base_href">https://raw.githubusercontent.com/siglun/mixed-philosophemes/main/philosophemes/</xsl:param>
+
   
   <xsl:output method="xml"
 	      encoding="UTF-8"
