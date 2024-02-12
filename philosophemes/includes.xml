@@ -22,11 +22,14 @@
 <xi:include href="endoxiska_metoden.xml"/>
 <xi:include href="epikurism.xml"/>
 <xi:include href="epikuros.xml"/>
+<xi:include href="epistemologi.xml"/>
+<xi:include href="etik.xml"/>
 <xi:include href="eudaimonia.xml"/>
 <xi:include href="euthyfron-dilemmat.xml"/>
 <xi:include href="foeraendring.xml"/>
 <xi:include href="foerklaring.xml"/>
 <xi:include href="form.xml"/>
+<xi:include href="fri-vilja.xml"/>
 <xi:include href="gnosticism.xml"/>
 <xi:include href="gud.xml"/>
 <xi:include href="herakleitos.xml"/>
@@ -42,8 +45,10 @@
 <xi:include href="logos.xml"/>
 <xi:include href="lucretius.xml"/>
 <xi:include href="materia.xml"/>
+<xi:include href="metafysik.xml"/>
 <xi:include href="nous.xml"/>
 <xi:include href="nyplatonism.xml"/>
+<xi:include href="ontologi.xml"/>
 <xi:include href="origenes.xml"/>
 <xi:include href="parmenides.xml"/>
 <xi:include href="partikulaerer.xml"/>
