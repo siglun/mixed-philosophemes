@@ -41,6 +41,12 @@
     </front>      
       <body xmlns:xi="http://www.w3.org/2001/XInclude">
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="abelard">Abelard, Peter</name> (Pierre Abélard)</head>
+
+  <p>1079 – 1142. Fransk filosof och bendektinerbroder.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="akrasia">Akrasia</name></head>
   <p>Viljesvaghet. När man gör fel trots att man vet bättre. När
   <term>aptiten</term> tar makten över <term>modet</term> och
@@ -139,6 +145,12 @@
 
   <p>I solallegorin använder <ref target="platon.xml">Platon</ref>
   solen som en liknelse för det godas idé</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="dunsscotus">Duns Scotus, John</name></head>
+
+  <p>Skotsk filosof (c:a 1265 – 1308) och fransiskanermunk.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -521,10 +533,16 @@
 
   <p>Metafysiken behandlar frågan om verklighetens grundläggande natur.</p>
 
-  <div>
-    <p>
-    </p>
-  </div>
+    <p>Den intressantaste delen av <ref target="augustinus.xml">Augustinus</ref> metafysik är kanske hans
+    hantering av tiden. Han nämner hur han övervägde frågor av typen
+    <q>Vad gjorde Gud innan han skapade världen?</q>. Han övervägde
+    svaret <q>inrättade helveten för människor som ställer näsvisa
+    frågor</q> men förkastade det till förmån för <q>innan himmel och
+    jord skapades fanns ingen tid</q>. Innan tiden fanns var där
+    heller inget tidigare.</p>
+
+    <p>Det förflutna finns inte längre, framtiden finns inte ännu och
+    så ett evigt nu.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -810,6 +828,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="thomasavaquinas">Thomas av Aquinas</name></head>
+
+  <p>Filosof och dominikanermunk. ca. 1225–1274.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="treenigheten">Treenigheten</name></head>
 
   <p>Tron på Gud, hans son och den helige anden. Alltså tre enheter
@@ -823,6 +847,17 @@
   ting, partikulärer, eller om det även finns allmänna ting,
   universalier. Dessa är besläktade med Platons <ref target="form.xml">former</ref>, men problemet finns för alla begrepp
   oavsett Platons idéer.</p>
+
+  <p>Det finns huvudsakligen tre skolor när det gäller Universalier</p>
+
+  <list>
+    <item><term>Universalierealism</term>. De universella egenskaperna finns i tingen.  Detta är den Aristoteliska
+    hållningen, som delades av <ref target="duns-scotus.xml">Duns Scotus</ref>.</item>
+    <item><term>Konceptualism</term>. Hållningen att universalier är
+    begrepp i medvetandet. <ref target="abelard.xml">Peter Abelard</ref> och </item>
+    <item><term>Nominalism</term>. Teorin att de universella
+    egenskaperna är ett helt språkligt fenomen. <ref target="ockham">William av Ockham</ref> var en stark förespråkare av nominalismen.</item>
+  </list>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -834,6 +869,12 @@
   är sådan som handlar om hur man bör göra eller vara. Produktiv
   vetenskap handlar om hantverk, konst och alla aktiviteter som
   producerar ett eller annat.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="ockham">Ockham, William av</name></head>
+
+  <p>Engelsk filosof (c:a 1285 – 1347) och fransiskanermunk.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
