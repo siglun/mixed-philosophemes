@@ -302,6 +302,18 @@
   abstrakta begrepp som till exempel <quote>stol</quote>. I Platons
   formulering är <quote>stoligheten</quote> även det en stol men i
   idévärlden.</p>
+
+  <p>I sin ursprungliga formulering tänkte sig <ref target="platon.xml">Platon</ref> att partikulärer (t ex alla stolar)
+  p sub 1, p sub 2, ... p sub n hade en gemensam form F (alltså
+  stoligheten) som var medlem av samma klass av ting som alla p. Alltså</p>
+
+  <p>p sub 1, p sub 2, ... p sub n, F</p>
+
+  <p>Denna klass blir ny en ny partikulär, som alltså behöver en tillsvarande form F'.
+  Platon låter <ref target="parmenides.xml">Parmenides</ref> förklara för
+  <ref target="sokrates.xml">Sokrates</ref>
+  att detta leder till en oändlig regress.
+  Detta kallas <term>third man problem</term>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -342,6 +354,14 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="hylomorfism">Hylomorfism</name></head>
+
+  <p>Den <ref target="aristoteles.xml">Aristoteliska</ref> tanken att
+  alla ting består av <ref target="form.xml">form</ref> och
+  materia</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="hypostaserna">[De tre] hypostaserna</name></head>
 
   <table rows="4" cols="2">
@@ -370,15 +390,15 @@
   <p>Se <ref target="form.xml">Form</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="aristoteles">Aristoteles</name></head>
+  <head><name key="johannesscotus">Johannes Scotus</name></head>
 
-  <p>Grekisk filosof c:a 384 - 322 f. Kr. Lärljunge till Platon.</p>
+  <p>Se <ref target="john-scottus.xml">John Scotus Eriugena</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="johnscotus">John Scotus Eriugena</name></head>
 
-  <p><ref target="nyplatonismen.xml">Nyplatonistisk</ref> irländsk
+  <p><ref target="nyplatonism.xml">Nyplatonistisk</ref> irländsk
   filosof (c:a 800 - c:a 877).</p>
   
 </div>
@@ -415,10 +435,29 @@
 
   <p>Kunskap är rättfärdigad sann åtsikt/tro (justified true
   beliefe). Se <ref target="platon.xml">Platons</ref> dialog
-  Theaitetos.</p>
+  Theaitetos och <ref target="logos.xml">Logos</ref>.</p>
 
-  <p>
-  </p>
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="logik">Logik</name></head>
+
+  <p><ref target="aristoteles.xml">Aristoteles</ref> grundlade
+  logiken, med koncentrerade sig på den tredelade formen syllogism.</p>
+
+  <lg>
+    <l>översats</l>
+    <l>undersats</l>
+    <l>slutsats</l>
+  </lg>
+
+  <p>Exempel:</p>
+
+  <lg>
+    <l>Alla människor är dödliga</l>
+    <l>Sokrates var en människa</l>
+    <l>Sokrates var dödlig.</l>
+  </lg>
+
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -432,7 +471,16 @@
   <head><name key="lucretius">Titus Lucretius Carus</name></head>
 
   <p>Romersk filosof 99 – c:a 55 f. Kr. Mest känd för den stora
-  lärodikten <title>De rerum natura</title> (om naturens ordning).</p>
+  lärodikten <title>De rerum natura</title> (om naturens ordning).
+  Lucretius var anhängare av <ref target="epikurism.xml">Epikurismen</ref>.
+  </p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="materia">Materia</name></head>
+
+  <p>Vi accepterar tills vidare att materia är just materia, och inget
+  annat.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -454,14 +502,17 @@
   <p>Plotinus ser fem lager i världen</p>
 
   <list>
-    <item>Det Ena (Det Goda. Enheten. I överförd bemärkelse, <ref target="gud.xml">Gud</ref>.)</item>
+    <item>Det Ena (Det Goda. Enheten. I överförd bemärkelse,
+    <ref target="gud.xml">Gud</ref>.)</item>
     <item>Medvetandet (Nous)</item>
     <item>Själen</item>
     <item>Naturen</item>
     <item>Materien</item>
   </list>
 
-  <p>Plotinus ser lite anorlunda än <ref target="platon.xml">Platon</ref> på <ref target="sjael.xml">själen</ref>. I nyplatonismen blickar själen upp
+  <p>Plotinus ser lite anorlunda än
+  <ref target="platon.xml">Platon</ref> på
+  <ref target="sjael.xml">själen</ref>. I nyplatonismen blickar själen upp
   mot medvetandet, och ner mot naturen och sin egen spegelbild.</p>
 
   <p>Den irländske nyplatonisten <ref target="john-scottus.xml">John
@@ -593,6 +644,11 @@
   <head><name key="sokrates">Sokrates</name></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
+
+  <p>Sokrates är problematisk så till vida att hans filosofi är
+  uteslutande känd genom <ref target="platon.xml">Platons</ref>
+  skrifter, och i viss utsträckning Aristofanes och Xenofon. Man
+  brukar tala om detta som <quote>Sokratesproblemet</quote>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -634,10 +690,21 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="syllogism">Syllogism</name></head>
+
+  <p>I <ref target="aristoteles.xml">Aristoteles</ref> en tredelad
+  slutledning. Se <ref target="logik.xml">logik</ref></p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="teodicéproblemet">Teodicéproblemet</name></head>
 
   <p>Problemet om hur en god <ref target="gud.xml">Gud (se d:o)</ref>
   kan skapa en värld med så mycket ont som vår.</p>
+
+  <p><ref target="origenes.xml">Origenes</ref> hävdade att Gud är
+  underställd logikens lagar, vilka omöjliggör en mindre ond värld än
+  den vi lever i.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">

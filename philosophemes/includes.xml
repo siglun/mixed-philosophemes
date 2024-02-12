@@ -30,6 +30,7 @@
 <xi:include href="gnosticism.xml"/>
 <xi:include href="gud.xml"/>
 <xi:include href="herakleitos.xml"/>
+<xi:include href="hylomorfism.xml"/>
 <xi:include href="hypostaserna.xml"/>
 <xi:include href="ide.xml"/>
 <xi:include href="johannes-scotus.xml"/>
@@ -37,8 +38,10 @@
 <xi:include href="kant.xml"/>
 <xi:include href="kategori.xml"/>
 <xi:include href="kunskap.xml"/>
+<xi:include href="logik.xml"/>
 <xi:include href="logos.xml"/>
 <xi:include href="lucretius.xml"/>
+<xi:include href="materia.xml"/>
 <xi:include href="nous.xml"/>
 <xi:include href="nyplatonism.xml"/>
 <xi:include href="origenes.xml"/>
@@ -56,6 +59,7 @@
 <xi:include href="sokrates.xml"/>
 <xi:include href="stoicism.xml"/>
 <xi:include href="subjektivism.xml"/>
+<xi:include href="syllogism.xml"/>
 <xi:include href="teodiceproblemet.xml"/>
 <xi:include href="thales.xml"/>
 <xi:include href="treenigheten.xml"/>
