@@ -53,10 +53,12 @@
 <xi:include href="psyche.xml"/>
 <xi:include href="raettraadighet.xml"/>
 <xi:include href="reductio.xml"/>
+<xi:include href="sanning.xml"/>
 <xi:include href="seneca.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="skepticism.xml"/>
 <xi:include href="sokrates.xml"/>
+<xi:include href="spraak.xml"/>
 <xi:include href="stoicism.xml"/>
 <xi:include href="subjektivism.xml"/>
 <xi:include href="syllogism.xml"/>
