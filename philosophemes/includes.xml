@@ -1,4 +1,5 @@
 <body   xmlns:xi="http://www.w3.org/2001/XInclude" >
+<xi:include href="abelard.xml"/>
 <xi:include href="akrasia.xml"/>
 <xi:include href="anaxagoras.xml"/>
 <xi:include href="anaximander.xml"/>
@@ -13,6 +14,7 @@
 <xi:include href="demiurgen.xml"/>
 <xi:include href="demokritos.xml"/>
 <xi:include href="detgoda.xml"/>
+<xi:include href="duns-scotus.xml"/>
 <xi:include href="dygdernas-enhet.xml"/>
 <xi:include href="dygd.xml"/>
 <xi:include href="element.xml"/>
@@ -69,9 +71,11 @@
 <xi:include href="syllogism.xml"/>
 <xi:include href="teodiceproblemet.xml"/>
 <xi:include href="thales.xml"/>
+<xi:include href="thomas-aquinas.xml"/>
 <xi:include href="treenigheten.xml"/>
 <xi:include href="universalier.xml"/>
 <xi:include href="vetenskaperna.xml"/>
+<xi:include href="william-ockham.xml"/>
 <xi:include href="xenofanes.xml"/>
 <xi:include href="xenofon.xml"/>
 <xi:include href="zenonavkition.xml"/>

@@ -12,5 +12,7 @@ echo  '</body>' >> includes.xml
 
 xmllint --xinclude  philosophemes.xml.in  |  xmllint --xinclude  - >  philosophemes.xml
 
+echo "Number of files "`ls *xml | grep -v include | grep -v philosopheme | wc -l`
+
 xmllint --noout --relaxng ../tei_all.rng  philosophemes.xml
 
