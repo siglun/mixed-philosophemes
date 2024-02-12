@@ -241,6 +241,24 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="epistemologi">Epistemologi</name></head>
+
+  <p>Även kallat kunskapsteori.</p>
+
+  <p><ref target="augustinus.xml">Augustinus</ref> kunskapsteori är
+  nära besläktad med <ref target="platon.xml">Platons</ref> nedärvda
+  kunskap. Skillnaden är att Augustinus menar att snarare än
+  nedärvning lär vi vår kunskap av <ref target="gud.xml">Gud</ref>
+  </p>
+
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="etik">Etik</name></head>
+
+  <p>Hur man bör göra.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="eudaimonia">Eudaimonia</name></head>
 
   <p>Den högsta lyckan nås enligt <ref target="aristoteles.xml">Aristoteles</ref> genom de moraliska och
@@ -314,6 +332,19 @@
   <ref target="sokrates.xml">Sokrates</ref>
   att detta leder till en oändlig regress.
   Detta kallas <term>third man problem</term>.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="frivilja">Fri vilja</name></head>
+
+  <p><ref target="gud.xml">Guds</ref> försyn innebär, menar <ref target="augustinus.xml">Augustinus</ref> att Gud redan från
+  skapelseögonblicket vet vilka människor som kommer till
+  <term>paradiset</term> och vilka som hamnar i
+  <term>helvetet</term>. Gud vet också vad alla människor skall göra i
+  morgon. Invändningen mot detta är att determinismen gör allt
+  mänskligt handlande meningslöst, mot vilket Augustinus genmäler att
+  vår vilja är fri och tankarna likaså och Guds nåd kommer att återge
+  oss vår över våra handlingar.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -486,6 +517,17 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="metafysik">Metafysik</name></head>
+
+  <p>Metafysiken behandlar frågan om verklighetens grundläggande natur.</p>
+
+  <div>
+    <p>
+    </p>
+  </div>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="nous">Nous</name></head>
 
   <p>Enligt <ref target="anaxagoras">Anaxagoras</ref> betyder
@@ -539,6 +581,12 @@
       <cell rend="text">Sinnevärlden.</cell>
     </row>
     </table>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="ontologi">Ontologi</name></head>
+
+  <p>Läran om det varande och dess innersta väsen. Eller något sådant.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -748,6 +796,11 @@
   <p><ref target="origenes.xml">Origenes</ref> hävdade att Gud är
   underställd logikens lagar, vilka omöjliggör en mindre ond värld än
   den vi lever i.</p>
+
+  <p><ref target="augustinus.xml">Augustinus</ref> menar att det
+  egentligen in finns någon ondska i världen. Det ser bara så ut på
+  grund av arvssynden och eftersom vi vänder oss mot tingen i stället
+  för mot Gud.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">

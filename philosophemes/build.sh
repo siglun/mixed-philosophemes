@@ -11,3 +11,6 @@ echo  '</body>' >> includes.xml
 
 
 xmllint --xinclude  philosophemes.xml.in  |  xmllint --xinclude  - >  philosophemes.xml
+
+xmllint --noout --relaxng ../tei_all.rng  philosophemes.xml
+
