@@ -479,8 +479,10 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="materia">Materia</name></head>
 
-  <p>Vi accepterar tills vidare att materia är just materia, och inget
-  annat.</p>
+  <p>Tills vidare definierar vi materia som en substans som har
+  massa. <term key="materialism">Materialism</term> är en <term key="monism">monistisk</term> <term>ontologi</term> som hävdar att
+  allt består av materia. <ref target="stoicism.xml">Stoicismen</ref>
+  är en materialism som utgår ifrån att allt är kroppar.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -600,9 +602,33 @@
   <head><name key="reductioadabsurdum">Reductio ad absurdum</name></head>
 
   <p>Bevis genom att visa genom visa att negationen till satsen man
-  vill bevisa leder till motsägelser, visar man satsen sanning.
-  Zenons paradoxer, till exempel den om Akilles och sköldpaddan är
-  sådana. Dock felaktiga av matematiska skäl.</p>
+  vill bevisa leder till motsägelser, visar man satsen <ref target="sanning.xml">sanning</ref>.  Zenons paradoxer, till exempel
+  den om Akilles och sköldpaddan är sådana. Dock felaktiga av
+  matematiska skäl.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="sanning">Sanning</name></head>
+
+  <p>
+    Vad är sanning?
+    <quote>
+      Truth is one of the central subjects in philosophy. It is also
+      one of the largest. Truth has been a topic of discussion in its
+      own right for thousands of years. Moreover, a huge variety of
+      issues in philosophy relate to truth, either by relying on
+      theses about truth, or implying theses about truth.
+    </quote>
+    <note>
+      <bibl>
+        <author>Glanzberg, Michael</author>,
+        <title level="a">Truth</title>,
+        <title level="j">The Stanford Encyclopedia of
+        Philosophy</title> <series>Fall 2023 Edition</series> <editor>Edward N. Zalta</editor> <editor>Uri Nodelman</editor>,
+        <ref target="https://plato.stanford.edu/archives/fall2023/entries/truth">https://plato.stanford.edu/archives/fall2023/entries/truth</ref>
+      </bibl>
+    </note>
+  </p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -652,6 +678,23 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="språk">Språk</name></head>
+
+  <p>Språket är redskapet för mänsklig kommunikation. <ref target="stoicism.xml">Stoikerna</ref> var bland de tidigaste att
+  utveckla en användbar språkfilosofi.</p>
+
+  <p>Stoicisterna såg på språket havandes tre nivåer</p>
+
+  <list>
+    <item>Tecken eller ljudet</item>
+    <item>Namnbärare, det som omnämns i en sats.</item>
+    <item>Det sägbara, <term>lekton</term> (ett lekton flera
+    lekta). Lekta är språkets
+    <ref target="sanning.xml">sanning</ref>sbärare.</item>
+  </list>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="stoicism.xml">Stoicismen</name></head>
 
   <p>Grundades av <ref target="zenonavkition.xml">Zenon från
@@ -660,7 +703,7 @@
   <p>Stoikerna var på sin tid precis som epikureerna kända för sin
   självhjälpspsykologi med stoiskt leverne. Deras bestående insats för
   filosofin var dock att de utvecklade satslogiken. De kom också med
-  en del viktiga bidrag till språkfilosofin.</p>
+  en del viktiga bidrag till <ref target="spraak.xml">språkfilosofin</ref>.</p>
 
   <p>Exempel på satslogisk slutledning i stoisk stil:</p>
 
