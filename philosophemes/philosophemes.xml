@@ -42,7 +42,9 @@
       <body xmlns:xi="http://www.w3.org/2001/XInclude">
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="akrasia">Akrasia</name></head>
-  <p>Viljesvaghet. När man gör fel trots att man vet bättre</p>
+  <p>Viljesvaghet. När man gör fel trots att man vet bättre. När
+  <term>aptiten</term> tar makten över <term>modet</term> och
+  <term>förnuftet</term> i <ref target="sjael.xml">själen</ref>.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="anaxagoras">Anaxagoras</name></head>
@@ -51,9 +53,28 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="anaximander">Anaximander</name></head>
+
+  <p>Grekisk filosof, c:a 610 – c:a 546 f Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="anaximenes">Anaximenes</name></head>
+
+  <p>Grekisk filosof, c:a 586 – c:a 525 f Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="anselm">Anselm</name></head>
+
+  <p>Italiensk filosof c:a 1033 – 1109, sedermera ärkebiskop av Canterbury.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="aporia">Aporia</name></head>
   <p>Logiska svårigheter</p>
-  <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad <ref target="elenchus.xml">Elenchus (se d:o)</ref></p>
+  <p>I synnerhet den förvirring som uppstår efter en inte helt lyckad
+  <ref target="elenchus.xml">Elenchus</ref>.</p>
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -121,6 +142,24 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="dygdernasenhet">Dygdernas enhet</name></head>
+
+  <p>Om man besitter <hi rend="italics">en</hi> <ref target="dygd.xml">dygd</ref> (t ex mod), har man också sannolikt
+  fler av dem (t ex måttfullhet, <ref target="raettraadighet.xml">rättrådighet</ref> eller klokhet).</p>
+
+  <p><ref target="sokrates.xml">Sokrates</ref> var en av de första som
+  formulerade principen dygdernas enhet, vilken bygger på idéen att
+  samtliga dygder har samma essens.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="dygd">Dygd</name></head>
+
+  <p>
+  </p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head>[Grundläggande] <name key="element">element</name>/substans</head>
   <list>
     <item><ref target="thales.xml">Thales</ref> menade att allting bestod av vatten</item>
@@ -130,9 +169,9 @@
     <item><ref target="herakleitos.xml">Herakleitos</ref> hävdade att allt var eld</item>
     <item><ref target="empedokles.xml">Empedokles</ref> tyckte att allt borde bestå av eld, vatten, luft och jord i olika proportioner</item>
     <item><ref target="anaxagoras.xml">Anaxagoras</ref> ansåg att det krävdes ett oändligt antal grundämnen</item>
-    <item><ref target="anaximandros.xml">Anaximandros</ref> tyckte att den grundläggande substansen måste vara neutralt och abstrakt, och föreslog Apeiron.</item>
+    <item><ref target="anaximander.xml">Anaximander</ref> tyckte att den grundläggande substansen måste vara neutralt och abstrakt, och föreslog Apeiron.</item>
     <item>Se också <ref target="demokritos.xml">Demokritos</ref> och <ref target="epikuros.xml">Epikuros</ref> menade att allt bestod av <ref target="atom.xml">atomer, se d:o</ref></item>
-    <item>Stoikerna menade att universum i sin begynnelse var uppbyggt av eld, men att övriga element  uppkommer sedermera</item>
+    <item><ref target="stoicism.xml">Stoikerna</ref> menade att universum i sin begynnelse var uppbyggt av eld, men att övriga element  uppkommer sedermera</item>
   </list>
 
 
@@ -141,16 +180,26 @@
   <head><name key="elenchus">Elenchus</name></head>
   <p>En sokratisk undersökning eller korsförhör</p>
   <list>
-    <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep p</item>
-    <item>Partnern och Sokrates går igenom ett och enas kring antal andra relaterade begrepp (q, r, ...)</item>
+    <item>Samarbetspartner (intelokutören) ombeds definiera ett begrep
+    p</item>
+    <item>Partnern och <ref target="sokrates.xml">Sokrates</ref> går
+    igenom ett och enas kring antal andra relaterade begrepp (q, r,
+    ...)</item>
     <item>Sokrates visar att p:s negation följer av  (q, r, ...)</item>
   </list>
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="empedokles">Empedokles</name></head>
+
+  <p>grekisk filosof c:a 626 – 548 f Kr</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="endoxa">Endoxa</name></head>
 
-  <p><quote>Credible opinions</quote> i <ref target="aristoteles.xml">Aristoteles</ref> <ref target="edoxiska_metod.xml">endoxiska metod</ref></p>
+  <p><quote>Allmänna övertygelser</quote>, alltså åsikter som
+  accepterats av många kunniga människor. Återkommer i <ref target="aristoteles.xml">Aristoteles</ref> <ref target="edoxiska_metod.xml">endoxiska metod</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -268,6 +317,22 @@
   <p>En intressant detalj är att gnostikerna var anhängare av teorin
   att världen skapats av en oskickliga <ref target="demiurg.xml">demiurg</ref> vilket ger en bekväm förklaring
   till <ref target="teodiceproblemet.xml">teodiceproblemet</ref>.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="gud">Gud</name></head>
+
+  <p><ref target="Xenofanes.xml">Xenofanes</ref> var motståndare till
+  antropomorfistiska gudar, som de Homeriska skrifterna. Hästar skulle
+  kunna färeställa sig hästgud och hundar hundgud.</p>
+
+  <p><ref target="anaxagoras.xml">Anaxagoras</ref> tänkte sig en
+  rationell princip (<ref target="nous.xml">Nous</ref>) som skapade
+  kosmos genom att starta en virvelrörelse.</p>
+
+  <p>Enligt <ref target="anselm.xml">Anselm</ref> är Gud det största
+  väsen man kan föreställa sig. Om Gud inte finns leder detta till en
+  motsägelse, bara en existerande Gud kan vara så stor.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -576,6 +641,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="thales">Thales</name></head>
+
+  <p>grekisk filosof c:a 626 – 548 f Kr</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="treenigheten">Treenigheten</name></head>
 
   <p>Tron på Gud, hans son och den helige anden. Alltså tre enheter
@@ -600,6 +671,18 @@
   är sådan som handlar om hur man bör göra eller vara. Produktiv
   vetenskap handlar om hantverk, konst och alla aktiviteter som
   producerar ett eller annat.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="xenofanes">Xenofanes</name></head>
+
+  <p>Grekisk filosof, c:a 570 - c:a 478 f Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="xenofon">Xenofon</name></head>
+
+  <p>Grekisk filosof, c:a 430 - 355 f. Kr.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
