@@ -11,7 +11,8 @@
     <item>Tecken eller ljudet</item>
     <item>Namnbärare, det som omnämns i en sats.</item>
     <item>Det sägbara, <term>lekton</term> (ett lekton flera
-    lekta). Lekta är språkets sanningsbärare.</item>
+    lekta). Lekta är språkets
+    <ref target="sanning.xml">sanning</ref>sbärare.</item>
   </list>
   
 </div>
