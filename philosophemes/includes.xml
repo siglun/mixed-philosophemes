@@ -10,6 +10,7 @@
 <xi:include href="atom.xml"/>
 <xi:include href="augustinus.xml"/>
 <xi:include href="boethius.xml"/>
+<xi:include href="cambridgeplatonisterna.xml"/>
 <xi:include href="cicero.xml"/>
 <xi:include href="demiurgen.xml"/>
 <xi:include href="demokritos.xml"/>
@@ -46,6 +47,7 @@
 <xi:include href="john-scottus.xml"/>
 <xi:include href="kant.xml"/>
 <xi:include href="kategori.xml"/>
+<xi:include href="kroppsjael.xml"/>
 <xi:include href="kunskap.xml"/>
 <xi:include href="logik.xml"/>
 <xi:include href="logos.xml"/>
