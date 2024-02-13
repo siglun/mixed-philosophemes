@@ -1,0 +1,11 @@
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="politiskfilosofi">Politisk filosofi</name></head>
+
+  <p><ref target="platon.xml">Platon</ref></p>
+  <p><ref target="aristoteles.xml">Aristoteles</ref></p>
+  <p><ref target="hobbes.xml">Hobbes</ref></p>
+  <p><ref target="locke.xml">Locke</ref></p>
+  
+</div>
+
+ 
