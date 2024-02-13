@@ -42,6 +42,8 @@
       </div>
     </front>      
     <xi:include href="includes.xml"/>
-    <xi:include href="bibliografi.xml"/>
+    <back>
+      <xi:include href="bibliografi.xml"/>
+    </back>
   </text>
 </TEI>

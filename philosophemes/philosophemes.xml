@@ -39,7 +39,7 @@
         </p>
       </div>
     </front>      
-      <body xmlns:xi="http://www.w3.org/2001/XInclude">
+    <body xmlns:xi="http://www.w3.org/2001/XInclude">
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="abelard">Abelard, Peter</name> (Pierre Abélard)</head>
 
@@ -138,6 +138,21 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="demokritos">Demokritos</name></head>
 
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="descartesmetod">Descartes metoder</name></head>
+
+  <p>I sin <title>Avhandling om metoden</title> beskriver <ref target="descartes.xml">Descartes</ref> sin metod som skall
+  underlätta sökandet efter kunskap.</p>
+
+  <list>
+    <item>Vi skall aldrig godta något som sant om vi haranledning att
+    betvivla det.</item>
+    <item>Dela upp varje problem i små enheter som är möjliga att lösa.</item>
+    <item>Börja med de enklaste problemen, fortsätt sedan med de svårare.</item>
+    <item>Utelämna inte något som kan vara relevant.</item>
+  </list>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -952,5 +967,20 @@
   
 </div>
 </body>
+    <back>
+      <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="litteratur">Litteratur</name></head>
+
+  <listBibl>
+    <bibl>
+      <author>Descartes, René</author>
+      <title>Avhandling om metoden</title>
+      i <editor>Marc-Vogau, Konrad</editor>
+      <title>1600-talet 1700-talet Filosofin genom tiderna II</title>
+    </bibl>
+  </listBibl>
+  
+</div>
+    </back>
   </text>
 </TEI>
