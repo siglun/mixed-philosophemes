@@ -1,0 +1,17 @@
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="descartesmetod">Descartes metoder</name></head>
+
+  <p>I sin <title>Avhandling om metoden</title> beskriver <ref
+  target="descartes.xml">Descartes</ref> sin metod som skall
+  underlätta sökandet efter kunskap.</p>
+
+  <list>
+    <item>Vi skall aldrig godta något som sant om vi haranledning att
+    betvivla det.</item>
+    <item>Dela upp varje problem i små enheter som är möjliga att lösa.</item>
+    <item>Börja med de enklaste problemen, fortsätt sedan med de svårare.</item>
+    <item>Utelämna inte något som kan vara relevant.</item>
+  </list>
+  
+</div>
+
