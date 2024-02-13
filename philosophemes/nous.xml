@@ -1,7 +1,7 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="nous">Nous</name></head>
 
-  <p>Enligt <ref target="anaxagoras">Anaxagoras</ref> betyder
+  <p>Enligt <ref target="anaxagoras.xml">Anaxagoras</ref> betyder
   <term>Nous</term> intellekt eller <quote>mind</quote>, som
   framställs som den sanna orsaken till de naturliga fenomenen.</p>
 

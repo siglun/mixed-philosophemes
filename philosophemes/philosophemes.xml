@@ -295,11 +295,11 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="foeraendring">Förändringens problem</name></head>
 
-  <p><ref target="herakleitos">Herakleitos</ref> menade att allt förändras, förvandlas. Förändring är
+  <p><ref target="herakleitos.xml">Herakleitos</ref> menade att allt förändras, förvandlas. Förändring är
   tillvarons essens. <quote rend="italics">Panta rei</quote>, allting
   flyter.</p>
 
-  <p><ref target="parmenides">Parmenides</ref> ansåg att förändring
+  <p><ref target="parmenides.xml">Parmenides</ref> ansåg att förändring
   var omöjlig. Någonting kan inte komma ur ingenting, alltså måste
   allting ha funnits alltid. Dessutom, eftersom <hi rend="italics">ingenting</hi> inte kan finnas är universum fullt och
   det finns ingen plats ledig.</p>
@@ -370,14 +370,14 @@
   - 300-talet e. Kr., och ger nya källor.</p>
 
   <p>En intressant detalj är att gnostikerna var anhängare av teorin
-  att världen skapats av en oskickliga <ref target="demiurg.xml">demiurg</ref> vilket ger en bekväm förklaring
+  att världen skapats av en oskickliga <ref target="demiurgen.xml">demiurg</ref> vilket ger en bekväm förklaring
   till <ref target="teodiceproblemet.xml">teodiceproblemet</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="gud">Gud</name></head>
 
-  <p><ref target="Xenofanes.xml">Xenofanes</ref> var motståndare till
+  <p><ref target="xenofanes.xml">Xenofanes</ref> var motståndare till
   antropomorfistiska gudar, som de Homeriska skrifterna. Hästar skulle
   kunna färeställa sig hästgud och hundar hundgud.</p>
 
@@ -548,7 +548,7 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="nous">Nous</name></head>
 
-  <p>Enligt <ref target="anaxagoras">Anaxagoras</ref> betyder
+  <p>Enligt <ref target="anaxagoras.xml">Anaxagoras</ref> betyder
   <term>Nous</term> intellekt eller <quote>mind</quote>, som
   framställs som den sanna orsaken till de naturliga fenomenen.</p>
 
@@ -837,7 +837,7 @@
   <head><name key="treenigheten">Treenigheten</name></head>
 
   <p>Tron på Gud, hans son och den helige anden. Alltså tre enheter
-  som är en. Se <ref target="hypostaserna">de tre hypostaserna</ref></p>
+  som är en. Se <ref target="hypostaserna.xml">de tre hypostaserna</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -856,8 +856,15 @@
     <item><term>Konceptualism</term>. Hållningen att universalier är
     begrepp i medvetandet. <ref target="abelard.xml">Peter Abelard</ref> och </item>
     <item><term>Nominalism</term>. Teorin att de universella
-    egenskaperna är ett helt språkligt fenomen. <ref target="ockham">William av Ockham</ref> var en stark förespråkare av nominalismen.</item>
+    egenskaperna är ett helt språkligt fenomen. <ref target="william-ockham.xml">William av Ockham</ref> var en stark förespråkare av nominalismen.</item>
   </list>
+
+  <p>Man behöver naturligtvis inte begränsa sig till dessa tre. <ref target="thomas-aquinas.xml">Thomas av Aquino</ref> menade att
+  universalierna existerar självständigt i Guds medvetande och i
+  tingen. Så långt skulle man kunna uppfatta honom som
+  universalierealist, men så fortsätter han att hävda att de är
+  abstraktioner i det mänskliga medvetandet och förefaller då likna en
+  universaliekonceptualist.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
