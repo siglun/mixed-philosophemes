@@ -41,7 +41,7 @@
     </front>      
     <body xmlns:xi="http://www.w3.org/2001/XInclude">
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="abelard">Abelard, Peter</name> (Pierre Abélard)</head>
+  <head><persName key="abelard">Abelard, Peter</persName> (Pierre Abélard)</head>
 
   <p>1079 – 1142. Fransk filosof och bendektinerbroder.</p>
   
@@ -71,7 +71,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="anselm">Anselm</name></head>
+  <head><persName key="anselm">Anselm</persName></head>
 
   <p>Italiensk filosof c:a 1033 – 1109, sedermera ärkebiskop av Canterbury.</p>
   
@@ -453,7 +453,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="herakleitos">Herakleitos</name></head>
+  <head><persName key="herakleitos">Herakleitos</persName></head>
 
   <p>Grekisk filosof c:a 540–460 f.Kr.</p>
   
@@ -467,7 +467,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="hypostaserna">[De tre] hypostaserna</name></head>
+  <head>De tre <name key="hypostaserna">hypostaserna</name></head>
 
   <table rows="4" cols="2">
     <head/>
@@ -625,7 +625,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="Nyplatonismen">Nyplatonismen</name></head>
+  <head><name key="nyplatonismen">Nyplatonismen</name></head>
 
   <p>En skola som grundades av <ref target="plotinus.xml">Plotinus</ref> när denne flytta från
   Alexandria till Rom c:a 245 e. Kr.</p>
