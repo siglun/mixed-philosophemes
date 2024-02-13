@@ -130,6 +130,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName key="cavendishmargeretlucas" from="1623" to="1673">Margeret Lucas Cavendish</persName></head>
+
+  <p>Engelsk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="cicero">Marcus Tullius Cicero</persName></head>
 
   <p>(106 - 43 f. Kr.) romersk politiker, jurist, orator och filosof.
@@ -138,6 +144,12 @@
 
   <p>Inspirerad av <ref target="sokrates.xml">Sokrates</ref> och <ref target="platon.xml">Platon</ref> men har mer <ref target="skepticism.xml">skepticistiska</ref> böjelser.</p>
   
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName key="Cockburn, Catherine" from="1679" to="1749">Catherine Cockburn</persName></head>
+
+  <p>Engelsk filosof</p>
+
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="demiurgen">Demiurgen</name></head>
@@ -459,6 +471,13 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName key="hobbesthomas" from="1588" to="1679">Thomas Hobbes</persName></head>
+
+  <p>Engelsk filosof</p>
+
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="hylomorfism">Hylomorfism</name></head>
 
   <p>Den <ref target="aristoteles.xml">Aristoteliska</ref> tanken att
@@ -538,8 +557,7 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="kroppsjälproblemet">Kropp–själ-problemet</name></head>
 
-  <p>rör förklaringen av förhållandet mellan medvetandet, eller
-  mentala processer, och kroppsliga tillstånd eller processer.</p>
+  <p>Se <ref target="medvetandefilosofi.xml">Medvetandefilosofi</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -549,6 +567,12 @@
   beliefe). Se <ref target="platon.xml">Platons</ref> dialog
   Theaitetos och <ref target="logos.xml">Logos</ref>.</p>
 
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName key="Locke, John" from="1632" to="1704">John Locke</persName></head>
+
+  <p>Engelsk filosof</p>
+  
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="logik">Logik</name></head>
@@ -595,6 +619,13 @@
   massa. <term key="materialism">Materialism</term> är en <term key="monism">monistisk</term> <term>ontologi</term> som hävdar att
   allt består av materia. <ref target="stoicism.xml">Stoicismen</ref>
   är en materialism som utgår ifrån att allt är kroppar.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="medvetandefilosofi">Medvetandefilosofi</name></head>
+
+  <p>rör förklaringen av förhållandet mellan medvetandet, eller
+  mentala processer, och kroppsliga tillstånd eller processer.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">

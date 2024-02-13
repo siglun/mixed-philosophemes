@@ -11,7 +11,9 @@
 <xi:include href="augustinus.xml"/>
 <xi:include href="boethius.xml"/>
 <xi:include href="cambridgeplatonisterna.xml"/>
+<xi:include href="cavendish.xml"/>
 <xi:include href="cicero.xml"/>
+<xi:include href="cockburn.xml"/>
 <xi:include href="demiurgen.xml"/>
 <xi:include href="demokritos.xml"/>
 <xi:include href="descartes-metod.xml"/>
@@ -40,6 +42,7 @@
 <xi:include href="gnosticism.xml"/>
 <xi:include href="gud.xml"/>
 <xi:include href="herakleitos.xml"/>
+<xi:include href="hobbes.xml"/>
 <xi:include href="hylomorfism.xml"/>
 <xi:include href="hypostaserna.xml"/>
 <xi:include href="ide.xml"/>
@@ -49,10 +52,12 @@
 <xi:include href="kategori.xml"/>
 <xi:include href="kroppsjael.xml"/>
 <xi:include href="kunskap.xml"/>
+<xi:include href="locke.xml"/>
 <xi:include href="logik.xml"/>
 <xi:include href="logos.xml"/>
 <xi:include href="lucretius.xml"/>
 <xi:include href="materia.xml"/>
+<xi:include href="medvetandefilosofi.xml"/>
 <xi:include href="metafysik.xml"/>
 <xi:include href="nous.xml"/>
 <xi:include href="nyplatonism.xml"/>
