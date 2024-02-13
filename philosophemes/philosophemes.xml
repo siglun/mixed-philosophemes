@@ -53,19 +53,19 @@
   <term>förnuftet</term> i <ref target="sjael.xml">själen</ref>.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="anaxagoras">Anaxagoras</name></head>
+  <head><persName key="anaxagoras">Anaxagoras</persName></head>
 
   <p>Grekisk filosof, c:a 500 - 428 f. Kr.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="anaximander">Anaximander</name></head>
+  <head><persName key="anaximander">Anaximander</persName></head>
 
   <p>Grekisk filosof, c:a 610 – c:a 546 f Kr.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="anaximenes">Anaximenes</name></head>
+  <head><persName key="anaximenes">Anaximenes</persName></head>
 
   <p>Grekisk filosof, c:a 586 – c:a 525 f Kr.</p>
   
@@ -84,7 +84,7 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="aristoteles">Aristoteles</name></head>
+  <head><persName key="aristoteles">Aristoteles</persName></head>
 
   <p>Grekisk filosof c:a 384 - 322 f. Kr. Lärljunge till Platon.</p>
   
@@ -104,7 +104,7 @@
   <p>Se också <ref target="element.xml">Element</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="augustinus">Augustinus</name> (354 - 430 e. Kr.)</head>
+  <head><persName key="augustinus">Augustinus</persName> (354 - 430 e. Kr.)</head>
 
   <p><ref target="nyplatonism.xml">nyplatonsk</ref> senantik, kristen filosof.</p>
 
@@ -112,14 +112,25 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="boëthius">Boëthius, Manlius Severinus</name> (c:a 480 - 524)</head>
+  <head><persName key="boëthius">Boëthius, Manlius Severinus</persName> (c:a 480 - 524)</head>
 
   <p>Romersk politiker, översättare och filosof. Berömd för
   <title>Filosofiens tröst</title> (De consolatione philosophiae).</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="cicero">Marcus Tullius Cicero</name></head>
+  <head><name key="&gt;cambridgeplatonisterna">Cambridgeplatonisterna</name></head>
+
+  <p>En heterogen grupp platonistiskt färgade idealistiska filosofer
+  verksamma vid Universitetet i Cambridge. <persName key="More, Henry" from="1614" to="1687">Henry More</persName>, <persName key="Ralph   Cudworth" from="1617" to="1688">Ralph Cudworth</persName> och
+  <persName key="Conway, Anne" from="1631" to="1679">Anne
+  Conway</persName> brukar föras till gruppen. De var alla influerade
+  av <ref target="descartes.xml">Descartes</ref> men var alla oroade
+  av hans dualism när det gäller <ref target="kroppsjael.xml">kropp-själ-problemet</ref>.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName key="cicero">Marcus Tullius Cicero</persName></head>
 
   <p>(106 - 43 f. Kr.) romersk politiker, jurist, orator och filosof.
   Konsul 63 f. Kr. Översatte filosofisk litteratur från grekiska till
@@ -136,7 +147,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="demokritos">Demokritos</name></head>
+  <head><persName key="demokritos">Demokritos</persName></head>
 
   
 </div>
@@ -153,12 +164,19 @@
     <item>Börja med de enklaste problemen, fortsätt sedan med de svårare.</item>
     <item>Utelämna inte något som kan vara relevant.</item>
   </list>
+
+  <p>I sin serier <title>Meditationer</title> i <title>Betraktelser
+  över den första filosofin</title> presenterar han det berömda
+  <term>metodologiska tvivlet</term>.
+  Han framträder som en utpräglad <ref target="skepticism.xml">skeptiker</ref>.
+  Descartes tvivlar på allt tills han inser att han tänker,
+  då han förstår att han faktiskt existerar.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="descartes">Descartes, René</name></head>
+  <head><persName key="descartes">Descartes, René</persName></head>
 
-  <p>grekisk filosof c:a 1596 – 1650</p>
+  <p>fransk filosof c:a 1596 – 1650</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -169,7 +187,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="dunsscotus">Duns Scotus, John</name></head>
+  <head><persName key="dunsscotus">Duns Scotus, John</persName></head>
 
   <p>Skotsk filosof (c:a 1265 – 1308) och fransiskanermunk.</p>
   
@@ -223,7 +241,7 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="empedokles">Empedokles</name></head>
+  <head><persName key="empedokles">Empedokles</persName></head>
 
   <p>grekisk filosof c:a 626 – 548 f Kr</p>
   
@@ -274,7 +292,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="epikuros">Epikuros</name></head>
+  <head><persName key="epikuros">Epikuros</persName></head>
 
   <p>Grekisk filosof c:a 306 - 271 f. Kr.</p>
   
@@ -477,20 +495,20 @@
   <p>Se <ref target="form.xml">Form</ref></p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="johannesscotus">Johannes Scotus</name></head>
+  <head><persName key="johannesscotus">Johannes Scotus</persName></head>
 
   <p>Se <ref target="john-scottus.xml">John Scotus Eriugena</ref>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="johnscotus">John Scotus Eriugena</name></head>
+  <head><persName key="johnscotus">John Scotus Eriugena</persName></head>
 
   <p><ref target="nyplatonism.xml">Nyplatonistisk</ref> irländsk
   filosof (c:a 800 - c:a 877).</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="kant">Kant, Immanuel</name></head>
+  <head><persName key="kant">Kant, Immanuel</persName></head>
 
   <p>Tysk filosof  (1724–1804)</p>
   
@@ -515,6 +533,13 @@
     <item>Being affected</item>
   </list>
 
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="kroppsjälproblemet">Kropp–själ-problemet</name></head>
+
+  <p>rör förklaringen av förhållandet mellan medvetandet, eller
+  mentala processer, och kroppsliga tillstånd eller processer.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -555,7 +580,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="lucretius">Titus Lucretius Carus</name></head>
+  <head><persName key="lucretius">Titus Lucretius Carus</persName></head>
 
   <p>Romersk filosof 99 – c:a 55 f. Kr. Mest känd för den stora
   lärodikten <title>De rerum natura</title> (om naturens ordning).
@@ -661,7 +686,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="parmenides">Parmenides</name></head>
+  <head><persName key="parmenides">Parmenides</persName></head>
 
   <p>Grekisk filosof sent under 500-talet - mitten av 400 Kr.</p>
   
@@ -673,13 +698,13 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="platon">Platon</name></head>
+  <head><persName key="platon">Platon</persName></head>
 
-  <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till Sokrates.</p>
+  <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till <persName>Sokrates</persName>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="plotinus">Plotinus</name></head>
+  <head><persName key="plotinus">Plotinus</persName></head>
 
   <p>Grekisk filosof c:a 204-270 e. Kr.</p>
   
@@ -748,7 +773,7 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="seneca">Seneca, Lucius Annaeus</name> (4 f. Kr. - 65 e. Kr.)</head>
+  <head><persName key="seneca">Seneca, Lucius Annaeus</persName> (4 f. Kr. - 65 e. Kr.)</head>
 
   <p><ref target="stoicism.xml">Stoisk</ref> filosof, senator,
   intellektuell och skriftställare.</p>
@@ -791,14 +816,14 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="sokrates">Sokrates</name></head>
+  <head><persName key="sokrates">Sokrates</persName></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
 
   <p>Sokrates är problematisk så till vida att hans filosofi är
   uteslutande känd genom <ref target="platon.xml">Platons</ref>
   skrifter, och i viss utsträckning Aristofanes och Xenofon. Man
-  brukar tala om detta som <quote>Sokratesproblemet</quote>.</p>
+  brukar tala om detta som <term>Sokratesproblemet</term>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -886,13 +911,13 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="thales">Thales</name></head>
+  <head><persName key="thales">Thales</persName></head>
 
   <p>grekisk filosof c:a 626 – 548 f Kr</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="thomasavaquinas">Thomas av Aquinas</name></head>
+  <head><persName key="thomasavaquinas">Thomas av Aquinas</persName></head>
 
   <p>Filosof och dominikanermunk. ca. 1225–1274.</p>
   
@@ -943,25 +968,25 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="ockham">Ockham, William av</name></head>
+  <head><persName key="ockham">Ockham, William av</persName></head>
 
   <p>Engelsk filosof (c:a 1285 – 1347) och fransiskanermunk.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="xenofanes">Xenofanes</name></head>
+  <head><persName key="xenofanes">Xenofanes</persName></head>
 
   <p>Grekisk filosof, c:a 570 - c:a 478 f Kr.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="xenofon">Xenofon</name></head>
+  <head><persName key="xenofon">Xenofon</persName></head>
 
   <p>Grekisk filosof, c:a 430 - 355 f. Kr.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="zenon från kition">Zenon från Kition</name></head>
+  <head><persName key="zenon från kition">Zenon från Kition</persName></head>
 
   <p>Filosof från Kition på Cypern. c:a 335 bce - c:a 263.</p>
   

@@ -1,7 +1,7 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><name key="platon">Platon</name></head>
+  <head><persName key="platon">Platon</persName></head>
 
-  <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till Sokrates.</p>
+  <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till <persName>Sokrates</persName>.</p>
   
 </div>
 
