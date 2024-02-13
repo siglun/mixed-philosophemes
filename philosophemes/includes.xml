@@ -20,6 +20,7 @@
 <xi:include href="element.xml"/>
 <xi:include href="elenchus.xml"/>
 <xi:include href="empedokles.xml"/>
+<xi:include href="empirism.xml"/>
 <xi:include href="endoxa.xml"/>
 <xi:include href="endoxiska_metoden.xml"/>
 <xi:include href="epikurism.xml"/>
@@ -60,6 +61,7 @@
 <xi:include href="primusmotor.xml"/>
 <xi:include href="psyche.xml"/>
 <xi:include href="raettraadighet.xml"/>
+<xi:include href="rationalism.xml"/>
 <xi:include href="reductio.xml"/>
 <xi:include href="sanning.xml"/>
 <xi:include href="seneca.xml"/>
