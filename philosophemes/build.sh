@@ -5,6 +5,7 @@ echo  '<body   xmlns:xi="http://www.w3.org/2001/XInclude" >' > includes.xml
 ls *.xml | \
     grep -v philosophemes | \
     grep -v includes | \
+    grep -v bibliografi | \
     perl -ne 'chomp; print  "<xi:include href=\"$_\"/>\n";' >> includes.xml
 
 echo  '</body>' >> includes.xml
