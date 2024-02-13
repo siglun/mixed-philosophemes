@@ -623,7 +623,7 @@
   allt består av materia. <ref target="stoicism.xml">Stoicismen</ref>
   är en materialism som utgår ifrån att allt är kroppar.</p>
 
-  <p><ref target="hobbes">Thomas Hobbes</ref> materialism var
+  <p><ref target="hobbes.xml">Thomas Hobbes</ref> materialism var
   provokativ. Skolastikens språk med <q>tomma namn</q> irriterade
   honom och Kennny nämner självmotsägelser, som okroppslig
   substans. Lika absurt som en rund fyrkant.</p>
@@ -639,6 +639,12 @@
   metod för att komma fram till att han faktiskt existerar, drar han
   också slutsatsen till att själen är icke materiell, men kroppen är
   det. Detta är vad som kallas hans <term>dualism</term>.</p>
+
+  <p>
+    <ref target="hobbes.xml">Thomas Hobbes</ref> är <ref target="empirism.xml">empirist</ref> och tänker sig att idéer
+    strömmar in i medvetandet ur sinnesdata. Idéerna har formen av
+    tryck på sinnesorganen. Ja han formulerar det ungefär sådär.
+  </p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -767,6 +773,14 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="qualia">Qualia</name></head>
+
+  <p>den subjektiva fenomenvärlden, kvaliteten hos medvetna
+  upplevelser. Upplevelsen av färger är ett ofta diskuterat
+  exempel.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="rättrådighet">Rättrådighet</name> och själslig balans</head>
 
   <p>Själslig balans uppnås genom att genomskåda fantasier och
@@ -825,8 +839,9 @@
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="själ">Själ</name></head>
-  <p>Enligt <ref target="platon.xml">Platons</ref> teori om den odödliga själen har
-  tre delar</p>
+
+  <p>Enligt <ref target="platon.xml">Platons</ref> teori om den
+  odödliga själen har tre delar</p>
 
   <list>
     <item>Förnuftet (Nous)</item>
@@ -836,6 +851,7 @@
 
   <p>Därutöver finns det tre olika typer av själar.</p>
 
+  
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
