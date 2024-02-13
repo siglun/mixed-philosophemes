@@ -25,6 +25,7 @@
 <xi:include href="epikurism.xml"/>
 <xi:include href="epikuros.xml"/>
 <xi:include href="epistemologi.xml"/>
+<xi:include href="erfarenhet.xml"/>
 <xi:include href="etik.xml"/>
 <xi:include href="eudaimonia.xml"/>
 <xi:include href="euthyfron-dilemmat.xml"/>
@@ -64,12 +65,14 @@
 <xi:include href="seneca.xml"/>
 <xi:include href="sjael.xml"/>
 <xi:include href="skepticism.xml"/>
+<xi:include href="skolastiker.xml"/>
 <xi:include href="sokrates.xml"/>
 <xi:include href="spraak.xml"/>
 <xi:include href="stoicism.xml"/>
 <xi:include href="subjektivism.xml"/>
 <xi:include href="syllogism.xml"/>
 <xi:include href="teodiceproblemet.xml"/>
+<xi:include href="teologi.xml"/>
 <xi:include href="thales.xml"/>
 <xi:include href="thomas-aquinas.xml"/>
 <xi:include href="treenigheten.xml"/>
