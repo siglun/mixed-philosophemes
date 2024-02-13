@@ -265,6 +265,12 @@
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="erfarenhet">Erfarenhet</name></head>
+
+  <p>Vad vi lärt genom observation. (Preliminär definition.)</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="etik">Etik</name></head>
 
   <p>Hur man bör göra.</p>
@@ -388,6 +394,13 @@
   <p>Enligt <ref target="anselm.xml">Anselm</ref> är Gud det största
   väsen man kan föreställa sig. Om Gud inte finns leder detta till en
   motsägelse, bara en existerande Gud kan vara så stor.</p>
+
+  <p>Flera av de <ref target="aristoteles.xml">Aristoteliska</ref>
+  <ref target="skolastiker.xml">skolastikerna</ref> menade att vi
+  vinner <ref target="kunskap.xml">kunskap</ref> genom
+  sinneserfarenhet. Som en följd härav var de ofta förespråkare av en
+  <ref target="teologi.xml">naturlig teologi</ref> som etablerar
+  Guds existens utan uppenbarelser.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -733,6 +746,14 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="skolastiker">Skolastiker</name></head>
+
+  <p>kallas de mestadels dominikanska eller fransiskanska filosofer
+  som behärskade filosofin vid universiteten i Paris och Oxford under
+  1200- och 1300-talen.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="sokrates">Sokrates</name></head>
 
   <p>Grekisk filosof c:a 469—399 f. Kr.</p>
@@ -819,6 +840,12 @@
   egentligen in finns någon ondska i världen. Det ser bara så ut på
   grund av arvssynden och eftersom vi vänder oss mot tingen i stället
   för mot Gud.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="teologi">Teologi</name></head>
+
+  <p>Läran om Gud, rätt och slätt.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
