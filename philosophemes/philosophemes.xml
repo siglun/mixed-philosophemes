@@ -262,6 +262,9 @@
   <head><name key="empirism">Empirism</name></head>
 
   <p>läran att kunskap främst nås genom sinnesförnimmelser.</p>
+
+  <p><ref target="hobbes.xml">Thomas Hobbes</ref> var en av de tidiga
+  brittiska empiristerna.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -619,6 +622,11 @@
   massa. <term key="materialism">Materialism</term> är en <term key="monism">monistisk</term> <term>ontologi</term> som hävdar att
   allt består av materia. <ref target="stoicism.xml">Stoicismen</ref>
   är en materialism som utgår ifrån att allt är kroppar.</p>
+
+  <p><ref target="hobbes">Thomas Hobbes</ref> materialism var
+  provokativ. Skolastikens språk med <q>tomma namn</q> irriterade
+  honom och Kennny nämner självmotsägelser, som okroppslig
+  substans. Lika absurt som en rund fyrkant.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -626,6 +634,11 @@
 
   <p>rör förklaringen av förhållandet mellan medvetandet, eller
   mentala processer, och kroppsliga tillstånd eller processer.</p>
+
+  <p>Efter att <ref target="descartes.xml">Descartes</ref> använt sin
+  metod för att komma fram till att han faktiskt existerar, drar han
+  också slutsatsen till att själen är icke materiell, men kroppen är
+  det. Detta är vad som kallas hans <term>dualism</term>.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -976,7 +989,12 @@
     <item><term>Konceptualism</term>. Hållningen att universalier är
     begrepp i medvetandet. <ref target="abelard.xml">Peter Abelard</ref> och </item>
     <item><term>Nominalism</term>. Teorin att de universella
-    egenskaperna är ett helt språkligt fenomen. <ref target="william-ockham.xml">William av Ockham</ref> var en stark förespråkare av nominalismen.</item>
+    egenskaperna är ett helt språkligt fenomen. Den unge <ref target="william-ockham.xml">William av Ockham</ref> var en stark
+    förespråkare av nominalismen, men hans nominalismen mildrades till
+    konceptualism med åren. <ref target="hobbes.xml">Thomas
+    Hobbes</ref>, däremot, kunde aldrig acceptera tanken på att det
+    fanns en trädets idé, överallt han gick i skogen såg han bara
+    individuella träd.</item>
   </list>
 
   <p>Man behöver naturligtvis inte begränsa sig till dessa tre. <ref target="thomas-aquinas.xml">Thomas av Aquino</ref> menade att
