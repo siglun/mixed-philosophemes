@@ -208,6 +208,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="empirism">Empirism</name></head>
+
+  <p>läran att kunskap främst nås genom sinnesförnimmelser.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="endoxa">Endoxa</name></head>
 
   <p><quote>Allmänna övertygelser</quote>, alltså åsikter som
@@ -401,6 +407,10 @@
   sinneserfarenhet. Som en följd härav var de ofta förespråkare av en
   <ref target="teologi.xml">naturlig teologi</ref> som etablerar
   Guds existens utan uppenbarelser.</p>
+
+  <p><ref target="duns-scotus.xml">Duns Scotus</ref> och <ref target="thomas-aquinas.xml">Thomas av Aquino</ref> är förespråkare
+  av <ref target="teologi.xml">naturlig teologi</ref>.
+  </p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -675,6 +685,12 @@
 
   <p>Man kan uppnå <ref target="eudaimonia.xml">Eudaimonia</ref> genom
   att se verkligheten som den faktiskt är.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="rationalism">Rationalism</name></head>
+
+  <p>Hållningen att kunskap främst nås genom förnuftet.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
