@@ -423,6 +423,10 @@
   mänskligt handlande meningslöst, mot vilket Augustinus genmäler att
   vår vilja är fri och tankarna likaså och Guds nåd kommer att återge
   oss vår över våra handlingar.</p>
+
+  <p><ref target="hobbes.xml">Hobbes</ref>Menar att människan är lika
+  determinerad som djuren. Skillnaden är att människor har vilja,
+  medan djuren har istället begär.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -757,6 +761,15 @@
   <head><persName key="plotinus">Plotinus</persName></head>
 
   <p>Grekisk filosof c:a 204-270 e. Kr.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="politiskfilosofi">Politisk filosofi</name></head>
+
+  <p><ref target="platon.xml">Platon</ref></p>
+  <p><ref target="aristoteles.xml">Aristoteles</ref></p>
+  <p><ref target="hobbes.xml">Hobbes</ref></p>
+  <p><ref target="locke.xml">Locke</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
