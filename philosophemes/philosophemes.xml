@@ -441,6 +441,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1848" to="1925" key="frege">Frege, Friedrich Ludwig Gottlob</persName></head>
+
+  <p>tysk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="frivilja">Fri vilja</name></head>
 
   <p><ref target="gud.xml">Guds</ref> försyn innebär, menar <ref target="augustinus.xml">Augustinus</ref> att Gud redan från
@@ -969,6 +975,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1872" to="1970" key="frege">Russell, Bertrand</persName></head>
+
+  <p>walesisk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="sanning">Sanning</name></head>
 
   <p>
@@ -1229,6 +1241,12 @@
   <head><persName key="ockham">Ockham, William av</persName></head>
 
   <p>Engelsk filosof (c:a 1285 – 1347) och fransiskanermunk.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1632" to="1677" key="spinoza">Wittgenstein, Ludwig Josef Johann</persName></head>
+
+  <p>österrikisk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">

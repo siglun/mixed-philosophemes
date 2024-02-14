@@ -42,6 +42,7 @@
 <xi:include href="foeraendring.xml"/>
 <xi:include href="foerklaring.xml"/>
 <xi:include href="form.xml"/>
+<xi:include href="frege.xml"/>
 <xi:include href="fri-vilja.xml"/>
 <xi:include href="gnosticism.xml"/>
 <xi:include href="gud.xml"/>
@@ -88,6 +89,7 @@
 <xi:include href="reductio.xml"/>
 <xi:include href="reid.xml"/>
 <xi:include href="reinhold.xml"/>
+<xi:include href="russell.xml"/>
 <xi:include href="sanning.xml"/>
 <xi:include href="schelling.xml"/>
 <xi:include href="schiller.xml"/>
@@ -111,6 +113,7 @@
 <xi:include href="universalier.xml"/>
 <xi:include href="vetenskaperna.xml"/>
 <xi:include href="william-ockham.xml"/>
+<xi:include href="wittgenstein.xml"/>
 <xi:include href="xenofanes.xml"/>
 <xi:include href="xenofon.xml"/>
 <xi:include href="zenonavkition.xml"/>
