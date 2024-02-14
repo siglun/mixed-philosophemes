@@ -112,6 +112,18 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1685" to="1753" key="berkeley">Berkeley, George</persName></head>
+
+  <p>Engelsk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="blue-stockings-society">Blue stockings society</name></head>
+
+  <p>Löst sammanhållen grupp av kvinnliga filosofter och intellektuella.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="boëthius">Boëthius, Manlius Severinus</persName> (c:a 480 - 524)</head>
 
   <p>Romersk politiker, översättare och filosof. Berömd för
@@ -119,20 +131,36 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1714" to="1780" key="bonnot">Bonnot, Étienne</persName></head>
+
+  <p>fransk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="&gt;cambridgeplatonisterna">Cambridgeplatonisterna</name></head>
 
-  <p>En heterogen grupp platonistiskt färgade idealistiska filosofer
-  verksamma vid Universitetet i Cambridge. <persName key="More, Henry" from="1614" to="1687">Henry More</persName>, <persName key="Ralph   Cudworth" from="1617" to="1688">Ralph Cudworth</persName> och
+  <p>En heterogen grupp platonistiskt färgade idealistiska filosofer <persName key="More, Henry" from="1614" to="1687">Henry More</persName>, <persName key="Ralph   Cudworth" from="1617" to="1688">Ralph Cudworth</persName>
+  och
   <persName key="Conway, Anne" from="1631" to="1679">Anne
-  Conway</persName> brukar föras till gruppen. De var alla influerade
-  av <ref target="descartes.xml">Descartes</ref> men var alla oroade
-  av hans dualism när det gäller <ref target="kroppsjael.xml">kropp-själ-problemet</ref>.</p>
+  Conway</persName> brukar föras till gruppen.
+  Flertalet viktiga filosofer under perioden var verksamma utanför universiteten. Cambridgeplatonisterna var ett undantag; de var 
+  verksamma vid Universitetet i Cambridge. Detta bryter också Oxfords hegemoni inom filosofiämnet.</p>
+
+  <p>De var alla influerade av <ref target="descartes.xml">Descartes</ref> men var alla oroade av hans
+  dualism när det gäller <ref target="kroppsjael.xml">kropp-själ-problemet</ref>,
+  som de befarade skulle leda till att ateismen spred sig.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="cavendishmargeretlucas" from="1623" to="1673">Margeret Lucas Cavendish</persName></head>
 
   <p>Engelsk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1706" to="1749" key="châtelet">Châtelet, Émillie du</persName></head>
+
+  <p>fransk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -186,9 +214,9 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><persName key="descartes">Descartes, René</persName></head>
+  <head><persName from="1596" to="1650" key="descartes">Descartes, René</persName></head>
 
-  <p>fransk filosof c:a 1596 – 1650</p>
+  <p>fransk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -472,6 +500,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1770" to="1831" key="hegel">Hegel, Georg Wilhelm Friedrich</persName></head>
+
+  <p>tysk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="herakleitos">Herakleitos</persName></head>
 
   <p>Grekisk filosof c:a 540–460 f.Kr.</p>
@@ -482,6 +516,18 @@
 
   <p>Engelsk filosof</p>
 
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1770" to="1843" key="hoelderlin"> Hölderlin, Johann Christian Friedrich</persName></head>
+  
+  <p>tysk poet, författare och filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1711" to="1776" key="hume">Hume, David</persName></head>
+
+  <p>skotsk filosof och historiker</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -534,9 +580,9 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><persName key="kant">Kant, Immanuel</persName></head>
+  <head><persName from="1724" to="1804" key="kant">Kant, Immanuel</persName></head>
 
-  <p>Tysk filosof  (1724–1804)</p>
+  <p>Tysk filosof.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -562,6 +608,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1813" to="1855" key="kierkegaard">Kierkegaard, Søren</persName></head>
+
+  <p>dansk teolog och filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="kroppsjälproblemet">Kropp–själ-problemet</name></head>
 
   <p>Se <ref target="medvetandefilosofi.xml">Medvetandefilosofi</ref>.</p>
@@ -572,8 +624,31 @@
 
   <p>Kunskap är rättfärdigad sann åtsikt/tro (justified true
   beliefe). Se <ref target="platon.xml">Platons</ref> dialog
-  Theaitetos och <ref target="logos.xml">Logos</ref>.</p>
+  <title>Theaitetos</title> och <ref target="logos.xml">Logos</ref>. Platon uppfattade kunskap som en i
+  stort sett medfödd egenskap hos människan. Man lär sig den inte, man
+  erinrar sig den som i dialogen <title>Menon</title>, där en obildad
+  slavpojke löser ett geometriskt problem under en konversation med
+  <ref target="sokrates.xml">Sokrates</ref>.</p>
 
+  <p><ref target="empirism.xml">Empiristen</ref>
+    <ref target="locke.xml">John Locke</ref> är motståndare till all
+    nedärvd kunskap. Argumentet går så här: (i) En nedärvd princip
+    eller idé skulle alla bära. (ii) Det finns ingen sådan princip
+    eller idé som alla har. (iii) Alltså finns det inga nedärvda
+  principer eller idéer.</p>
+
+  <p><ref target="locke.xml">Locke</ref> filosoferar kring
+  sinnesintryck och omedelbar erfarenhet och reflektion över
+  minnesbilder. Genom att sinnesintryck kan kombineras med
+  minnesbilder kan vi ge mening åt observationer vi aldrig gjort
+  tidigare.</p>
+
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1646" to="1716" key="leibniz">Leibniz, Gottfried Willhelm</persName></head>
+
+  <p>tysk filosof</p>
+  
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="Locke, John" from="1632" to="1704">John Locke</persName></head>
@@ -620,6 +695,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1638" to="1715" key="malbrance">Malbrance, Nicolas</persName></head>
+
+  <p>fransk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="materia">Materia</name></head>
 
   <p>Tills vidare definierar vi materia som en substans som har
@@ -644,11 +725,18 @@
   också slutsatsen till att själen är icke materiell, men kroppen är
   det. Detta är vad som kallas hans <term>dualism</term>.</p>
 
-  <p>
-    <ref target="hobbes.xml">Thomas Hobbes</ref> är <ref target="empirism.xml">empirist</ref> och tänker sig att idéer
-    strömmar in i medvetandet ur sinnesdata. Idéerna har formen av
-    tryck på sinnesorganen. Ja han formulerar det ungefär sådär.
+  <p><ref target="cambridgeplatonisterna.xml">Cambridgeplatonisterna</ref> var
+  influerade av men också bekymrade av <ref target="descartes.xml">Descartes</ref> dualism.  De hade svårt att
+  se hur kropp och själ skulle kunna kommunicera och gå i takt när de
+  var av olika substans.  Detta fick <persName key="Conway, Anne">Anne
+  Conway</persName> formulera en teori om att <ref target="gud.xml">Gud</ref> var ren ande, hur skulle han i så fall kunna
+  skapa kroppar av <ref target="materia.xml">materia</ref>.</p>
+
+  <p><ref target="hobbes.xml">Thomas Hobbes</ref> är <ref target="empirism.xml">empirist</ref> och tänker sig att idéer
+  strömmar in i medvetandet ur sinnesdata. Idéerna har formen av tryck
+  på sinnesorganen. Ja han formulerar det ungefär sådär.
   </p>
+
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -666,6 +754,12 @@
 
     <p>Det förflutna finns inte längre, framtiden finns inte ännu och
     så ett evigt nu.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1844" to="1900" key="nietzsche">Nietzsche, Friedrich Wilhelm</persName></head>
+
+  <p>tysk klassisk filolog och filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -728,6 +822,32 @@
   <head><name key="ontologi">Ontologi</name></head>
 
   <p>Läran om det varande och dess innersta väsen. Eller något sådant.</p>
+
+  <p><ref target="locke.xml">John Locke</ref> ser tre typer av
+  egenskaper hos de materiella tingen.
+  <list>
+
+    <item n="i">
+      <term>Primära kvaliteter</term> som <term>soliditet</term>,
+      <term>utsträckning</term>, <term>form</term>, <term>rörelse</term>
+      (eller <term>vila</term>) och <term>antal</term>.
+      Dessa kvaliteter återfinns på
+      <ref target="aristoteles.xml">Aristoteles</ref> lista över
+      <ref target="kategori.xml">kategorier</ref>.
+    </item>
+
+    <item n="ii"><term>Sekundära kvaliteter</term> är förmågor att
+    framkalla <term>sinneskvaliteter</term>
+    hos de mentala objekten. Exempel är färg
+    (gult och rött), temperatur (varmt eller kallt), smak (bittert, sött
+    etc), konsistens (mjukt eller hårt).
+    Vi känner igen dessa som <ref target="qualia.xml">qualia</ref>.</item>
+
+    <item n="iii">Krafter, det vill säga de sätt tingen kan påverka
+    varandra.</item>
+    
+  </list>
+  </p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -752,6 +872,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1623" to="1662" key="pascal">Pascal, Blaise</persName></head>
+
+  <p>fransk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="platon">Platon</persName></head>
 
   <p>Grekisk filosof c:a 428-347 f. Kr. Lärljunge till <persName>Sokrates</persName>.</p>
@@ -768,8 +894,19 @@
 
   <p><ref target="platon.xml">Platon</ref></p>
   <p><ref target="aristoteles.xml">Aristoteles</ref></p>
-  <p><ref target="hobbes.xml">Hobbes</ref></p>
-  <p><ref target="locke.xml">Locke</ref></p>
+  <p><ref target="augustinus.xml">Augustinus</ref> och Gudsstaten</p>
+
+  <p><ref target="hobbes.xml">Thomas Hobbes</ref> föreställer sig den
+  tidiga människan som en vilde i ett samhälle som kännetecknas av
+  allas krig mot alla. Genom skador och död underkastar sig denna
+  mänsklighet till en suverän, och det moderna samhället uppstår.</p>
+  
+  <p><ref target="locke.xml">John Locke</ref> baserar också sin
+  politiska filosofi på ett hypotetiskt urtillstånd. Ett mycket mer
+  idyllisk förhistoria än Hobbes' krigiska vildar. Gemensamt för de
+  två finns det dock krafter som driver mot ett mer organiserat
+  samhälle. I Lockes fall är det omsorgen om privategendomen; staten
+  behövs för att beivra stöld och röverier.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -820,6 +957,18 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1710" to="1796" key="reid">Reid, Thomas</persName></head>
+
+  <p>skotsk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1757" to="1823" key="reinhold">Reinhold, Karl Leonhard</persName></head>
+
+  <p>österikisk/tysk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="sanning">Sanning</name></head>
 
   <p>
@@ -844,10 +993,34 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1775" to="1854" key="schelling">Schelling, Friedrich Wilhelm Joseph</persName></head>
+
+  <p>tysk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1759" to="1805" key="schiller">Schiller, [Johann Christoph] Friedrich</persName></head>
+
+  <p>tysk poet, filosof och polyhistor</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1788" to="1860" key="schopenhauer">Schopenhauer, Arthur</persName></head>
+
+  <p>tysk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="seneca">Seneca, Lucius Annaeus</persName> (4 f. Kr. - 65 e. Kr.)</head>
 
   <p><ref target="stoicism.xml">Stoisk</ref> filosof, senator,
   intellektuell och skriftställare.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1777" to="1847" key="shepherd">Shepherd, Mary</persName></head>
+
+  <p>skotsk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -897,6 +1070,12 @@
   uteslutande känd genom <ref target="platon.xml">Platons</ref>
   skrifter, och i viss utsträckning Aristofanes och Xenofon. Man
   brukar tala om detta som <term>Sokratesproblemet</term>.</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1632" to="1677" key="spinoza">Spinoza, Baruch</persName></head>
+
+  <p>nederländsk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -1015,8 +1194,9 @@
   <list>
     <item><term>Universalierealism</term>. De universella egenskaperna finns i tingen.  Detta är den Aristoteliska
     hållningen, som delades av <ref target="duns-scotus.xml">Duns Scotus</ref>.</item>
-    <item><term>Konceptualism</term>. Hållningen att universalier är
-    begrepp i medvetandet. <ref target="abelard.xml">Peter Abelard</ref> och </item>
+    <item><term>Konceptualism</term>, hållningen att universalier är
+    begrepp i medvetandet. <ref target="abelard.xml">Peter Abelard</ref> och
+    <ref target="locke.xml">John Locke</ref> är konceptualister.</item>
     <item><term>Nominalism</term>. Teorin att de universella
     egenskaperna är ett helt språkligt fenomen. Den unge <ref target="william-ockham.xml">William av Ockham</ref> var en stark
     förespråkare av nominalismen, men hans nominalismen mildrades till
