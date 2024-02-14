@@ -2,6 +2,32 @@
   <head><name key="ontologi">Ontologi</name></head>
 
   <p>Läran om det varande och dess innersta väsen. Eller något sådant.</p>
+
+  <p><ref target="locke.xml">John Locke</ref> ser tre typer av
+  egenskaper hos de materiella tingen.
+  <list>
+
+    <item n="i">
+      <term>Primära kvaliteter</term> som <term>soliditet</term>,
+      <term>utsträckning</term>, <term>form</term>, <term>rörelse</term>
+      (eller <term>vila</term>) och <term>antal</term>.
+      Dessa kvaliteter återfinns på
+      <ref target="aristoteles.xml">Aristoteles</ref> lista över
+      <ref target="kategori.xml">kategorier</ref>.
+    </item>
+
+    <item n="ii"><term>Sekundära kvaliteter</term> är förmågor att
+    framkalla <term>sinneskvaliteter</term>
+    hos de mentala objekten. Exempel är färg
+    (gult och rött), temperatur (varmt eller kallt), smak (bittert, sött
+    etc), konsistens (mjukt eller hårt).
+    Vi känner igen dessa som <ref target="qualia.xml">qualia</ref>.</item>
+
+    <item n="iii">Krafter, det vill säga de sätt tingen kan påverka
+    varandra.</item>
+    
+  </list>
+  </p>
   
 </div>
 
