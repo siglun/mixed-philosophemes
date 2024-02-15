@@ -43,10 +43,10 @@
   <p>Kombinerar vi begreppen får vi fyra kombinationer</p>
 
   <list>
-    <item>analytisk a priori</item>
-    <item>synthetisk a priori</item>
-    <item>analytisk a posteriori</item>
-    <item>synthetisk a posteriori</item>
+    <item>analytiska omdömen a priori</item>
+    <item>syntetiska omdömen a priori</item>
+    <item>analytiska omdömen a posteriori</item>
+    <item>syntetiska omdömen a posteriori</item>
   </list>
 
   <p>En annan gång skall jag analysera dessa fyra kombinationer.
@@ -58,8 +58,13 @@
 
   <p>Detta är analytiskt, men enligt somliga a posteriori, eftersom
   man inte alltid har vetat att afton- respektive morgonstjärnan båda
-  var identiska och lika med planeten Venus. Se <ref
-  target="https://en.wikipedia.org/wiki/Frege%27s_puzzles">Frege's
-  puzzles</ref> </p>
+  var identiska och lika med planeten Venus.
+  Se <ref target="https://en.wikipedia.org/wiki/Frege%27s_puzzles">Frege's puzzles</ref>.
+  En typ av omdöme som <ref target="kant.xml">Kant</ref> menar är omöjligt.</p>
+
+  <p><ref target="kant.xml">Kant</ref> anser att syntetiska omdömen a
+  priori utgör en stor del av grunden för matematik och naturvetenskap.
+  Vilket naturligtvis inte är okontroversiellt.</p>
+  
 </div>
 
