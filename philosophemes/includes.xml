@@ -4,6 +4,7 @@
 <xi:include href="anaxagoras.xml"/>
 <xi:include href="anaximander.xml"/>
 <xi:include href="anaximenes.xml"/>
+<xi:include href="anscombe.xml"/>
 <xi:include href="anselm.xml"/>
 <xi:include href="aporia.xml"/>
 <xi:include href="aristoteles.xml"/>
@@ -70,6 +71,7 @@
 <xi:include href="materia.xml"/>
 <xi:include href="medvetandefilosofi.xml"/>
 <xi:include href="metafysik.xml"/>
+<xi:include href="moral.xml"/>
 <xi:include href="nietzsche.xml"/>
 <xi:include href="nous.xml"/>
 <xi:include href="nyplatonism.xml"/>
@@ -114,6 +116,7 @@
 <xi:include href="vetenskaperna.xml"/>
 <xi:include href="william-ockham.xml"/>
 <xi:include href="wittgenstein.xml"/>
+<xi:include href="wright.xml"/>
 <xi:include href="xenofanes.xml"/>
 <xi:include href="xenofon.xml"/>
 <xi:include href="zenonavkition.xml"/>

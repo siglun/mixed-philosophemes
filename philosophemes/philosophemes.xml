@@ -71,6 +71,12 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1919" to="2001" key="anscombe">Anscombe, Elisabeth</persName></head>
+
+  <p>engelsk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
   <head><persName key="anselm">Anselm</persName></head>
 
   <p>Italiensk filosof c:a 1033 – 1109, sedermera ärkebiskop av Canterbury.</p>
@@ -361,7 +367,9 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="etik">Etik</name></head>
 
-  <p>Hur man bör göra.</p>
+  <p>Etik handlar om vad man bör göra, och handlar om det utifrån ett
+  samhälls- eller ett gruppperspektiv. Individperspektivet brukar
+  kallas <ref target="moral.xml">moral.</ref></p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -458,6 +466,9 @@
   vår vilja är fri och tankarna likaså och Guds nåd kommer att återge
   oss vår över våra handlingar.</p>
 
+  <p><ref target="spinoza.xml">Baruch Spinoza</ref> är determinist och
+  enligt honom är människans liv helt igenom ödesbestämt genom att hon är en del av <ref target="gud.xml">Gud eller naturen</ref>.</p>
+
   <p><ref target="hobbes.xml">Hobbes</ref>Menar att människan är lika
   determinerad som djuren. Skillnaden är att människor har vilja,
   medan djuren har istället begär.</p>
@@ -503,6 +514,21 @@
   <p><ref target="duns-scotus.xml">Duns Scotus</ref> och <ref target="thomas-aquinas.xml">Thomas av Aquino</ref> är förespråkare
   av <ref target="teologi.xml">naturlig teologi</ref>.
   </p>
+
+  <p>Traditionen att låta en ontologisk avhandling innehålla ett
+  Gudsbevis slutade inte med skolastikens slut och medeltidens
+  övergång till renässanen och den tidigmoderna tiden.
+  <ref target="pascal.xml">Blaise Pascal</ref> publicerade ett intressant
+  ett. Pascal är en av skaparna av den sannolikhetskalkylen, och hans
+  bevis är mer eller mindre spelteori, Ungefär så här: Vi kastar ett
+  mynt, får du krona och lovar tro, vinner du evigt liv. Klave, och du
+  får nöja dig med vad du får i detta jordeliv.</p>
+
+  <p>I <ref target="spinoza.xml">Spinozas</ref> filosofi görs ingen
+  skillnad mellan Gud och naturen, överallt i sin <title>Etiken
+  bevisad på geometriskt vis</title> skriver överallt han <q>Gud eller
+  naturen</q>.</p>
+
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -636,6 +662,19 @@
   slavpojke löser ett geometriskt problem under en konversation med
   <ref target="sokrates.xml">Sokrates</ref>.</p>
 
+  <p><ref target="pascal.xml">Blaise Pascal</ref> är anhängare av <ref target="aristoteliska.xml">aristoteliska</ref> <term>första
+  principer</term>.  Pascal vacklar lite mellan empirism och
+  rationalism, där han står för det senare för matematik och geometri,
+  medan han för övriga vetenskaper förefaller förespråka empirism.
+  Inom <ref target="teologi.xml">teologin</ref>, <term key="historia">historien</term> och <term key="juridik">juridiken</term> förefaller han vara märkligt
+  auktoritestroende säger min kurslitteratur.</p>
+
+  <p><ref target="spinoza.xml">Baruch Spinoza</ref> är <ref target="rationalism">rationalist</ref> och idealist.  Vårt <ref target="medvetandefilosofi">medvetande</ref> innehåller <ref target="ide.xml">idéer</ref> som är representationer av sinnesdata,
+  men de är inte sanna kunskap. Kunskap om eviga och nödvändiga
+  sanningar; tingens och naturens underliggande essens får vi genom
+  förnuftsinsikt och härledning.
+  </p>
+  
   <p><ref target="empirism.xml">Empiristen</ref>
     <ref target="locke.xml">John Locke</ref> är motståndare till all
     nedärvd kunskap. Argumentet går så här: (i) En nedärvd princip
@@ -738,6 +777,11 @@
   Conway</persName> formulera en teori om att <ref target="gud.xml">Gud</ref> var ren ande, hur skulle han i så fall kunna
   skapa kroppar av <ref target="materia.xml">materia</ref>.</p>
 
+  <p><ref target="spinoza.xml">Baruch Spinoza</ref> löser enkelt
+  kropp-själs-problemet genom att förneka att människorna förenar två
+  substanser, allt är en substans och en del av <term>Gud eller
+  Naturen</term>.</p>
+
   <p><ref target="hobbes.xml">Thomas Hobbes</ref> är <ref target="empirism.xml">empirist</ref> och tänker sig att idéer
   strömmar in i medvetandet ur sinnesdata. Idéerna har formen av tryck
   på sinnesorganen. Ja han formulerar det ungefär sådär.
@@ -760,6 +804,34 @@
 
     <p>Det förflutna finns inte längre, framtiden finns inte ännu och
     så ett evigt nu.</p>
+
+    
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><name key="moral">Moral</name></head>
+
+  <p>Moral handlar om vad man bör göra, utifrån ett individuellt
+  perspektiv. <ref target="etik.xml">Etik</ref> handlar också om vad
+  man bör göra, men handlar om det utifrån ett samhälls- eller ett
+  gruppperspektiv.</p>
+
+  <p><ref target="pascal.xml">Blaise Pascal</ref> var skrev en kritik av
+  <term>doktrinen om dubbel effekt</term>, där han påpekade att
+  intentionen för en handling är betydelsefull. Enklast att förklara
+  med exempel:</p>
+
+  <p>Utomkvedshavandeskap, där fostret växer i bukhålan i stället för
+  i livmodern kräver att man opererar modern för att rädda hennes
+  liv. Fostret måste avlägsnas, och dör. Vid en abort avlägsnas också
+  fostret, men det är ändamålet med operationen. Detta förklarar
+  varför katolska kyrkan är motståndare till abort men förespråkar
+  operation vid utomkvedshavandeskap.</p>
+
+  <p><ref target="anscombe.xml">Elisabeth Anscombe</ref> uppfattar
+  bomberna i Hiroshima och Nagasaki som massmord och
+  krigsbrott. Ändamålet var att döda civila för att få ett slut på
+  kriget, det var inte att ödelägga militära installationer.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -849,11 +921,43 @@
     etc), konsistens (mjukt eller hårt).
     Vi känner igen dessa som <ref target="qualia.xml">qualia</ref>.</item>
 
-    <item n="iii">Krafter, det vill säga de sätt tingen kan påverka
-    varandra.</item>
+    <item n="iii">Krafter, det vill säga de sätt tingen påverkar varandra.</item>
     
   </list>
   </p>
+
+  <p>
+    <ref target="leibniz.xml">Gottfried Leibniz</ref> menade att
+    kroppen är oändligt delbar så kan vi aldrig komma fram till en
+    ontologisk grundnivå, varför han definierade en slags besjälade
+    <ref target="atom.xml">atomer</ref> han kallar <term key="modad">monader</term>.
+    
+  </p>
+
+  <p>
+    <ref target="berkeley.xml">George Berkeley</ref>, onotologisk idealist
+    och framför allt präst, attackerar med stor frenesi Descartes,
+    Hobbes och Locke. Han ogillar dualismerna enligt både
+    <ref target="descartes.xml">Descartes</ref> och
+    <ref target="locke.xml">Lockes</ref> lika mycket som han hatar
+    <ref target="hobbes.xml">Hobbes</ref> <term>materialism</term>.
+    <ref target="materia.xml">Materialismen</ref> leder lätt till
+    <ref target="skepticism.xml">skepticism</ref> och
+    dessutom: En materiell värld kan fungera utan <ref target="gud.xml">Gud</ref>.
+  </p>
+
+  <p>Berkeleys argument mot materialismen var kort och kärnfullt.
+  Att vara är att förnimmas (eller att förnimma), säger han.
+  <list><item n="i">Vi förnimmer vardagliga ting.</item>
+  <item n="ii">Vi förnimmer endast idéer.</item>
+  <item n="iii">Vardagliga ting är idéer.</item></list>.
+  Sats (ii), att vi endast förnimmer idéer,
+  kallas är en hållning som kallas <term>representationalism</term>.</p>
+
+  <p>Berkeley drar slutsatsen att det inte finns en materiell värld,
+  men väl en fysisk värld, som består av
+  <ref target="form.xml">idéer</ref> vilka kan upplevas av vår
+  medvetanden.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -1229,12 +1333,16 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="vetenskaperna">Vetenskaperna</name></head>
 
-  <p>Aristoteles menar att det finns tre huvudtyper av vetenskap: (i)
-  Teoretisk, (ii) Praktisk och (iii) Produktiv. Teoretisk vetenskap är
-  sådan som ger ökad kunskap för dess egen skull. Praktisk vetenskap
-  är sådan som handlar om hur man bör göra eller vara. Produktiv
-  vetenskap handlar om hantverk, konst och alla aktiviteter som
-  producerar ett eller annat.</p>
+  <p><ref target="aristoteles.xml">Aristoteles</ref> menar att det finns
+  tre huvudtyper av vetenskap: (i) Teoretisk, (ii) Praktisk och (iii)
+  Produktiv. Teoretisk vetenskap är sådan som ger ökad kunskap för
+  dess egen skull. Praktisk vetenskap är sådan som handlar om hur man
+  bör göra eller vara. Produktiv vetenskap handlar om hantverk, konst
+  och alla aktiviteter som producerar ett eller annat.</p>
+
+  <p><ref target="pascal.xml">Blais Pascals</ref> vetenskaps teori
+  förefaller modern, med en dragning åt matematisk och geometrisk
+  bevisföring. Experiment och hypotesprövning.</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -1244,9 +1352,15 @@
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
-  <head><persName from="1632" to="1677" key="spinoza">Wittgenstein, Ludwig Josef Johann</persName></head>
+  <head><persName from="1632" to="1677" key="wittgenstein">Wittgenstein, Ludwig Josef Johann</persName></head>
 
   <p>österrikisk filosof</p>
+  
+</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">
+  <head><persName from="1916" to="2003" key="wright">von Wright, Georg Henrik</persName></head>
+
+  <p>findlandssvensk filosof</p>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
