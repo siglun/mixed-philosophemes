@@ -38,7 +38,7 @@
   </p>
 
   <p>
-    <ref target="berkeley">George Berkeley</ref>, onotologisk idealist
+    <ref target="berkeley.xml">George Berkeley</ref>, onotologisk idealist
     och framför allt präst, attackerar med stor frenesi Descartes,
     Hobbes och Locke. Han ogillar dualismerna enligt både
     <ref target="descartes.xml">Descartes</ref> och
@@ -49,16 +49,17 @@
     dessutom: En materiell värld kan fungera utan <ref target="gud.xml">Gud</ref>.
   </p>
 
-  <p>Berkeleys argument mot materialismen var kort och kärnfullt:
-  <list><item n="i">Vi varseblir vardagliga ting</item> <item
-  n="ii">Vi varseblir endast idéer</item> <item n="iii">Vardagliga
-  ting är idéer</item></list>. Sats (ii), att vi endast varseblir
-  idéer, kallas är en hållning som kallas
-  <term>representationalism</term>.</p>
+  <p>Berkeleys argument mot materialismen var kort och kärnfullt.
+  Att vara är att förnimmas (eller att förnimma), säger han.
+  <list><item n="i">Vi förnimmer vardagliga ting.</item>
+  <item n="ii">Vi förnimmer endast idéer.</item>
+  <item n="iii">Vardagliga ting är idéer.</item></list>.
+  Sats (ii), att vi endast förnimmer idéer,
+  kallas är en hållning som kallas <term>representationalism</term>.</p>
 
   <p>Berkeley drar slutsatsen att det inte finns en materiell värld,
-  men väl en fysisk värld, som består av <ref
-  target="form.xml">idéer</ref> vilka kan upplevas av vår
+  men väl en fysisk värld, som består av
+  <ref target="form.xml">idéer</ref> vilka kan upplevas av vår
   medvetanden.</p>
   
 </div>
