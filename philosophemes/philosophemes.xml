@@ -349,14 +349,42 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="epistemologi">Epistemologi</name></head>
 
-  <p>Även kallat kunskapsteori.</p>
-
+  <p><term>kunskapsteori</term>.</p>
+  
   <p><ref target="augustinus.xml">Augustinus</ref> kunskapsteori är
   nära besläktad med <ref target="platon.xml">Platons</ref> nedärvda
   kunskap. Skillnaden är att Augustinus menar att snarare än
   nedärvning lär vi vår kunskap av <ref target="gud.xml">Gud</ref>
   </p>
 
+  <p><ref target="pascal.xml">Blaise Pascal</ref> är anhängare av <ref target="aristoteliska.xml">aristoteliska</ref> <term>första
+  principer</term>.  Pascal vacklar lite mellan empirism och
+  rationalism, där han står för det senare för matematik och geometri,
+  medan han för övriga vetenskaper förefaller förespråka empirism.
+  Inom <ref target="teologi.xml">teologin</ref>, <term key="historia">historien</term> och <term key="juridik">juridiken</term> förefaller han vara märkligt
+  auktoritestroende säger min kurslitteratur.</p>
+
+  <p><ref target="spinoza.xml">Baruch Spinoza</ref> är <ref target="rationalism">rationalist</ref> och idealist.  Vårt <ref target="medvetandefilosofi">medvetande</ref> innehåller <ref target="ide.xml">idéer</ref> som är representationer av sinnesdata,
+  men de är inte sanna kunskap. Kunskap om eviga och nödvändiga
+  sanningar; tingens och naturens underliggande essens får vi genom
+  förnuftsinsikt och härledning.
+  </p>
+  
+  <p><ref target="empirism.xml">Empiristen</ref>
+    <ref target="locke.xml">John Locke</ref> är motståndare till all
+    nedärvd kunskap. Argumentet går så här: (i) En nedärvd princip
+    eller idé skulle alla bära. (ii) Det finns ingen sådan princip
+    eller idé som alla har. (iii) Alltså finns det inga nedärvda
+  principer eller idéer.</p>
+
+  <p><ref target="locke.xml">Locke</ref> filosoferar kring
+  sinnesintryck och omedelbar erfarenhet och reflektion över
+  minnesbilder. Genom att sinnesintryck kan kombineras med
+  minnesbilder kan vi ge mening åt observationer vi aldrig gjort
+  tidigare.</p>
+
+  
+  
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="erfarenhet">Erfarenhet</name></head>
@@ -410,6 +438,8 @@
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="förklaring">Förklaring</name> eller orsak.</head>
 
+  <p>Se också <ref target="foeraendring.xml">förändringens problem</ref></p>
+  
   <p>Man finner den första djupa analysen av begreppet förklaring hos
   <ref target="aristoteles.xml">Aristoteles</ref>. Han menade att det
   fanns fyra olika typer av orsaker till ett ting:</p>
@@ -424,7 +454,37 @@
     <item>Den finala orsaken. Det vill säga ändamålet.</item>
   </list>
 
-    <p>Se också <ref target="foeraendring.xml">förändringens problem</ref></p>
+  <p><ref target="hume.xml">David Hume</ref> är en extremist när det
+  gäller kausalitet och relationer mellan orsaker och deras
+  verkningar.  I sin <ref target="medvetandefilosofi.xml">medvetandefilosofi</ref> för han
+  gällande att våra intryck och idéer är episodiska, vi har bara
+  kunskap om diskreta observationer och vi kan strängt taget inte veta
+  om något existerar när vi inte betraktar det, och egentligen inte om
+  vi somnar på kvällen och vaknar i samma säng på morgonen.</p>
+
+  <p>Betrakta ett par biljardbollar, en av dem är på väg (händelse A) mot den andra.
+  I stöten stannar den, och den andra rullar vidare (händelse B).
+  Exemplet kommer direkt från Hume.
+  Vi ser stöten, och hör den, men vi kan inte observera kausaliteten.
+  Den är inte ett fysiskt objekt.
+  Hume skriver:</p>
+
+  <q>A orsakar B, om och endast om: (i) händelser av typen A åtföljs
+  alltid av händelser av typen B och (ii) om händelser av typen A inte
+  inträffar, så inträffar inte händelser av typen B. (FGT II: 299)</q>
+
+  <p>Han mer eller mindre definierar bort begreppet kausalitet så som
+  det används idag.  För det första, anser Hume att induktion inte är
+  en giltig källa till kunskap (vi kan inte vara säkra på att solen
+  inte går upp i morgon, bara att om den inte gör det kommer inte vi
+  heller att göra det). För det andra, det är en hårt inskränkande
+  definition: Jag blir inte alltid förklyld av att träffa snuviga
+  barnbarn, för att ta ett exempel.</p>
+
+  <p>Som <ref target="russell.xml">Bertrand Russell</ref> skriver:</p>
+  <q>... induction is an independent logical principle, incapable of
+  being inferred either from experience or from other logical
+  principles, and [that] without this principle science is impossible.</q>
   
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -662,31 +722,7 @@
   slavpojke löser ett geometriskt problem under en konversation med
   <ref target="sokrates.xml">Sokrates</ref>.</p>
 
-  <p><ref target="pascal.xml">Blaise Pascal</ref> är anhängare av <ref target="aristoteliska.xml">aristoteliska</ref> <term>första
-  principer</term>.  Pascal vacklar lite mellan empirism och
-  rationalism, där han står för det senare för matematik och geometri,
-  medan han för övriga vetenskaper förefaller förespråka empirism.
-  Inom <ref target="teologi.xml">teologin</ref>, <term key="historia">historien</term> och <term key="juridik">juridiken</term> förefaller han vara märkligt
-  auktoritestroende säger min kurslitteratur.</p>
-
-  <p><ref target="spinoza.xml">Baruch Spinoza</ref> är <ref target="rationalism">rationalist</ref> och idealist.  Vårt <ref target="medvetandefilosofi">medvetande</ref> innehåller <ref target="ide.xml">idéer</ref> som är representationer av sinnesdata,
-  men de är inte sanna kunskap. Kunskap om eviga och nödvändiga
-  sanningar; tingens och naturens underliggande essens får vi genom
-  förnuftsinsikt och härledning.
-  </p>
-  
-  <p><ref target="empirism.xml">Empiristen</ref>
-    <ref target="locke.xml">John Locke</ref> är motståndare till all
-    nedärvd kunskap. Argumentet går så här: (i) En nedärvd princip
-    eller idé skulle alla bära. (ii) Det finns ingen sådan princip
-    eller idé som alla har. (iii) Alltså finns det inga nedärvda
-  principer eller idéer.</p>
-
-  <p><ref target="locke.xml">Locke</ref> filosoferar kring
-  sinnesintryck och omedelbar erfarenhet och reflektion över
-  minnesbilder. Genom att sinnesintryck kan kombineras med
-  minnesbilder kan vi ge mening åt observationer vi aldrig gjort
-  tidigare.</p>
+  <p>Se <ref target="epistemologi.xml">epistemologi</ref> (kunskapsteori)</p>
 
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
@@ -784,10 +820,31 @@
 
   <p><ref target="hobbes.xml">Thomas Hobbes</ref> är <ref target="empirism.xml">empirist</ref> och tänker sig att idéer
   strömmar in i medvetandet ur sinnesdata. Idéerna har formen av tryck
-  på sinnesorganen. Ja han formulerar det ungefär sådär.
-  </p>
+  på sinnesorganen. Ja han formulerar det ungefär sådär.</p>
 
-  
+  <p>Man måste ha en solid medvetandefilosofi, anser <ref target="hume.xml">David Hume</ref> för att bygga bra metafysik och
+  god kunskapsteori.  Allt börjar med perceptionen.  Vi upplever
+  världen, men det enda vi kan få är ögonblicksbilder; vi kan
+  egentligen inte veta om världen utanför oss existerar när vi inte
+  betraktar den.  Hume delar upp våra förnimmelser i idéer och
+  intryck.  De förra är mer eller mindre minnesbilder eller bleka
+  kopior (<term>kopieprincipen enligt Hume</term>) av de senare.
+  Intrycken finns också av två slag, direkta sinnesdata från våra
+  sinnesorgan samt reaktioner på idéer av typen begär, känslor etc.</p>
+
+  <p><ref target="hume.xml">Hume</ref> hävdar att medvetandet kan
+  kombinera idéer enligt vissa kombinationsprinciper:</p>
+
+  <list>
+    <item>Likhet, det vill säga om vi ser A kommer vi att tänka på B</item>
+    <item>Rumtid, medvetandet skapar associationer mellan A och B om
+    vi noterade dem vid samma tid eller plats.</item>
+    <item>Kausalitet innebär att vi uppfattar A som orsak till B.</item>
+  </list>
+
+  <p><ref target="hume.xml">David Hume</ref> (i likhet med <ref target="berkeley.xml">George Berkeley</ref>) visar hur idealism i
+  kombination med en extrem empirism leder kan leder till en direkt
+  skadlig <ref target="skepticism.xml">skepticism</ref>.</p>
 </div>
 <div xmlns="http://www.tei-c.org/ns/1.0">
   <head><name key="metafysik">Metafysik</name></head>
