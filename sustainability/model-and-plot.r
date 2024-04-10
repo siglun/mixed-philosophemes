@@ -10,13 +10,13 @@ Rtotal <- 10
 Atotal <- 100
 parameters <- c(AT = Atotal,
                 RT = Rtotal,
-                am = 0.01,
-                aa = 0.011,
-                awv = 0.01,
+                am = 0.001,
+                aa = 0.0011,
+                awv = 0.05,
                 aw = 0.001,
                 ai = 0.001,
                 
-                krm = 0.01,
+                krm = 0.001,
                 krw = 0.01,
                 kxn = 0.01,
                 kwm = 0,05,
@@ -36,53 +36,87 @@ parameters <- c(AT = Atotal,
                 mad = 0.05,
                 ra  = 0.2,
                 rv = 0.3,
-                rx  = 1.1,
-                KP = 1000,
-                kxn  = 0.01,
+                rx  = 2.0,
+                KP = 100,
+                kxn  = 0.005,
                 mjuv = 0.06,
-                ra  = 0.01,
-                Kc =100,
+                Kc =10,
                 ri = 0.1)
 
 state <- c(Av = Atotal - 1,
            Aa = 1,
-           Ai = 0,
-           Aw = 0,
+           Ai = 0.0,
+           Aw = 0.0,
            Rv = Rtotal,
-           Rm = 0,
-           Rw = 0,
-           nv = 1,
+           Rm = 0.0,
+           Rw = 0.0,
            x  = 10,
-           yv = 1,
-           na = 1,
-           ya = 1,
-           ni = 1,
-           yi = 1)
+	   nv = 0.5,	
+           yv = 0.5,
+           na = 0.5,
+           ya = 0.5,
+           ni = 0.5,
+           yi = 0.5)
 
 ## the ODE system
 
 worldmodel <- function(t, state, parameters) {
     with(as.list(c(state, parameters)),{
 
-# rate of change
+# rate of changes
+
+#
+# Areas
+#
+
+# virgin land
 
         dAv <- - ( am * ni + aa * na ) * (AT - Aa - Ai - Aw) + awv * Aw
-        dAa <- aa * na * (AT - Aa - Ai - Aw) - aw * Aa
-        dAi <- am * ni * (AT - Aa - Ai - Aw) - ai * Ai
-        dAw <- aw * Aa + ai * Ai - awv * Aw
-        
-        dRv <- -krm * Rv * ni       
-        dRm <- krm * Rv * ni - krw * Rm  + kwm * Rw
-        dRw <- krw * Rm - kwm * Rw
 
+# agricultural land
+
+        dAa <- aa * na * (AT - Aa - Ai - Aw) - aw * Aa
+
+# industrial land
+
+        dAi <- am * ni * (AT - Aa - Ai - Aw) - ai * Ai
+
+# land that are no longer used which will be recycled
+
+        dAw <- aw * Aa + ai * Ai - awv * Aw
+
+# resource dynamics
+# Virgin resource which is mined by the industrial population
+
+        dRv <- -krm * (RT - Rm - Rw) * ni
+
+# material in use
+# dynamics included, but it has no impact on dynamics of industrial population *shit*
+        dRm <- krm * (RT - Rm - Rw) * ni - krw * Rm  + kwm * ni * Rw
+
+# waste resource
+        dRw <- krw * Rm - kwm * ni *Rw
+
+# coal or energy. not implemented yet
 #        dCf <- 1
+
+# hunter & gatherer
+# these utilize a natural resource with population dynamics
+
+        dx  <- rx*x*(1-x/(Av*KP) ) - kxn*x*nv
+
+# adults and youth, respectively
+
         dnv <- (betavv*yv + betaav*ya + betaiv*yi - mad)*nv
-        dx  <- rx*x*(1-x/((Av)*KP)) - kxn*x*nv
         dyv <- rv*kxn*x*nv               - (betavv*nv + betava*na + betavi*ni + mjuv)*yv
-        
+
+# farming population
+
         dna <- (betava*yv + betaaa*ya + betaia*yi  - mad)*na
         dya <- ra*na*(1-(na+ni)/(Aa*Kc)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
-        
+
+# industrial population
+
         dni <- (betavi*yv + betaai*ya + betaii*yi - mad)*ni                
         dyi <- ri*ni*(1-(na+ni)/(Aa*Kc)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
 
@@ -91,13 +125,14 @@ worldmodel <- function(t, state, parameters) {
 
 # return the rate of change
 
-        list(c(dAv, dAa, dAi, dAw, dRv, dRm, dRw, dnv, dx, dyv, dna, dya, dni, dyi))
+        list(c(dAv, dAa, dAi, dAw, dRv, dRm, dRw, dx, dnv, dyv, dna, dya, dni, dyi))
 
     })
 
 }
 
-time <- seq(0, 500, by = 2.0)
+step <- 8
+time <- seq(0, 1000, by = step)
 
 out <- ode(y = state, times = time, func = worldmodel, parms = parameters)
 
