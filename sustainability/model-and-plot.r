@@ -6,42 +6,8 @@ library(deSolve)
 ## Numerical solution of a far too complex model, a
 ## system of ordinary differential equations
 ## ==============================================================================
-Rtotal <- 10
-Atotal <- 100
-parameters <- c(AT = Atotal,
-                RT = Rtotal,
-                am = 0.0001,
-                aa = 0.00011,
-                awv = 0.05,
-                aw = 0.001,
-                ai = 0.001,
-                
-                krm = 0.001,
-                krw = 0.001,
-                kxn = 0.001,
-                kwm = 0,05,
-                
-                betavv = 0.01,
-                betaav = 0.008,
-                betaiv = 0.008,
 
-                betava = 0.001,
-                betaaa = 0.005,
-                betaia = 0.001,
-                betavi = 0.005,
-                betaai = 0.001,
-                betaii = 0.005,
-                
-                mad = 0.05,
-                ra  = 0.5,
-                rv = 0.5,
-		ri = 0.5,
-		# Prey growth rate
-                rx  = 2.0,
-                Kp = 100,
-                kxn  = 0.005,
-                mjuv = 0.06,
-                Kc =500)
+source("parameters.r")
 
 
 state <- c(Av = Atotal - 1,
@@ -144,13 +110,21 @@ time <- seq(0, 1000, by = step)
 # method = "ode45",
 
 out <- lsoda(y = state, times = time,  func = worldmodel, parms = parameters)
+dfout <- as.data.frame(out)
 
-print(out)
+
+#print(out, max.levels=10)
+
+print(format(dfout))
+
+
+matplot(dfout[,"time"],dfout[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(dfout[,"time"],dfout[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(dfout[,"time"],dfout[9:11], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(dfout[,"time"],dfout[12:13], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(dfout[,"time"],dfout[14:15], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 
 plot(out)
-
-
-# matplot(out[,"time"],out, xlab = "Time ", type="l", ylab = "Numbers",col="black")
 
 # legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
 # mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
