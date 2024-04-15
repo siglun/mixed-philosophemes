@@ -10,37 +10,38 @@ Rtotal <- 10
 Atotal <- 100
 parameters <- c(AT = Atotal,
                 RT = Rtotal,
-                am = 0.001,
-                aa = 0.0011,
+                am = 0.0001,
+                aa = 0.00011,
                 awv = 0.05,
                 aw = 0.001,
                 ai = 0.001,
                 
                 krm = 0.001,
-                krw = 0.01,
-                kxn = 0.01,
+                krw = 0.001,
+                kxn = 0.001,
                 kwm = 0,05,
                 
-                betavv = 0.1,
-                betaav = 0.08,
-                betaiv = 0.08,
+                betavv = 0.01,
+                betaav = 0.008,
+                betaiv = 0.008,
 
-                betava = 0.08,
-                betaaa = 0.1,
-                betaia = 0.08,
-                betavi = 0.08,
-                betaai = 0.08,
-                betaii = 0.1,
+                betava = 0.001,
+                betaaa = 0.005,
+                betaia = 0.001,
+                betavi = 0.005,
+                betaai = 0.001,
+                betaii = 0.005,
                 
                 mad = 0.05,
-                ra  = 0.3,
-                rv = 0.3,
-		ri = 0.1,	
+                ra  = 0.5,
+                rv = 0.5,
+		ri = 0.5,
+		# Prey growth rate
                 rx  = 2.0,
                 Kp = 100,
                 kxn  = 0.005,
                 mjuv = 0.06,
-                Kc =10)
+                Kc =500)
 
 
 state <- c(Av = Atotal - 1,
@@ -76,15 +77,15 @@ worldmodel <- function(t, state, parameters) {
 
 # virgin land
 
-        dAv <- - ( am * ni + aa * na ) * (AT - Aa - Ai - Aw) + awv * Aw
+        dAv <- -( am * ni + aa * na ) * Av + awv * Aw
 
 # agricultural land
 
-        dAa <- aa * na * (AT - Aa - Ai - Aw) - aw * Aa
+        dAa <- aa * na * Av - aw * Aa
 
 # industrial land
 
-        dAi <- am * ni * (AT - Aa - Ai - Aw) - ai * Ai
+        dAi <- am * ni * Av - ai * Ai
 
 # land that are no longer used which will be recycled
 
@@ -96,7 +97,6 @@ worldmodel <- function(t, state, parameters) {
         dRv <- -krm * (RT - Rm - Rw) * ni
 
 # material in use
-# dynamics included, but it has no impact on dynamics of industrial population *shit*
         dRm <- krm * (RT - Rm - Rw) * ni - krw * Rm  + kwm * ni * Rw
 
 # waste resource
@@ -120,12 +120,12 @@ worldmodel <- function(t, state, parameters) {
   	
 
         dna <- (betava*yv + betaaa*ya + betaia*yi  - mad)*na
-        dya <- ra*na*(1-(na+ni)/Aa/Kc) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
+        dya <- ra*na*(1-(na+ni)/Aa/(Kc+0.001*Rm)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
 
 # industrial population
 
         dni <- (betavi*yv + betaai*ya + betaii*yi - mad)*ni                
-        dyi <- ri*ni*(1-(na+ni)/Aa/Kc) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
+        dyi <- ri*ni*(1-(na+ni)/Aa/(Kc+0.001*Rm)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
 
 
 
@@ -138,12 +138,14 @@ worldmodel <- function(t, state, parameters) {
 
 }
 
-step <- 10
+step <- 2
 time <- seq(0, 1000, by = step)
 
-out <- ode(y = state, times = time, func = worldmodel, parms = parameters)
+# method = "ode45",
 
-head(out)
+out <- lsoda(y = state, times = time,  func = worldmodel, parms = parameters)
+
+print(out)
 
 plot(out)
 
