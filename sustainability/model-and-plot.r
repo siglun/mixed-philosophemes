@@ -58,6 +58,11 @@ state <- c(Av = Atotal - 1,
            ni = 0.5,
            yi = 0.5)
 
+
+
+
+
+
 ## the ODE system
 
 worldmodel <- function(t, state, parameters) {
