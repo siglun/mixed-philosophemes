@@ -28,20 +28,20 @@ parameters <- c(AT = Atotal,
                 betava = 0.08,
                 betaaa = 0.1,
                 betaia = 0.08,
-
                 betavi = 0.08,
                 betaai = 0.08,
                 betaii = 0.1,
                 
                 mad = 0.05,
-                ra  = 0.2,
+                ra  = 0.3,
                 rv = 0.3,
+		ri = 0.1,	
                 rx  = 2.0,
-                KP = 100,
+                Kp = 100,
                 kxn  = 0.005,
                 mjuv = 0.06,
-                Kc =10,
-                ri = 0.1)
+                Kc =10)
+
 
 state <- c(Av = Atotal - 1,
            Aa = 1,
@@ -51,11 +51,11 @@ state <- c(Av = Atotal - 1,
            Rm = 0.0,
            Rw = 0.0,
            x  = 10,
-	   nv = 0.5,	
+	   nv = 5,	
            yv = 0.5,
-           na = 0.5,
+           na = 5,
            ya = 0.5,
-           ni = 0.5,
+           ni = 5,
            yi = 0.5)
 
 
@@ -108,7 +108,7 @@ worldmodel <- function(t, state, parameters) {
 # hunter & gatherer
 # these utilize a natural resource with population dynamics
 
-        dx  <- rx*x*(1-x/(Av*KP) ) - kxn*x*nv
+        dx  <- rx*x*(1-x/Av/Kp ) - kxn*x*nv
 
 # adults and youth, respectively
 
@@ -117,13 +117,15 @@ worldmodel <- function(t, state, parameters) {
 
 # farming population
 
+  	
+
         dna <- (betava*yv + betaaa*ya + betaia*yi  - mad)*na
-        dya <- ra*na*(1-(na+ni)/(Aa*Kc)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
+        dya <- ra*na*(1-(na+ni)/Aa/Kc) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
 
 # industrial population
 
         dni <- (betavi*yv + betaai*ya + betaii*yi - mad)*ni                
-        dyi <- ri*ni*(1-(na+ni)/(Aa*Kc)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
+        dyi <- ri*ni*(1-(na+ni)/Aa/Kc) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
 
 
 
@@ -136,7 +138,7 @@ worldmodel <- function(t, state, parameters) {
 
 }
 
-step <- 8
+step <- 10
 time <- seq(0, 1000, by = step)
 
 out <- ode(y = state, times = time, func = worldmodel, parms = parameters)
