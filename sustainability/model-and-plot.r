@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 
-library(deSolve)
+library("deSolve")
 
 ## ==============================================================================
 ## Numerical solution of a far too complex model, a
