@@ -11,7 +11,7 @@ parameters <- c(AT = Atotal,
                 krm = 0.001,
                 krw = 0.001,
                 kxn = 0.001,
-                kwm = 0,05,
+                kwm = 0,5,
                 
                 betavv = 0.01,
                 betaav = 0.008,
@@ -33,5 +33,8 @@ parameters <- c(AT = Atotal,
                 Kp = 100,
                 kxn  = 0.005,
                 mjuv = 0.06,
-                Kc =500)
+                Kc = 500,
+		kmc = 0.1)
+		
+
 

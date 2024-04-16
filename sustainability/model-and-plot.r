@@ -7,8 +7,9 @@ library(deSolve)
 ## system of ordinary differential equations
 ## ==============================================================================
 
-source("parameters.r")
+source("./parameters.r")
 
+cat(parameters)
 
 state <- c(Av = Atotal - 1,
            Aa = 1,
@@ -25,17 +26,12 @@ state <- c(Av = Atotal - 1,
            ni = 5,
            yi = 0.5)
 
-
-
-
-
-
 ## the ODE system
 
 worldmodel <- function(t, state, parameters) {
-    with(as.list(c(state, parameters)),{
+    with( as.list(c(state, parameters) ), {
 
-# rate of changes
+# rates of changes
 
 #
 # Areas
@@ -83,15 +79,13 @@ worldmodel <- function(t, state, parameters) {
 
 # farming population
 
-  	
-
         dna <- (betava*yv + betaaa*ya + betaia*yi  - mad)*na
-        dya <- ra*na*(1-(na+ni)/Aa/(Kc+0.001*Rm)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
+        dya <- ra*na*(1-(na+ni)/Aa/(Kc+kmc*Rm)) - (betaav*nv + betaaa*na + betaai*ni + mjuv)*ya
 
 # industrial population
 
         dni <- (betavi*yv + betaai*ya + betaii*yi - mad)*ni                
-        dyi <- ri*ni*(1-(na+ni)/Aa/(Kc+0.001*Rm)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
+        dyi <- ri*ni*(1-(na+ni)/Aa/(Kc+kmc*Rm)) - (betaiv*nv + betaia*na + betaii*ni + mjuv)*yi
 
 
 
@@ -104,26 +98,27 @@ worldmodel <- function(t, state, parameters) {
 
 }
 
-step <- 2
+step <- 1
 time <- seq(0, 1000, by = step)
+
+
 
 # method = "ode45",
 
-out <- lsoda(y = state, times = time,  func = worldmodel, parms = parameters)
-dfout <- as.data.frame(out)
+table <- lsoda(y = state, times = time,  func = worldmodel, parms = parameters)
+out <- as.data.frame(table)
 
+print(out, max.levels=10)
 
-#print(out, max.levels=10)
+write.table(out, file = "model_data.txt", sep = "\t")
 
-write.table(dfout, file = "model_data.text”, sep = "	")
+matplot(out[,"time"],out[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[9:11], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[12:13], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[14:15], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 
-matplot(dfout[,"time"],dfout[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-matplot(dfout[,"time"],dfout[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-matplot(dfout[,"time"],dfout[9:11], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-matplot(dfout[,"time"],dfout[12:13], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-matplot(dfout[,"time"],dfout[14:15], xlab = "Time ", type="l", ylab = "Numbers",col="black")
-
-plot(out)
+plot(table)
 
 # legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
 # mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
