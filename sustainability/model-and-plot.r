@@ -115,8 +115,7 @@ dfout <- as.data.frame(out)
 
 #print(out, max.levels=10)
 
-print(format(dfout))
-
+write.table(dfout, file = "model_data.text”, sep = "	")
 
 matplot(dfout[,"time"],dfout[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(dfout[,"time"],dfout[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
