@@ -17,7 +17,7 @@ yv <- function(x,parameters) {
 
 
 
-xr <- seq(0.005,3, by=0.1)
+xr <- seq(0.05,3, by=0.1)
 df <- data.frame(x = xr,
    nv = c(nv(xr,parameters)),
    yv = c(yv(xr,parameters))
