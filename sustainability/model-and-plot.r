@@ -113,13 +113,14 @@ print(out, max.levels=10)
 
 write.table(out, file = "model_data.txt", sep = "\t")
 
+pdf("time_series.pdf")
+
 matplot(out[,"time"],out[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[9:11], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[12:13], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[14:15], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 
-pdf("time_series.pdf")
 plot(table)
 
 # legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
