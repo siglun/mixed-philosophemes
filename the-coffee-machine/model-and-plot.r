@@ -2,16 +2,16 @@
 
 library("deSolve")
 
-## ==============================================================================
-## Numerical solution of a far too complex model, a
-## system of ordinary differential equations
-## ==============================================================================
+## =============================================================================
+## Numerical solution of a the coffee machine model.
+## A system of ordinary differential equations
+## =============================================================================
 
 source("./parameters.r")
 
 cat(parameters)
 
-state <- c(n = 1, x = 0, y = 0)
+state <- c(n = 100, x = 0, y = 0)
 
 ## the ODE system
 
@@ -40,7 +40,7 @@ worldmodel <- function(t, state, parameters) {
 
 }
 
-step <- 0.1
+step <- 0.05
 time <- seq(0, 10, by = step)
 
 # method = "ode45",
