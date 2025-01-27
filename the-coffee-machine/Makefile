@@ -3,7 +3,7 @@
 .DEFAULT: .ms.pdf .ps.pdf .eps.pdf
 
 default: paper.pdf
-URI = blabla
+URI = https://github.com/siglun/mixed-philosophemes/blob/main/the-coffee-machine/paper.pdf
 
 
 .ms.pdf:
@@ -22,7 +22,8 @@ time_series.pdf:
 qr.eps:
 	qrencode -l H -v 1 -s 3 -d300 -t EPS -o qr.eps $(URI)
 
+qr.pdf: qr.eps
 
-paper.pdf: paper.ms boxes-and-arrows.pic  paper-parameters.ms \
-	qr.pdf time_series.pdf
+paper.pdf: paper.ms boxes-and-arrows.pic  paper-parameters.ms back-matter.ms \
+	qr.pdf time_series.pdf Makefile
 

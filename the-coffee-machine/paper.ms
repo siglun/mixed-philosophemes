@@ -19,3 +19,5 @@ whereas $y(t)$ is the people who like the coffee machine
 .EQ (3)
 diff(y(t),t) = a p n(t) - b y(t)
 .EN
+.PDFPIC -C "time_series.pdf" 12.0c
+.so back-matter.ms
