@@ -55,7 +55,7 @@ write.table(out, file = "model_data.txt", sep = "\t")
 
 pdf("time_series.pdf")
 
-matplot(out[,"time"],out[2:4], xlab = "Time ", type="l", ylab = "N, x and y",col="black")
+matplot(out[,"time"],out[2:4], xlab = "Time ", type="l", ylab = "n, x and y",col="black")
 
 # plot(table)
 

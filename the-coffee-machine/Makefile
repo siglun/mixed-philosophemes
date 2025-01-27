@@ -27,3 +27,4 @@ qr.pdf: qr.eps
 paper.pdf: paper.ms boxes-and-arrows.pic  paper-parameters.ms back-matter.ms \
 	qr.pdf time_series.pdf Makefile
 
+time_series.pdf: model-and-plot.r parameters.r
