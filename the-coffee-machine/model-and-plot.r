@@ -22,15 +22,15 @@ worldmodel <- function(t, state, parameters) {
 
 #  Customers
 
-   dn  <- -a * n + b * x  + c * y - beta * n * y
-
-#  Those who like the coffee
-
-   dx <- a * p * n - b * x 
+   dn  <- -a * n + b * y  + c * x - beta * n * x
 
 #  Those who hate the coffee
 
-   dy <- a * (1-p) * n - c * y  + beta * n * y
+   dx <- a * (1-p) * n - c * x  + beta * n * x
+
+#  Those who like the coffee
+
+   dy <- a * p * n - b * y 
 
 # return the rate of change
 
