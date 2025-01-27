@@ -1,13 +1,21 @@
+.so paper-parameters.ms
+.SH
+Introduction
 .LP
-The number of potential customers is $n
+.SH
+A model
+.LP
+.so boxes-and-arrows.pic
+.LP
+The number of potential customers at time $t$ is $n(t)$
 .EQ (1)
-roman d n over roman d t = -a n + b y  + c x - beta n x
+diff( n(t) , t ) = - a n(t) + b y(t)  + c x(t) - beta n x(t)
 .EN
-and  $x$ is the number of customers who actually hate the coffee machine.
+and  $x(t)$ is the number of customers who actually hate the coffee machine,
 .EQ (2)
-roman d x over roman d t = - a (1-p) n - c x  + beta n x
+diff( x(t) , t ) = a (1-p) n(t) - c x(t)  + beta n x(t)
 .EN
-*Finally, $y$ is the people who like the coffee machine
+whereas $y(t)$ is the people who like the coffee machine
 .EQ (3)
-roman d y over roman d t = - a p n - b y
+diff(y(t),t) = a p n(t) - b y(t)
 .EN
