@@ -8,7 +8,8 @@ URI = https://github.com/siglun/mixed-philosophemes/blob/main/the-coffee-machine
 
 .ms.pdf:
 	groff -U -R -sGtep  -m pdfpic -m pdfmark -ms \
-	-k  -s -t -P-pa4 -Tpdf $<  > $*.pdf
+	-k  -P-pa4 -Tps $<  > $*.ps 
+	ps2pdf  $*.ps
 
 .eps.pdf:
 	epstopdf  $<
