@@ -40,18 +40,19 @@ worldmodel <- function(t, state, parameters) {
 
 }
 
-step <- 0.05
-time <- seq(0, 100, by = step)
+step <- 0.1
+time <- seq(0, 20, by = step)
 
 # method = "ode45",
 
 table <- lsoda(y = state, times = time,  func = worldmodel, parms = parameters)
+
 out <- as.data.frame(table)
 
-print(out, max.levels=10)
+# print(out, max.levels=10)
 
 
-write.table(out, file = "model_data.txt", sep = "\t")
+write.table(out, file = "shit.text", sep = "\t")
 
 pdf("time_series.pdf")
 
