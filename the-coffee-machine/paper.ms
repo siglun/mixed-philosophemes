@@ -6,26 +6,27 @@ Introduction
 The Espresso Machine
 .LP
 The campus canteen has acquired a new Espresso Machine.
-The machine has split the opinions of students as well as faculty into two camps.
-The reason for this is that some think that the machine is unreliable;
-those who purport this has typically put their coins into the machine which deposited into its inner parts with a clink clonk kind of sound, but no coffee are delivered.
+The machine has split the opinions of students and faculty into two camps.
+The reason is that some think that the machine is unreliable;
+those who purport this have typically put their coins into the machine,
+which deposited them into its interiors with a clinkety clank.
+No coffee were delivered.
 They started bring thermoses with coffee, strong and hot, from home.
+However, the sometimes machine delivered coffee and good espresso,
+as a matter of fact a bright student estimated that the proportion $p$ of the cups sold were good.
 .PP
-However, the machine delivered coffee, sometimes at least.
-Let us assume that the there are $n(t)$ at potential customers any given time $t$, 
-and that they buy Espresso at a rate constant per capita rate $a$, i.e.,
+Let us assume that the there are $n(t)$ at potential customers at time $t$.
+They buy Espresso at a rate constant per capita rate $a$, i.e.,
 customers are removed from the customer class at a rate $an(t)$.
 However, only a proportion $p$ of the sales actually lead to delivery.
 Therefore $a p n(t)$ of the potential customers are transformed into actual customers, denoted by $y(t)$.
-They claim that a good espresso is good even if it was produced in an unreliable process.
-The remaining of sales occur a $a (1 - p) n(t)$ and the affected customers claim that the former are adopting a false theory,
-and they claim that the espresso machine actually is a thief.
+They claim that this is a good espresso, although it was produced through an unreliable process.
+The remaining sales occur a rate $a (1 - p) n(t)$ and the affected customers claim that the former are accepting the statement \(lqthe espresso is good\(rq is false.
 Let us assume that at time $t$ there $y(t)$ persons who have actually got espresso out of the machine,
 and then there are $x(t)$ who have not.
 .PP
-As mentioned, the behaviours of the to categories of customers.
-The satisfied ones are rapidly returning to the potential customers group of students and faculty, they do so at a per capita rate $c$, i.e., $cy(t)$.
-Similarly the unsatisfied ones return to that at a much lower rate (for instance when they forget their thermoses at home). We assume that that is happening at a $bx(t)$.
+The satisfied customers are rapidly returning to the group of potential customers; they do so at a per capita rate $c$, i.e., $cy(t)$.
+Similarly the unsatisfied ones return at a much lower rate (for instance when they forget their thermoses at home). We assume that that is happening at a $bx(t)$.
 .so boxes-and-arrows.pic
 .IP
 .vs 12
