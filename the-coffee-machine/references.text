@@ -44,3 +44,16 @@
 %J Nature
 %V 280
 %P 361\-367
+
+%Q Development Core Team
+%D 2010
+%T R: A language and environment for statistical computing
+%X [Computer software].             Available from http://www.R-project.org
+%C Vienna, Austria
+
+%A Soetaert, Karline
+%A Woodrow Setzer, R.
+%A Petzoldt, Thomas
+%T Package deSolve
+%D 2021
+%X http://desolve.r-forge.r-project.org/
