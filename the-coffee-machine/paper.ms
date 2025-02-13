@@ -1,15 +1,19 @@
 .so paper-parameters.ms
 .TL
-The Espresso Machine and the meaning of reliability
+The Espresso machine and the meaning of reliability
 .AU
 Sigfrid Lundberg
-.SH
-Introduction
 .LP
-.SH
-The Espresso Machine
-.LP
-The campus canteen has acquired a new Espresso Machine.
+\&
+.[
+#
+Zagzebski 2003
+.]\&
+was one of the architects of what since is referred to as \fIvirtue epistemology\fP.
+Her \fIEspresso machine\fP argument was presented as a counter argument against the reliabilism school of thought.
+Here I offer an analysis of the dynamics of a hypothetical campus population coffee drinkers.
+.PP
+The campus canteen has acquired a new Espresso machine.
 The machine has split the opinions of students and faculty into two camps.
 The reason is that some think that the machines operation is based on an unreliable process.
 Those who purport this have typically put their coins into the machine,
@@ -20,6 +24,7 @@ However, the sometimes machine delivered coffee and good espresso,
 as a matter of fact a bright student estimated that the proportion $p$ of the cups sold were good.
 There was another party of people claiming that good espresso is good espresse in spite of the unreliable process.
 .KF
+.sp
 .so boxes-and-arrows.pic
 .IP
 .vs 12
@@ -30,6 +35,7 @@ The rate of buys that fails is then $a (1-p) n(t)$ and become coffee haters $y(t
 Coffee machine lovers and haters return to the potential customers at the rates $b x(t)$ and $c y(t)$ respectively.
 In addition,
 the coffee haters are spreading the rumour at a rate proportional to the product between the numbers of haters and potential customers, i.e., $beta n(t) y(t).$
+.sp
 .sp
 .KE
 .PP
