@@ -3,26 +3,27 @@
 The Espresso machine and the meaning of reliability
 .AU
 Sigfrid Lundberg
+sigfrid@sigfrid-lundberg.se
 .LP
 \&
 .[
 #
 Zagzebski 2003
 .]\&
-was one of the architects of what since is referred to as \fIvirtue epistemology\fP.
-Her \fIEspresso machine\fP argument was presented as a counter argument against the reliabilism school of thought.
-Here I offer an analysis of the dynamics of a hypothetical campus population coffee drinkers.
+was one of the architects of what since has been referred to as \fIvirtue epistemology\fP.
+Her \fIespresso machine\fP argument was presented as a counter argument against the reliabilism school of thought.
+In this note I offer an analysis of the dynamics of a hypothetical campus population coffee drinkers; a fiction close to her.
 .PP
 The campus canteen has acquired a new Espresso machine.
 The machine has split the opinions of students and faculty into two camps.
-The reason is that some think that the machines operation is based on an unreliable process.
+The reason is that some think that the machine is not working.
 Those who purport this have typically put their coins into the machine,
 which deposited them into its interiors with a clinkety clank without delivering any coffee.
 .PP
 That party started to bring thermoses with coffee\(emstrong and hot\(emfrom home.
 However, the sometimes machine delivered coffee and good espresso,
 as a matter of fact a bright student estimated that the proportion $p$ of the cups sold were good.
-There was another party of people claiming that good espresso is good espresse in spite of the unreliable process.
+Hence there is another party of those claiming that a good espresso is indeed a good espresse albeit it comes from an unreliable process.
 .KF
 .sp
 .so boxes-and-arrows.pic
