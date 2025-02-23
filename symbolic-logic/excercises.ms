@@ -16,3 +16,8 @@ a b <= 0 \[AN] \[no]a=0 -> b=0 \[OR] (a<0 \[AN] b>0) \[OR] (a>0 \[AN] b<0)
 if a times b is less \fB or \fP equal to 0 \fB and \fP is not 0
 .IP 2
 then b equals 0  \fB or \fP a is less than 0 \fB and \fP b is greater 0  \fB or \fP a is greater than 0 and b is less than 0
+.PP
+Some other
+.EQ
+
+.EN
