@@ -25,7 +25,8 @@ qr.eps:
 
 qr.pdf: qr.eps
 
-excercises.pdf: excercises.ms 
+excercises.pdf: excercises.ms
+fitch-experiment.pdf: fitch-experiment.ms
 
 
 time_series.pdf: model-and-plot.r parameters.r
