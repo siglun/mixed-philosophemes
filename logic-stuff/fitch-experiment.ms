@@ -18,8 +18,8 @@ define line_from_to {
 }
 
 define end_proof {
-	move to	START.w.x+0.5,last box.sw.y;
-	line to START.w
+	move to	START.w.x+0.5,last box.sw.y; move right;	
+	line to START.w.x+0.5+movewid,START.sw.y
 }
 
 define add_premis {
@@ -31,14 +31,14 @@ define premis_end {
 }
 
 define add_step {
+	stepno=stepno+1;
 	move to START.nw;
-	for i=0 to stepno do {
+	for i=1 to stepno do {
 		move down;
 	}
 	box invis sprintf("%g",stepno) with .nw at START.nw.x,last box.sw.y;
 	box invis ljust $1 with .w at last box.c;
 	box invis ljust $2 with .w at last box.e;
-	stepno=stepno+1;
 }
 
 
