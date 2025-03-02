@@ -10,7 +10,7 @@ proofno=0;
 stepno=0;
 
 define start_proof {
-	box invis;
+	$1: box invis;
 }
 
 define line_from_to {
@@ -18,8 +18,8 @@ define line_from_to {
 }
 
 define end_proof {
-	move to	START.w.x+0.5,last box.sw.y; move right;	
-	line to START.w.x+0.5+movewid,START.sw.y
+	move to	$1.w.x+0.5,last box.sw.y; move right;	
+	line to $1.w.x+0.5+movewid,$1.sw.y
 }
 
 define add_premis {
@@ -27,7 +27,7 @@ define add_premis {
 }
 
 define premis_end {
-	move to	START.w.x+0.5,last box.sw.y; move right; line right
+	move to	$1.w.x+0.5,last box.sw.y; move right; line right
 }
 
 define add_step {
@@ -42,14 +42,11 @@ define add_step {
 }
 
 
-
-START: box invis;
-
 start_proof(START);
 
 add_premis("A∨B");
 add_premis("¬A");
-premis_end;
+premis_end(START);
 SUB1: {
 add_step("A");
 add_step("⊥","⊥ Intro: 3,2");
