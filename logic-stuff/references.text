@@ -48,7 +48,7 @@
 %Q Development Core Team
 %D 2010
 %T R: A language and environment for statistical computing
-%X [Computer software].             Available from http://www.R-project.org
+%X [Computer software]. Available from http://www.R-project.org
 %C Vienna, Austria
 
 %A Soetaert, Karline
@@ -69,3 +69,45 @@
 %D 2003
 %I Wiley Online Library
 %X https://doi.org/10.1111/1467-9973.00257
+
+%A Pelletier, Francis Jeffry
+%A Hazen, Allen
+%T Natural Deduction Systems in Logic
+%B The Stanford Encyclopedia of Philosophy (Spring 2024 Edition)
+%E Edward N. Zalta
+%E Uri Nodelman
+%D 2024
+%X https://plato.stanford.edu/archives/spr2024/entries/natural-deduction
+
+%A Ossanna, Joseph F.
+%A Kernighan, Brian W.
+%T Troff User’s Manual
+%D 1994
+%V 54
+%J Computing Science Technical Report
+%X https://wolfram.schneider.org/bsd/7thEdManVol2/trofftut/trofftut.pdf
+
+
+%A Kernighan, Brian W.
+%T PIC \(em A language for typesetting graphics
+%J Software: Practice and Experience
+%V 12
+%N 1
+%D 1982
+%X https://doi.org/10.1002/spe.4380120102
+
+%A Kernighan, Brian W.
+%A Cherry, Lorinda L. 
+%T A System for Typesetting Mathematics
+%J Scientific Applications
+%D 1975
+%V 18
+%N 3
+%X https://doi.org/10.1145/360680.360684
+
+
+%A FSF, Free Software Foundation
+%T Groff
+%D 1990
+%X https://www.gnu.org/software/groff/
+
