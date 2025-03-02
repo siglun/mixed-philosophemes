@@ -8,7 +8,7 @@
 .nr PI 3m
 .nr QI 4m
 .nr step 0 1
-.ds REFERENCES Literature
+.\" ds REFERENCES Literature
 .ds MO \E*[MONTH\n[mo]]
 .\"ds DY \*[MO] \n[dy], \n[year]
 .ds DY \n[dy] \*[MO] \n[year]
@@ -16,7 +16,6 @@
 define diff X { roman d $1 } over { roman d $2 } X
 delim $$
 .EN
-.\"mso tmac/anfang.tmac
 .R1
 sort "A+D+"
 reverse "A1E1"
@@ -33,5 +32,4 @@ short-label "(@|Q) ' ('(D.y%a*|D%a*)')'"
 label "(@|Q) ', ' (D.y%a*|D%a*)"
 bracket-label " (" ")" "; "
 .R2
-.defcolor mgreen rgb #ccffdd
 .fam BA

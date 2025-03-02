@@ -43,17 +43,7 @@ Foundation groff
 .]
 There are other competitors,
 but this is the version I use.
-.PP
-The Fitch notations has got its name after its inventor, Fredric Fitch.
-This notation seems to be a de facto standard:
-It is used in all the text books I have been able to find electronically,
-and seems to be taught at logics courses in mathematics as well as philosophy.
-I wrote this note while learning Fitch;
-I used the writing was a method for learning.
-My intention is to demonstrate how to format natural deduction on this platform.
-I cannot teach you how to format scientific text, neither can I give an introduction to natural deduction.
-.KF
-.ID
+.KS
 .PS
 .ps 10
 .vs 12
@@ -61,7 +51,7 @@ scale=2.54
 moveht=0.75
 boxht=0.75
 movewid=0.9
-fitch_lines=0.3
+fitch_margin=0.5
 
 set_steps_and_depths(8,3)
 
@@ -85,15 +75,30 @@ end_proof(SUB2);
 
 add_step(START,"$B$","∨ Elim: 6-7,3-5,1");
 end_proof(START)
-
 .PE
-.DE
 .IP
 .vs 12
 .ps 10
 Figure 1. Proof that $A ∨ B, ¬ A ∴ B$.
+The line numbering is in the left-most margin.
+Then there is a vertical line which is as long as the proof.
+The step 1-2 in the proof is were the premises lives.
+The horisontal line after step 2 is usually referred to as the \fIfitch line.\fP
+The two groups, 3\(en5 and 3\(en6 are sub-proofs,
+with their own premisses,
+vertical lines and fitch lines
+.sp
 .KE
-.KF
+.PP
+The Fitch notations has got its name after its inventor, Fredric Fitch.
+This notation seems to be a de facto standard:
+It is used in all the text books I have been able to find electronically,
+and seems to be taught at logics courses in mathematics as well as philosophy.
+I wrote this note while learning Fitch;
+I used the writing was a method for learning.
+My intention is to demonstrate how to format natural deduction on this platform.
+I cannot teach you how to format scientific text, neither can I give an introduction to natural deduction.
+.KS
 .ID
 .ft CR
 .ps 10
