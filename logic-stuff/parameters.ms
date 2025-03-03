@@ -5,8 +5,8 @@
 .nr PO 2.5c
 .nr PS 12
 .nr VS 14
-.nr PI 3m
-.nr QI 4m
+.\"nr PI 3m
+.\"nr QI 4m
 .nr step 0 1
 .\" ds REFERENCES Literature
 .ds MO \E*[MONTH\n[mo]]
