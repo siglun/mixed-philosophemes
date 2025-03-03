@@ -1,0 +1,35 @@
+.PS
+set_steps_and_depths(12,4);
+
+start_proof(START);
+set_premis(START,"$A ∨ B$");
+set_premis(START,"$¬B ∨ C$");
+premis_end(START);
+
+start_proof(SUB1);	
+set_premis(SUB1,"$A$");
+premis_end(SUB1);
+add_step(SUB1,"$A ∨ C$","∨ Intro");
+end_proof(SUB1)
+
+start_proof(SUB2);
+set_premis(SUB2,"$B$");
+premis_end(SUB2);
+start_proof(SUB21);
+add_premis(SUB21,"$¬B$");
+premis_end(SUB21);
+add_step(SUB21,"$⊥$","⊥ Intro");
+add_step(SUB21,"$A ∨ C$","⊥ Elim");
+	
+C
+	
+A ∨ C
+∨ Intro
+	
+A ∨ C
+∨ Elim
+	
+A ∨ C
+∨ Elim
+
+.PE

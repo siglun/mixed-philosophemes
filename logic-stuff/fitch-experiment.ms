@@ -81,8 +81,8 @@ end_proof(START)
 .ps 10
 Figure 1. Proof that $A ∨ B, ¬ A ∴ B$.
 The line numbering is in the left-most margin.
-Then there is a vertical line which is as long as the proof.
-The step 1-2 in the proof is were the premises lives.
+Then there is a vertical line, as long as the proof.
+The step 1-2 in the proof is where the premises lives.
 The horisontal line after step 2 is usually referred to as the \fIfitch line.\fP
 The two groups, 3\(en5 and 3\(en6 are sub-proofs,
 with their own premisses,
@@ -135,5 +135,5 @@ pic
 ./smallcaps
 code needed to generate Figure 1.
 .KE
-
+.so proof-example1.pic
 .so back-matter.ms
