@@ -1,35 +1,44 @@
+.EQ
+sdefine falsum  %{type "operator" vcenter ⊥}%
+.EN
 .PS
-set_steps_and_depths(12,4);
+set_steps_and_depths(12,5);
 
 start_proof(START);
-set_premis(START,"$A ∨ B$");
-set_premis(START,"$¬B ∨ C$");
+add_premis(START,"$A \[OR] B$");
+add_premis(START,"$\[no]B \[OR] C$");
 premis_end(START);
 
 start_proof(SUB1);	
-set_premis(SUB1,"$A$");
+add_premis(SUB1,"$A$");
 premis_end(SUB1);
-add_step(SUB1,"$A ∨ C$","∨ Intro");
+add_step(SUB1,"$A \[OR] C$","\[OR] Intro:3");
 end_proof(SUB1)
 
 start_proof(SUB2);
-set_premis(SUB2,"$B$");
+add_premis(SUB2,"$B$");
 premis_end(SUB2);
+
 start_proof(SUB21);
-add_premis(SUB21,"$¬B$");
+add_premis(SUB21,"$\[no]B$");
 premis_end(SUB21);
-add_step(SUB21,"$⊥$","⊥ Intro");
-add_step(SUB21,"$A ∨ C$","⊥ Elim");
-	
-C
-	
-A ∨ C
-∨ Intro
-	
-A ∨ C
-∨ Elim
-	
-A ∨ C
-∨ Elim
+add_step(SUB21,"$falsum$","⊥ Intro:6,5");
+add_step(SUB21,"$A \[OR]  C$","⊥ Elim:7");
+end_proof(SUB21);
+
+start_proof(SUB22);
+add_premis(SUB22,"$C$");
+premis_end(SUB22);
+add_step(SUB22,"$A \[OR] C$","\[OR] Intro:9");
+end_proof(SUB22);
+
+end_proof(SUB2);
+
+add_step(SUB1,"$A \[OR] C$","\[OR] Elim:6-8,9-10,2");
+end_proof(SUB1);	
+
+add_step(START,"$A \[OR] C$","\[OR] Elim:1,3-4,5-11");
+
+end_proof(START);
 
 .PE
