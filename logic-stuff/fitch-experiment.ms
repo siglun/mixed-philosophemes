@@ -1,8 +1,7 @@
-.mso tmac/decorations.tmac
 .so fitch-macros.pic
 .so parameters.ms
 .TL
-How to type-set Fitch natural deductions using
+How to type-set logic and natural deductions using
 .br
 .smallcaps
 gnu
@@ -12,20 +11,24 @@ troff, pic and eqn
 Sigrid Lundberg
 sigfrid (at) sigfrid-lundberg.se
 .LP
-Fitch is a notation for natural deduction,
+Fitch is a notation for natural deduction.
 .[
 natural deduction stanford
 .]
-and \f(CRtroff\fP is a software system for type-setting using Unix\f(CR\(tm\fP and related operating systems.
+\f(CRtroff\fP is a software system for type-setting using Unix\f(CR\(tm\fP and related operating systems.
 .[
 ossanna kernighan
 .]
 Brian W. Kernighan was one of the creators of Unix and the C programming language.
-pic is a system for typesetting graphs, also created by.
-.[\& 
-#
+pic
+.[
 kernighan pic
 .]
+and eqn
+.[
+kernighan mathematics
+.]
+are systems for typesetting graphs and mathematics, also created by Brian Kernighan and his friends.
 .smallcaps
 groff
 aka
@@ -47,6 +50,7 @@ I used the writing was a method for learning.
 My intention is to demonstrate how to format natural deduction on this platform.
 I cannot teach you how to format scientific text, neither can I give an introduction to natural deduction.
 .KF
+.sp
 .IP
 .vs 12
 .ps 10
@@ -54,7 +58,7 @@ Table 1. Unicode characters for logical signs and operators.
 On some operating systems you can type them by pressing \f[CR]ctrl-shift-u\fP and then the four character code (following \f(CRu+\fP). The Groff name is usually better to use than the Unicode character,
 but I tend to use the latter.
 .TS
-tab(;);
+allbox center tab(;);
 lb lb lb ;
 l l l .
 Unicode;Character;Groff name
@@ -121,69 +125,72 @@ with their own premisses,
 vertical lines and fitch lines
 .sp
 .KE
-.KF
+.SH
+How to write Fitch in troff
+.LP
+Any proof is initialized by calling this macro,
+which informs all scripts on the number of steps in the proof and its maxiumum depth,
+i.e.,
+how deep the hierarchy of proofs is.
+That is, how many inside proofs, whitin proofs ... do we have.
+You better add one or the references at the right will come to close to the logical statements.
 .ID
-.ft CR
-.ps 10
-.vs 12
-
-#
-# The proof is initialized by calling this macro, which
-# informs the scripts on the number of steps in the proof
-# and its maxiumum depth, i.e., how many proofs we have
-# inside proofs.
-#
-
-set_steps_and_depths(8,3)
-
-#
-# Any proof (the root proof or any sub-proof) starts
-# with the start_proof() which also names that proof.
-#
-# after started we add its premises, and end it with
-# premis_end()
-
-start_proof(START);
+\f(CRset_steps_and_depths(8,3)
+.DE
+.PP
+Any proof (the root proof or any sub-proof) starts
+with the start_proof() macro,
+which also names that proof.
+After we have started the proof,
+we add its premises,
+and end it with \f(CRpremis_end()\fP.
+.ID
+\f(CRstart_proof(START);
 add_premis(START,"$A∨B$");
 add_premis(START,"$¬  A$");
-premis_end(START);
-
-#
-# Here comes the sub-proofs
-#
-
-start_proof(SUB1);
+premis_end(START);\fP
+.DE
+.PP
+After ending the premiws section,
+we enter the body of our proofs.
+In this case we start the sub-proofs
+.PP
+.ID
+\f(CRstart_proof(SUB1);
 add_premis(SUB1,"$A$");
-premis_end(SUB1);
-
-#
-# The add_step() macro has three argument, the name of the
-# current proof, the result of the step, and finally the
-# references to the steps needed for reaching the step.
-#
-
-add_step(SUB1,"$⊥$","⊥ Intro: 3,2");
+premis_end(SUB1);\fP
+.DE
+.PP
+In the body of a proof, we use the \f(CRadd_step()\fP macro,
+which has three argument: (i) the name of the current proof,
+(ii) the result of the step, and finally (iii)
+the references to earlier steps needed for the step.
+.ID
+\f(CRadd_step(SUB1,"$⊥$","⊥ Intro: 3,2");
 add_step(SUB1,"$B$","⊥ Elim: 4");
 end_proof(SUB1);
-
-start_proof(SUB2);
+.DE
+.PP
+We end a proof (be it a sub_proof or a proof) with the \f(CRend_proof()\fP macro,
+which needs the name of the current proof as an argument.
+Now we start another subproof.
+.ID
+\f(CRstart_proof(SUB2);
 add_premis(SUB2,"$B$");
 premis_end(SUB2);
 add_step(SUB2,"$B$","Reit: 6");
 end_proof(SUB2);
-
-add_step(START,"$B$","∨ Elim: 6-7,3-5,1");
+.DE
+.PP
+After we have completed the two sub-proofs,
+return to the main proof and completes it with a nice $\(OR$ elimination.
+.ID
+\f(CRadd_step(START,"$B$","∨ Elim: 6-7,3-5,1");
 end_proof(START)
 .DE
-.IP
-.vs 12
-.ps 10
-Figure 2. The
-.smallcaps
-pic
-./smallcaps
-code needed to generate Figure 1.
-.KE
+.PP
+Note that the macros do not check your references.
+Sanity checks and proof reading is your job.
 .KF
 .EQ
 sdefine falsum  %{type "operator" vcenter ⊥}%
@@ -239,6 +246,6 @@ end_proof(START);
 .IP
 .vs 12
 .ps 10
-Figure 3. A longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
+Figure 2. A slightly longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
 .KE
 .so back-matter.ms
