@@ -1,6 +1,6 @@
 .mso tmac/decorations.tmac
-.so parameters.ms
 .so fitch-macros.pic
+.so parameters.ms
 .TL
 How to type-set Fitch natural deductions using
 .br
@@ -48,6 +48,8 @@ My intention is to demonstrate how to format natural deduction on this platform.
 I cannot teach you how to format scientific text, neither can I give an introduction to natural deduction.
 .KF
 .IP
+.vs 12
+.ps 10
 Table 1. Unicode characters for logical signs and operators.
 On some operating systems you can type them by pressing \f[CR]ctrl-shift-u\fP and then the four character code (following \f(CRu+\fP). The Groff name is usually better to use than the Unicode character,
 but I tend to use the latter.
@@ -56,21 +58,21 @@ tab(;);
 lb lb lb ;
 l l l .
 Unicode;Character;Groff name
-u+00AC;¬;\\(no	
-u+2227;∧;
-u+2228;∨;
-u+2200;∀;
-u+2203;∃;
-u+2192;→;
-u+2194;↔;
-u+22A5;⊥;
+u+00AC;¬;\\[no]	
+u+2227;∧;\\[AN]
+u+2228;∨;\\[OR]
+u+2200;∀;\\[fa]
+u+2203;∃;\\[te]
+u+2192;→;\\[->]
+u+2194;↔;\\[<>]
+u+22A5;⊥;\\[pp]
 u+22A2;⊢;
-u+2261;≡;
-u+25A1;□;
+u+2261;≡;\\[==]
+u+25A1;□;\\[sq]
 u+25C7;◇;
-u+2234;∴;
-U+2208;∈;
-U+2209;∉;
+u+2234;∴;\\[tf]
+U+2208;∈;\\[mo]
+U+2209;∉;\\[nm]
 .TE
 .KE
 .KF
@@ -237,6 +239,6 @@ end_proof(START);
 .IP
 .vs 12
 .ps 10
-Figure 3. A longer example, "$A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$".
+Figure 3. A longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
 .KE
 .so back-matter.ms
