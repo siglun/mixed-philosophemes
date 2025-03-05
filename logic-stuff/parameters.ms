@@ -8,6 +8,10 @@
 .\"nr PI 3m
 .\"nr QI 4m
 .nr step 0 1
+.OH '''%'
+.\"OF 'left'center'right'
+.EH '%'''
+.\"EF 'left'center'right'
 .\" ds REFERENCES Literature
 .ds MO \E*[MONTH\n[mo]]
 .\"ds DY \*[MO] \n[dy], \n[year]
