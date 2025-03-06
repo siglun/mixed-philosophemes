@@ -81,6 +81,15 @@ U+2208;∈;\\[mo]
 U+2209;∉;\\[nm]
 .TE
 .KE
+.PP
+First, we need to be able to write our texts and then we can continue with logical formulas and sentences.
+At a first glance, all of them are are \(lqequations\(rq,
+or anyone who are not familiar with mathematics and logic and the differences between the two will regard them as such.
+Here is a set of predicate logic sentences, first in eqn source, and then formatted.
+.ID
+\&.EQ
+\&.EN
+.DE
 .KF
 .PS
 .ps 10

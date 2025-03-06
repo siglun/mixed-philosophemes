@@ -1,0 +1,223 @@
+.\"
+.\" MN.tmac
+.\"
+.\" written by Werner Lemberg <address@hidden>
+.\"
+.\" Version 0.1: 13-Dec-2002
+.\"
+.\"
+.\" Usage:
+.\"
+.\"   ...
+.\"   MN [left|right]
+.\"   margin note text
+.\"   MN
+.\"   ...
+.\"
+.\" With a parameter, start a margin note, otherwise end a margin note.
+.\" If the parameter is the string `left', define a left margin note,
+.\" otherwise define a right margin note.
+.\"
+.de MN
+.  ie \\n[.$] \{\
+.    if \\n[MN-active] \{\
+.      tm MN: Can't handle nested margin notes.
+.      return
+.    \}
+.    nr MN-active 1
+.    ie '\\$1'left' \{\
+.      nr MN-left +1
+.      ds MN-curr l-\\n[MN-left]
+.    \}
+.    el \{\
+.      nr MN-right +1
+.      ds MN-curr r-\\n[MN-right]
+.    \}
+.
+.    mk MN-mk-\\*[MN-curr]
+.    ev MN-env
+.    di MN-div-\\*[MN-curr]
+.  \}
+.  el \{\
+.    if \\n[MN-active] \{\
+.      br
+.      di
+.      unformat MN-div-\\*[MN-curr]
+.      ev
+.    \}
+.    nr MN-active 0
+.  \}
+..
+.
+.
+.\"
+.\" This macro must be installed as a trap macro before the first
+.\" margin note on a page can occur.  It initializes some variables.
+.\"
+.de MNtop
+.  nr MN-left 0
+.  nr MN-right 0
+.  nr MN-active 0
+..
+.
+.
+.\"
+.\" This macro must be installed as a trap macro after the last
+.\" margin note on a page can occur.  It prints the margin notes
+.\" into the left and right margins.
+.\"
+.de MNbottom
+.  nr MN-curr 0
+.  nr MN-last-pos 0
+.
+.  vpt 0
+.
+.  mk MN-curr-pos
+.
+.  if \\n[MN-active] \{\
+.    di
+.    tm MN: Margin note finished by new page.  Ignored.
+.  \}
+.
+.  po \\n[MN-left-start]u
+.  ev MNbottom-left-env
+.  while (\\n[MN-curr] < \\n[MN-left]) \{\
+.    nr MN-curr +1
+.    ie (\\n[MN-last-pos] < \\n[MN-mk-l-\\n[MN-curr]]) \
+.      sp |\\n[MN-mk-l-\\n[MN-curr]]u
+.    el \{\
+.      sp
+.      tm MN: Warning: Left margin note #\\n[MN-curr] on page \\n[%] shifted 
+down.
+.    \}
+.    MN-div-l-\\n[MN-curr]
+.    br
+.    nr MN-last-pos \\n[nl]
+.  \}
+.  ev
+.  po
+.
+.  nr MN-curr 0
+.  nr MN-last-pos 0
+.  po \\n[MN-right-start]u
+.  ev MNbottom-right-env
+.  while (\\n[MN-curr] < \\n[MN-right]) \{\
+.    nr MN-curr +1
+.    ie (\\n[MN-last-pos] < \\n[MN-mk-r-\\n[MN-curr]]) \
+.      sp |\\n[MN-mk-r-\\n[MN-curr]]u
+.    el \{\
+.      sp
+.      tm MN: Warning: Right margin note #\\n[MN-curr] on page \\n[%] shifted 
+down.
+.    \}
+.    MN-div-r-\\n[MN-curr]
+.    br
+.    nr MN-last-pos \\n[nl]
+.  \}
+.  ev
+.  po
+.
+'  sp |\\n[MN-curr-pos]u
+.
+.  vpt 1
+..
+.
+.
+.\"
+.\" MNinit [ragged|symmetric] \
+.\"        left-width right-width separation \
+.\"        font fontsize vertical-spacing
+.\"
+.\" Initialize margin notes.  Empty arguments (denoted with "") set
+.\" default values.  If the first argument is the string `ragged',
+.\" left and right margin notes are printed ragged-right.  If it is
+.\" `symmetric', left margin notes are printed ragged-left and right
+.\" margin notes ragged-right.  If omitted, margin notes are left
+.\" and right adjusted.
+.\"
+.de MNinit
+.  ds MN-left-ad b
+.  ds MN-right-ad b
+.  if '\\$1'ragged' \{\
+.    ds MN-left-ad l
+.    ds MN-right-ad l
+.    shift
+.  \}
+.  if '\\$1'symmetric' \{\
+.    ds MN-left-ad r
+.    ds MN-right-ad l
+.    shift
+.  \}
+.
+.  ie \B'\\$3' \
+.    nr MN-sep (n;\\$3)
+.  el \
+.    nr MN-sep 1n
+.  if ((\\n[.o] - \\n[MN-sep]) < 1n) \
+.    ab MN: Left margin too small (<1n) for requested margin notes separation.
+.
+.  ie \B'\\$1' \{\
+.    nr MN-left-width (n;\\$1)
+.    nr MN-left-start (\\n[.o] - \\n[MN-sep] - \\n[MN-left-width])
+.  \}
+.  el \{\
+.    nr MN-left-width (\\n[.o] - \\n[MN-sep])
+.    nr MN-left-start 0
+.  \}
+.  if (\\n[MN-left-start] < 0) \
+.    ab MN: Left margin too small for requested margin notes settings.
+.  if (\\n[MN-left-width] < 1n) \
+.    ab MN: Left margin notes width too small (<1n).
+.
+.  ie \B'\\$2' \{\
+.    nr MN-right-width (n;\\$2)
+.    nr MN-right-start (\\n[.o] + \\n[.l] + \\n[MN-sep])
+.  \}
+.  el \{\
+.    nr MN-right-width \\n[MN-left-width]
+.    nr MN-right-start (\\n[.o] + \\n[.l] + \\n[MN-sep])
+.  \}
+.
+.  ie \A'\\$4' \
+.    ds MN-font \\$4
+.  el \
+.    ds MN-font
+.
+.  ie \B'\\$5' \
+.    nr MN-size (z;\\$5)
+.  el \
+.    nr MN-size 0
+.
+.  ie \B'\\$6' \
+.    nr MN-spacing (p;\\$6)
+.  el \
+.    nr MN-spacing 0
+.
+.  \" Initialize environments.
+.  ev MN-env
+.  if \A'\\*[MN-font]' \
+.    ft \\*[MN-font]
+.  if \\n[MN-size] \
+.    ps \\n[MN-size]u
+'  in 0
+'  nf
+.  ev
+.
+.  ev MNbottom-left-env
+.  if \\n[MN-spacing] \
+.    vs \\n[MN-spacing]u
+.  ll \\n[MN-left-width]u
+.  ad \\*[MN-left-ad]
+.  ev
+.
+.  ev MNbottom-right-env
+.  if \\n[MN-spacing] \
+.    vs \\n[MN-spacing]u
+.  ll \\n[MN-right-width]u
+.  ad \\*[MN-right-ad]
+.  ev
+.
+.  nr MN-active 0
+..
+.
+.\" EOF
