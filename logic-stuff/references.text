@@ -111,3 +111,18 @@
 %D 1990
 %O https://www.gnu.org/software/groff/
 
+%A Harding, Ted
+%D 2011
+%T A Guide to Typesetting Mathematics using GNU eqn
+%O https://lists.gnu.org/archive/html/groff/2013-10/pdf
+
+%T Using groff with the ms Macro Package
+%A Kollar, Larry
+%A Robinson, G. Branden
+%D 2023
+%O https://lists.gnu.org/r/groff/2023-04/pdfkxOTeCk24w.pdf
+
+%T Making Pictures With GNU PIC
+%A Raymond, Eric S.
+%D 2011
+%O https://lists.gnu.org/archive/html/groff/2011-08/pdfbLauVhlfQs.pdf

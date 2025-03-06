@@ -51,6 +51,46 @@ I wrote this note while learning Fitch;
 My intention is to demonstrate how to write predicate and propositional logic, and deduction on this platform.
 I cannot teach you how to format scientific text in general,
 neither can I give an introduction to logic and natural deduction.
+.SH
+Writing equations
+.LP
+First, we need to be able to write our texts
+.[\& (there is a good tutorial by  
+#
+branden kollar
+.]\&) 
+and then we can continue with logical formulas and sentences.
+.[
+harding eqn
+.]
+At a first glance, all of them are are \(lqequations\(rq,
+or anyone who are not familiar with mathematics and logic and the differences between the two will regard them as such.
+Here is a set of predicate logic sentences, first in eqn source,
+.ID
+\&\f(CR.EQ (1)
+    pile {
+	\\[fa] x SameSize(x)
+	above
+	\\[fa] x Cube(x) -> Cube(b)
+	above	
+	(Cube(b) \\[AN] b=c) -> Small(c)
+	above
+	(Small(b) \\[AN] SameSize(b,c) -> Small(c)
+   }
+\&.EN\fP
+.DE
+and then formatted, in Equation (1).
+.EQ (1)
+pile {
+\[fa] x SameSize(x)
+above
+\[fa] x Cube(x) -> Cube(b)
+above
+(Cube(b) \[AN] b=c) -> Small(c)
+above
+(Small(b) \[AN] SameSize(b,c) -> Small(c)
+}
+.EN
 .KF
 .sp
 .IP
@@ -81,15 +121,6 @@ U+2208;∈;\\[mo]
 U+2209;∉;\\[nm]
 .TE
 .KE
-.PP
-First, we need to be able to write our texts and then we can continue with logical formulas and sentences.
-At a first glance, all of them are are \(lqequations\(rq,
-or anyone who are not familiar with mathematics and logic and the differences between the two will regard them as such.
-Here is a set of predicate logic sentences, first in eqn source, and then formatted.
-.ID
-\&.EQ
-\&.EN
-.DE
 .KF
 .PS
 .ps 10
