@@ -29,6 +29,7 @@ and eqn
 kernighan mathematics
 .]
 are systems for typesetting graphs and mathematics, also created by Brian Kernighan and his friends.
+This group created a full set of tools for the type-setting of scientific text, graphs and diagrams, mathematics, chemistry, reference management and complex tables.
 .smallcaps
 groff
 aka
@@ -38,7 +39,8 @@ troff is the implementation I am using.
 .[
 Foundation groff
 .]
-There are other competitors,
+There are other competitors, in particular the slightly younger TeX and LaTeX.
+There are also alternative implementations of troff,
 but this is the version I use.
 .PP
 The Fitch notations has got its name after its inventor, Fredric Fitch.
@@ -46,9 +48,9 @@ This notation seems to be a de facto standard:
 It is used in all the text books I have been able to find electronically,
 and seems to be taught at logics courses in mathematics as well as philosophy.
 I wrote this note while learning Fitch;
-I used the writing was a method for learning.
-My intention is to demonstrate how to format natural deduction on this platform.
-I cannot teach you how to format scientific text, neither can I give an introduction to natural deduction.
+My intention is to demonstrate how to write predicate and propositional logic, and deduction on this platform.
+I cannot teach you how to format scientific text in general,
+neither can I give an introduction to logic and natural deduction.
 .KF
 .sp
 .IP
