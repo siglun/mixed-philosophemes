@@ -91,6 +91,11 @@ above
 (Small(b) \[AN] SameSize(b,c) -> Small(c)
 }
 .EN
+.PP
+To write these formulas, you need to use either the unicode characters or their Groff names, see Table 1.
+.SH
+Using logics inside graphs
+.LP
 .KF
 .sp
 .IP
