@@ -11,6 +11,7 @@ troff, pic and eqn
 Sigrid Lundberg
 sigfrid (at) sigfrid-lundberg.se
 .LP
+.\"anfang F 3
 Fitch is a notation for natural deduction.
 .[
 natural deduction stanford

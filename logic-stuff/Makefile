@@ -29,6 +29,6 @@ qr.pdf: qr.eps
 excercises.pdf: excercises.ms
 
 fitch-experiment.pdf: parameters.ms fitch-experiment.ms fitch-macros.pic  \
-	references.text qr.pdf  Makefile tmac/refer-hooks
+	references.text qr.pdf  Makefile tmac/refer-hooks.tmac
 
 time_series.pdf: model-and-plot.r parameters.r
