@@ -299,4 +299,7 @@ end_proof(START);
 .ps 10
 Figure 2. A slightly longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
 .KE
+.[
+$LIST$
+.]
 .so back-matter.ms
