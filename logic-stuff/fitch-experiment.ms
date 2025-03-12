@@ -128,6 +128,9 @@ U+2209;∉;\\[nm]
 .TE
 .KE
 .KF
+.so aristotelian-syllogism.ms
+.KE
+.KF
 .PS
 .ps 10
 .vs 12
