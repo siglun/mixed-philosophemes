@@ -3,13 +3,13 @@ scale=2.54;
 .ps 10
 .vs 12
 
-A:box invis "$\[fa]xP(x)$" "All S are P"
+A:box invis "$\[fa]x left ( S(x) \[->] P(x) right )$" "All S are P"
 L1: line right 4.0 from A.se
-B:box invis "$\[no]\[fa]xP(x)$" "No S are P"  with .sw at last line .e
+B:box invis "$\[fa]x left ( S(x) \[->] \[no] P(x) right )$" "No S are P"  with .sw at last line .e
 L2: line down 4.0 from B.sw
-C:box invis "$\[te]x\[no]P(x)$" "Some S are not P" with .nw at last line .s
+C:box invis "$\[te]x left ( S(x) \[AN] \[no]P(x) right )$" "Some S are not P" with .nw at last line .s
 L3: line left 4.0 from C.nw
-D:box invis "$\[te]xP(x)$" "Some S are P" with .ne at last line .w
+D:box invis "$\[te]x left ( S(x) \[AN] P(x) right )$" "Some S are P" with .ne at last line .w
 L4: line up 4.0 from D.ne
 
 line from A.se to C.nw
