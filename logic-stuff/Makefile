@@ -2,7 +2,7 @@
 .SUFFIXES: .pic .ms .pdf .ps .eps
 .DEFAULT: .ms.pdf .ps.pdf .eps.pdf
 
-default: fitch-experiment.pdf
+default: logic-with-groff.pdf
 URI = https://github.com/siglun/mixed-philosophemes/tree/main/logic-stuff
 
 # 	groff -U -R -sGtep   -ms  -m refer-ms -M ./tmac -m refspec -m refer -m decorations  -m pdfpic \
@@ -16,7 +16,7 @@ URI = https://github.com/siglun/mixed-philosophemes/tree/main/logic-stuff
 	epstopdf  $<
 
 clean:
-	rm -f *~ excercises.p* qr.* fitch-experiment.p*
+	rm -f *~ excercises.p* qr.* logic-with-groff.p*
 
 time_series.pdf:
 	./model-and-plot.r; grep -vi time shit.text > model_data.text
@@ -28,7 +28,7 @@ qr.pdf: qr.eps
 
 excercises.pdf: excercises.ms
 
-fitch-experiment.pdf: parameters.ms fitch-experiment.ms fitch-macros.pic  \
+logic-with-groff.pdf: parameters.ms logic-with-groff.ms fitch-macros.pic  \
 	aristotelian-syllogism.ms references.text qr.pdf  Makefile \
 	tmac/refer-hooks.tmac
 
