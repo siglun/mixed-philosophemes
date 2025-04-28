@@ -16,7 +16,7 @@ URI = https://github.com/siglun/mixed-philosophemes/tree/main/logic-stuff
 	epstopdf  $<
 
 clean:
-	rm -f *~ excercises.p* qr.* logic-with-groff.p*
+	rm -f *~ excercises.p* qr.* logic-with-groff.ps
 
 time_series.pdf:
 	./model-and-plot.r; grep -vi time shit.text > model_data.text
