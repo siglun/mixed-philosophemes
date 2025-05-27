@@ -139,7 +139,6 @@ scale=2.54
 moveht=0.75
 boxht=0.75
 movewid=0.9
-fitch_margin=0.5
 
 set_steps_and_depths(8,3)
 
@@ -255,7 +254,6 @@ scale=2.54
 moveht=0.75
 boxht=0.75
 movewid=1.0
-fitch_margin=0.4
 
 set_steps_and_depths(12,5);
 
@@ -300,6 +298,13 @@ end_proof(START);
 .ps 10
 Figure 2. A slightly longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
 .KE
+.PP
+A QL proof
+.KF
+.so QL-proof-1.ms
+.KE
+
+
 .[
 $LIST$
 .]
