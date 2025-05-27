@@ -6,7 +6,6 @@ moveht=0.75
 boxht=0.75
 boxwd=2.0
 movewid=0.9
-fitch_margin=0.1
 
 set_steps_and_depths(15,5);
 

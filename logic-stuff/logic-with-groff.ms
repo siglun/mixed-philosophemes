@@ -60,13 +60,13 @@ First, we need to be able to write our texts
 #
 branden kollar
 .]\&) 
-and then we can continue with logical formulas and sentences.
+and then we can continue with logical formulas and sentences using \f(CReqn\fP.
 .[
 harding eqn
 .]
 At a first glance, all of them are are \(lqequations\(rq,
 or anyone who are not familiar with mathematics and logic and the differences between the two will regard them as such.
-Here is a set of predicate logic sentences, first in eqn source,
+Here is a set of predicate logic sentences, first in \f(CReqn\fP source,
 .ID
 \&\f(CR.EQ (1)
     pile {
@@ -99,7 +99,7 @@ Using logics inside graphs
 .LP
 .KF
 .sp
-.IP
+.QP
 .vs 12
 .ps 10
 Table 1. Unicode characters for logical signs and operators.
@@ -130,6 +130,10 @@ U+2286;⊆;\\[ib]
 .KE
 .KF
 .so aristotelian-syllogism.ms
+.QP
+.vs 12
+.ps 10
+The traditional aristotelian syllogisms.
 .KE
 .KF
 .PS
@@ -150,8 +154,8 @@ premis_end(START);
 start_proof(SUB1);
 add_premis(SUB1,"$A$");
 premis_end(SUB1);
-add_step(SUB1,"$⊥$","⊥ Intro: 3,2");
-add_step(SUB1,"$B$","⊥ Elim: 4");
+add_step(SUB1,"$\[pp]$","\[pp] Intro: 3,2");
+add_step(SUB1,"$B$","\[pp] Elim: 4");
 end_proof(SUB1);
 
 start_proof(SUB2);
@@ -163,7 +167,7 @@ end_proof(SUB2);
 add_step(START,"$B$","∨ Elim: 6-7,3-5,1");
 end_proof(START)
 .PE
-.IP
+.QP
 .vs 12
 .ps 10
 Figure 1. Proof that $A ∨ B, ¬ A ∴ B$.
@@ -217,8 +221,8 @@ which has three argument: (i) the name of the current proof,
 (ii) the result of the step, and finally (iii)
 the references to earlier steps needed for the step.
 .ID
-\f(CRadd_step(SUB1,"$⊥$","⊥ Intro: 3,2");
-add_step(SUB1,"$B$","⊥ Elim: 4");
+\f(CRadd_step(SUB1,"$\[pp]$","\[pp] Intro: 3,2");
+add_step(SUB1,"$B$","\[pp] Elim: 4");
 end_proof(SUB1);
 .DE
 .PP
@@ -244,7 +248,7 @@ Note that the macros do not check your references.
 Sanity checks and proof reading is your job.
 .KF
 .EQ
-sdefine falsum  %{type "operator" vcenter ⊥}%
+sdefine falsum  %{type "operator" vcenter \[pp]}%
 .EN
 .ID
 .PS
@@ -275,8 +279,8 @@ premis_end(SUB2);
 start_proof(SUB21);
 add_premis(SUB21,"$\[no]B$");
 premis_end(SUB21);
-add_step(SUB21,"$falsum$","⊥ Intro:6,5");
-add_step(SUB21,"$A \[OR]  C$","⊥ Elim:7");
+add_step(SUB21,"$falsum$","\\[pp] Intro:6,5");
+add_step(SUB21,"$A \[OR]  C$","\\[pp] Elim:7");
 end_proof(SUB21);
 
 start_proof(SUB22);
@@ -293,18 +297,18 @@ add_step(START,"$A \[OR] C$","\[OR] Elim:1,3-4,5-11");
 end_proof(START);
 .PE
 .DE
-.IP
+.QP
 .vs 12
 .ps 10
 Figure 2. A slightly longer example: Prove that $A\[OR]B, \[no]B\[OR]C ∴ A\[OR]C$.
 .KE
-.PP
-A QL proof
 .KF
 .so QL-proof-1.ms
+.QP
+.vs 12
+.ps 10
+A QL proof
 .KE
-
-
 .[
 $LIST$
 .]
