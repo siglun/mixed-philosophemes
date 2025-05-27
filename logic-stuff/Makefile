@@ -5,12 +5,9 @@
 default: logic-with-groff.pdf
 URI = https://github.com/siglun/mixed-philosophemes/tree/main/logic-stuff
 
-# 	groff -U -R -sGtep   -ms  -m refer-ms -M ./tmac -m refspec -m refer -m decorations  -m pdfpic \
-
 .ms.pdf:
 	pdfroff -U -R -sGtep   -ms  -M ./tmac -m refer-hooks \
 	-m decorations  -m pdfpic -k  -P-pa4 -Tps $<  > $*.pdf
-
 
 .eps.pdf:
 	epstopdf  $<
