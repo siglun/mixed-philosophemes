@@ -70,26 +70,26 @@ Here is a set of predicate logic sentences, first in \f(CReqn\fP source,
 .ID
 \&\f(CR.EQ (1)
     pile {
-	\\[fa] x SameSize(x)
+	forall x SameSize(x)
 	above
-	\\[fa] x Cube(x) -> Cube(b)
+	forall x Cube(x) implies Cube(b)
 	above	
-	(Cube(b) \\[AN] b=c) -> Small(c)
+	(Cube(b) and b=c) implies Small(c)
 	above
-	(Small(b) \\[AN] SameSize(b,c) -> Small(c)
+	(Small(b) and SameSize(b,c) implies Small(c)
    }
 \&.EN\fP
 .DE
 and then formatted, in Equation (1).
 .EQ (1)
 pile {
-\[fa] x SameSize(x)
+forall(x) SameSize(x)
 above
-\[fa] x Cube(x) -> Cube(b)
+forall(x) Cube(x) implies Cube(b)
 above
-(Cube(b) \[AN] b=c) -> Small(c)
+(Cube(b) and b=c) implies Small(c)
 above
-(Small(b) \[AN] SameSize(b,c) -> Small(c)
+(Small(b) and SameSize(b,c) implies Small(c)
 }
 .EN
 .PP
@@ -110,25 +110,25 @@ allbox center tab(;);
 lb lb lb ;
 l l l .
 Unicode;Character;Groff name
-u+00AC;¬;\\[no]	
-u+2227;∧;\\[AN]
-u+2228;∨;\\[OR]
-u+2200;∀;\\[fa]
-u+2203;∃;\\[te]
-u+2192;→;\\[->]
-u+2194;↔;\\[<>]
-u+22A5;⊥;\\[pp]
-u+22A2;⊢;
+U+00AC;¬;\\[no]	
+U+2227;∧;\\[AN]
+U+2228;∨;\\[OR]
+U+2200;∀;\\[fa]
+U+2203;∃;\\[te]
+U+2192;→;\\[->]
+U+2194;↔;\\[<>]
+U+22A5;⊥;\\[pp]
+U+22A2;⊢;
 U+22A8;⊨;
-u+2261;≡;\\[==]
-u+25A1;□;\\[sq]
-u+25C7;◊;\\[lz]
-u+2234;∴;\\[tf]
-u+2205;∅;\\[es]
+U+2261;≡;\\[==]
+U+25A1;□;\\[sq]
+U+25C7;◊;\\[lz]
+U+2234;∴;\\[tf]
+U+2205;∅;\\[es]
 U+2208;∈;\\[mo]
 U+2209;∉;\\[nm]
 U+2286;⊆;\\[ib]
-u+2118;℘;\\[wp]          
+U+2118;℘;\\[wp]          
 .TE
 .KE
 .KF

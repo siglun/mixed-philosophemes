@@ -1,3 +1,21 @@
+.EQ
+sdefine falsum  %{type "operator" vcenter \[pp]}%
+sdefine not     %{type "operator" vcenter \[no]}%
+sdefine and     %{type "operator" vcenter \[AN]}%
+sdefine or      %{type "operator" vcenter \[OR]}%
+
+
+sdefine any  %{type "operator" vcenter \[fa]}%
+define forall X { any $1 ^ } X
+
+sdefine some    %{type "operator" vcenter \[te]}%
+define exists X { some $1 ^ } X
+
+sdefine implies %{type "operator" vcenter \[->]}%
+sdefine iff     %{type "operator" vcenter \[<>]}%
+sdefine equiv   %{type "operator" vcenter \[<>]}%
+.EN
+
 .PS
 
 scale=2.54
