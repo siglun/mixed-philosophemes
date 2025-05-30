@@ -26,7 +26,7 @@ qr.pdf: qr.eps
 excercises.pdf: excercises.ms
 
 logic-with-groff.pdf: parameters.ms logic-with-groff.ms fitch-macros.pic  \
-	aristotelian-syllogism.ms references.text qr.pdf QL-proof-1.ms \
+	aristotelian-syllogism.ms references.text qr.pdf QL-proof-1.ms useful-equivalents.ms \
 	Makefile tmac/refer-hooks.tmac
 
 time_series.pdf: model-and-plot.r parameters.r

@@ -117,6 +117,7 @@ U+2200;∀;\\[fa]
 U+2203;∃;\\[te]
 U+2192;→;\\[->]
 U+2194;↔;\\[<>]
+U+21D4,⇔;\\[hA]   
 U+22A5;⊥;\\[pp]
 U+22A2;⊢;
 U+22A8;⊨;
@@ -130,6 +131,9 @@ U+2209;∉;\\[nm]
 U+2286;⊆;\\[ib]
 U+2118;℘;\\[wp]          
 .TE
+.KE
+.KF
+.so useful-equivalents.ms
 .KE
 .KF
 .so aristotelian-syllogism.ms
