@@ -11,7 +11,7 @@ gnu
 Sigrid Lundberg
 sigfrid (at) sigfrid-lundberg.se
 .LP
-.\" anfang F 3
+.\" dropcap F 3
 Fitch is a notation for natural deduction.
 .[
 natural deduction stanford
@@ -344,7 +344,7 @@ Figure 2. A slightly longer example: Prove that $A or B, not B or C therefore A 
 .QP
 .vs 12
 .ps 10
-Figure 3. A proof using predicate logic
+Figure 3. A proof using predicate logic.
 .KE
 .[
 $LIST$

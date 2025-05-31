@@ -51,3 +51,26 @@
 .
 .
 .
+.
+.\" $1: The letter used as a dropcap.  Only uppercase letters will look OK.
+.\" $2: The number of lines used by $1
+.de dropcap
+.  \" set the `rst' and `rsb' registers
+.  nr dr-dummy \w'\\$1'
+.  \" compute size of dropcap (in scaled points):
+.  \"
+.  \"   rst - rsb                            ........    .ps
+.  \"   rst + ($2-1)*.ps + ($2-1)*(.v-.ps)   ........    ?
+.  \"
+.  nr dr-size ((\\n[rst] + ((\\$2 - 1) * \\n[.v])) * \\n[.ps] / (\\n[rst] - \\n[rsb]))
+.  nr dr-height (((\\$2 - 1) * \\n[.v]) + ((\\n[rsb] * \\n[dr-size]) / \\n[.ps]))
+.  nr dr-pos (\\n[nl] + (\\$2v - 1v))
+.  nr dr-wid \w'\s[\\n[dr-size]u]\\$1\^'
+\v'\\n[dr-height]u'\
+\s[\\n[dr-size]u]\
+\\$1\^\
+\s[0]\
+\v'-\\n[dr-height]u'\c
+'  in \\n[dr-wid]u
+.  wh \\n[dr-pos]u dr-reset
+..
