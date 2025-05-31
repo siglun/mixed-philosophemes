@@ -7,7 +7,7 @@ boxht=0.75
 boxwd=2.0
 movewid=0.9
 
-set_steps_and_depths(15,5);
+set_steps_and_depths(12,5);
 
 start_proof(START);
 add_premis(START," ");
