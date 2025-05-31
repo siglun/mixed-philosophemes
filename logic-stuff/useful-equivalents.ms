@@ -1,6 +1,5 @@
 .TS
 allbox center tab(;);
-lb lb ;
-l l .
-$not forall(x) A \[hA] exists(x) not A$;$not exists(x) A \[hA] forall(x) not A$
+l l l .
+De Morgan's Laws (Predicate Logic);$not forall(x) A iff exists(x) not A$;$not exists(x) A iff forall(x) not A$
 .TE

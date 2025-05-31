@@ -11,7 +11,7 @@ gnu
 Sigrid Lundberg
 sigfrid (at) sigfrid-lundberg.se
 .LP
-.\"anfang F 3
+.\" anfang F 3
 Fitch is a notation for natural deduction.
 .[
 natural deduction stanford
@@ -72,6 +72,8 @@ or anyone who are not familiar with mathematics and logic and the differences be
 Logic is actually a special genre of its own when it comes to formulas or equations.
 Here is a set of predicate logic sentences, first in \f(CReqn\fP source,
 .ID
+.ps 10
+.vs 12
 \&\f(CR.EQ (1)
     pile {
 	forall(x) SameSize(x)
@@ -96,7 +98,7 @@ above
 (Small(b) and SameSize(b,c) implies Small(c)
 }
 .EN
-.PP
+.LP
 To write these formulas,
 you need to use either the unicode characters,
 their Groff names
@@ -342,7 +344,7 @@ Figure 2. A slightly longer example: Prove that $A or B, not B or C therefore A 
 .QP
 .vs 12
 .ps 10
-Figure 3. A QL proof
+Figure 3. A proof using predicate logic
 .KE
 .[
 $LIST$
