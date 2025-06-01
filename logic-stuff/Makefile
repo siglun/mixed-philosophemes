@@ -2,12 +2,12 @@
 .SUFFIXES: .pic .ms .pdf .ps .eps
 .DEFAULT: .ms.pdf .ps.pdf .eps.pdf
 
-default: logic-with-groff.pdf
+default: logic-with-groff.pdf question.pdf
 URI = https://github.com/siglun/mixed-philosophemes/tree/main/logic-stuff
 
 .ms.pdf:
 	pdfroff -U -R -sGtep   -ms  -M ./tmac -m refer-hooks \
-	-m decorations  -m pdfpic -k  -P-pa4 -Tps $<  > $*.pdf
+	-m decorations  -m pdfpic -k -Kutf-8  -P-pa4 -Tps $<  > $*.pdf
 
 .eps.pdf:
 	epstopdf  $<
@@ -28,5 +28,7 @@ excercises.pdf: excercises.ms
 logic-with-groff.pdf: parameters.ms logic-with-groff.ms fitch-macros.pic  \
 	aristotelian-syllogism.ms references.text qr.pdf QL-proof-1.ms useful-equivalents.ms \
 	Makefile tmac/refer-hooks.tmac
+
+question.pdf:  parameters.ms fitch-macros.pic question.ms 
 
 time_series.pdf: model-and-plot.r parameters.r
