@@ -7,7 +7,7 @@ Show that
 .EQ
 forall(x) (Tx implies (Lx or Mx)
 .EN
-Given
+given
 .EQ
 not exists(x) (Tx and Sx)
 .EN 
