@@ -29,6 +29,6 @@ logic-with-groff.pdf: parameters.ms logic-with-groff.ms fitch-macros.pic  \
 	aristotelian-syllogism.ms references.text qr.pdf QL-proof-1.ms useful-equivalents.ms \
 	Makefile tmac/refer-hooks.tmac
 
-question.pdf:  parameters.ms fitch-macros.pic question.ms 
+question.pdf:  parameters.ms fitch-macros.pic question.ms  Makefile
 
 time_series.pdf: model-and-plot.r parameters.r

@@ -49,6 +49,8 @@ define set_steps_and_depths {
 
 define start_proof {
 	$1: box invis at depth*movewid,(step_total-stepno)*moveht;
+.\" This prints step numbers correctly to STDERR
+.\" command ".tm $1 " sprintf("%g",stepno)
 	depth=depth+1;	
 }
 
