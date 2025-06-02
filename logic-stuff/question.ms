@@ -21,7 +21,7 @@ add_premis(START,"$forall(y) (Sy or My or Ly)$");
 premis_end(START);
 
 start_proof(UNIV);
-add_premis(UNIV,"$[a] Ta$");
+add_premis(UNIV,"$[a] ^ Ta$");
 premis_end(UNIV);
 
 add_step(UNIV,"$Sa or (Ma or La)$","$any$ Elim 2");
@@ -30,7 +30,7 @@ start_proof(DIS1);
 add_premis(DIS1,"$Sa$");
 premis_end(DIS1);
 
-add_step(DIS1,"$Ta and Sa$","$and$ Intro 6,7");
+add_step(DIS1,"$Ta and Sa$","$and$ Intro 3,5");
 add_step(DIS1,"$exists(x)(Tx and Sx)$","$exists()$ Intro 6");
 add_step(DIS1,"$falsum$","$falsum$ Intro 1,7");
 add_step(DIS1,"$La or Ma$","$falsum$ Elim 8");
@@ -50,7 +50,7 @@ start_proof(DIS22);
 add_premis(DIS22,"$La$");
 premis_end(DIS22);
 end_proof(DIS22);
-add_step(DIS2,"$La or Ma$","$or$ Elim 1,11,12");
+add_step(DIS2,"$La or Ma$","$or$ Elim 10,11,12");
 end_proof(DIS2);
 
 add_step(UNIV,"$La or Ma$","$or$ Elim 4,5-9,10-13");
