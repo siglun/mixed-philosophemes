@@ -115,9 +115,9 @@ but takes a long time to type.
 The \f(CReqn\fP macros are for easier typing and I have tried to adjust spacings for a nicer look.
 .TS
 allbox center tab(;);
-lb lb lb lb;
-l l l l.
-Unicode;Character;Groff name;\f(CBeqn\fP macro
+lb lb lb lb lb;
+l l l l l.
+Unicode;Character;Groff name;\f(CBeqn\fP macro;Comment
 U+00AC;¬;\\[no];not	
 U+2227;∧;\\[AN];and
 U+2228;∨;\\[OR];or
@@ -130,8 +130,19 @@ U+2194;↔;\\[<>];iff
 U+2194;↔;\\[<>];equiv
 U+21D4;⇔;\\[hA]   
 U+22A5;⊥;\\[pp];falsum
-U+22A2;⊢;not available
-U+22A8;⊨;not available
+U+22A2;⊢;not available;;T{
+.na
+syntactic consequence
+.br
+turnstile
+.\" tee,yields, proves, satisfies or entails
+T}
+U+22A8;⊨;not available;;T{
+.na
+semantic consequence
+.br
+double turnstile
+T}
 U+2261;≡;\\[==];identicalto
 U+25A1;□;\\[sq];nece
 U+25A1;□;\\[sq];necessarily
