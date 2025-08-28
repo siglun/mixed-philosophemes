@@ -12,10 +12,6 @@ Sigrid Lundberg
 sigfrid (at) sigfrid-lundberg.se
 .LP
 .\" dropcap F 3
-Fitch is a notation for natural deduction.
-.[
-natural deduction stanford
-.]
 \f(CRtroff\fP is a software system for type-setting using Unix\f(CR\(tm\fP and related operating systems.
 .[
 ossanna kernighan
@@ -46,7 +42,11 @@ There are other competitors, in particular the slightly younger TeX and LaTeX.
 There are also alternative implementations of troff,
 but this is the version I use.
 .PP
-The Fitch notations has got its name after its inventor, Fredric Fitch.
+Fitch is a notation for natural deduction.
+.[
+natural deduction stanford
+.]
+It has got its name after its inventor, Fredric Fitch.
 This notation seems to be a de facto standard:
 It is used in all the text books I have been able to find electronically,
 and seems to be taught at logics courses in mathematics as well as philosophy.
