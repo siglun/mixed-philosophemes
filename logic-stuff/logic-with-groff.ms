@@ -178,42 +178,12 @@ Using logic in graphs
 .vs 12
 .ps 10
 Figure 1. The traditional aristotelian syllogisms.
+
 .KE
 .SH
 Writing Fitch arguments
 .KF
-.sp
-.PS
-.ps 10
-.vs 12
-scale=2.54
-moveht=0.75
-boxht=0.75
-movewid=0.9
-
-set_steps_and_depths(8,3)
-
-start_proof(START);
-add_premis(START,"$A or B$");
-add_premis(START,"$not A$");
-premis_end(START);
-
-start_proof(SUB1);
-add_premis(SUB1,"$A$");
-premis_end(SUB1);
-add_step(SUB1,"$\[pp]$","\[pp] Intro: 3,2");
-add_step(SUB1,"$B$","\[pp] Elim: 4");
-end_proof(SUB1);
-
-start_proof(SUB2);
-add_premis(SUB2,"$B$");
-premis_end(SUB2);
-add_step(SUB2,"$B$","Reit: 6");
-end_proof(SUB2);
-
-add_step(START,"$B$","∨ Elim: 6-7,3-5,1");
-end_proof(START)
-.PE
+.so first-fitch.ms
 .QP
 .vs 12
 .ps 10
@@ -225,10 +195,8 @@ The horisontal line after step 2 is usually referred to as the \fIfitch line.\fP
 The two groups, 3\(en5 and 3\(en6 are sub-proofs,
 with their own premisses,
 vertical lines and fitch lines
-.sp
+
 .KE
-.SH
-How to write Fitch in troff
 .LP
 Any proof is initialized by calling this macro,
 which informs all scripts on the number of steps in the proof and its maxiumum depth,
@@ -304,7 +272,7 @@ Sanity checks and proof reading is your job.
 Figure 2.
 A slightly longer example:
 Prove that $A or B, not B or C therefore A or C$.
-.sp
+
 .KE
 .LP
 .KF
@@ -318,6 +286,7 @@ It proves without premisses one of the de Morgan formulas:
 $\[fa] x ^ Fx ^ \[<>] ^ \[no] \[te] x ^ \[no] Fx$,
 .i.e.,
 All $x$ are $F$ if and only if there is no $x$ which is not $F$.
+
 .KE
 .[
 $LIST$
