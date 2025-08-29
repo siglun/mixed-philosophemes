@@ -29,7 +29,6 @@ sdefine identicalto %{type "operator" vcenter \[==]}%
 .EN
 
 .PS
-
 scale=2.54
 moveht=0.75
 boxht=0.75
@@ -47,43 +46,29 @@ define set_steps_and_depths {
 	stepno=0;
 }
 
-define start_proof {
-	$1: box invis at depth*movewid,(step_total-stepno)*moveht;
+define start_proof {$1: box invis at depth*movewid,(step_total-stepno)*moveht;
 .\" This prints step numbers correctly to STDERR
 .\" command ".tm $1 " sprintf("%g",stepno)
-	depth=depth+1;	
-}
+depth=depth+1;}
 
-define line_from_to {
-	line from $1 to $2
-}
+define line_from_to {line from $1 to $2}
 
-define end_proof {
-	depth=depth-1;	
-	move to	$1.w.x,last box.sw.y;
-	line to $1.w.x,$1.sw.y-0.15;
-}
+define end_proof {depth=depth-1;	
+move to	$1.w.x,last box.sw.y;
+line to $1.w.x,$1.sw.y-0.15;}
 
-define add_premis {
-	add_step($1,$2,$3)
-}
+define add_premis {add_step($1,$2,$3)}
 
-define premis_end {
-	move to	$1.w.x,last box.sw.y; line right
-}
+define premis_end {move to $1.w.x,last box.sw.y; line right}
 
 define add_step {
-	stepno=stepno+1;
-	move to $1.nw;
-	for i=1 to stepno do {
-		move down;
-	}
-	box invis sprintf("%g",stepno) rjust with .e at -0.1,(step_total-stepno)*moveht;
-	if depth == 1 then { 
-		box invis  $2 ljust with .c at $1.w.x+0.1,(step_total-stepno)*moveht;
-	} else {
-		box invis  $2 ljust with .c at $1.w.x+0.1,(step_total-stepno)*moveht;
-	}
-	box invis $3 ljust at max_depth*movewid,(step_total-stepno)*moveht;
+stepno=stepno+1;
+move to $1.nw;
+for i=1 to stepno do {move down;}
+box invis sprintf("%g",stepno) rjust with .e at -0.1,(step_total-stepno)*moveht;
+if depth == 1 then { 
+box invis  $2 ljust with .c at $1.w.x+0.1,(step_total-stepno)*moveht;
+} else {box invis  $2 ljust with .c at $1.w.x+0.1,(step_total-stepno)*moveht;
 }
+box invis $3 ljust at max_depth*movewid,(step_total-stepno)*moveht;}
 .PE
