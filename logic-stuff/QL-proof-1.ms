@@ -51,4 +51,3 @@ add_step(START,"$\[fa] x ^ Fx ^ \[<>] ^ \[no] \[te] x ^ \[no] Fx$","\[<>] Intro 
 
 end_proof(START)
 .PE
-
