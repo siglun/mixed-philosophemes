@@ -6,6 +6,9 @@ default: paper.pdf
 URI = https://github.com/siglun/mixed-philosophemes/blob/main/the-coffee-machine/paper.pdf
 
 
+URI = https://github.com/siglun/mixed-philosophemes/blob/main/the-coffee-machine/paper.pdf
+
+
 .ms.pdf:
 	pdfroff -U -R -sGtep  -m pdfpic -m pdfmark -ms \
 	-k  -P-pa4 -Tps $<  > $*.pdf
@@ -24,7 +27,7 @@ qr.eps:
 
 qr.pdf: qr.eps
 
-paper.pdf: paper.ms boxes-and-arrows.pic  paper-parameters.ms back-matter.ms \
-	qr.pdf time_series.pdf Makefile
+paper.pdf: paper.ms boxes-and-arrows.pic  paper-parameters.ms phase_plane.grap back-matter.ms \
+	qr.pdf time_series.pdf Makefile 
 
 time_series.pdf: model-and-plot.r parameters.r
