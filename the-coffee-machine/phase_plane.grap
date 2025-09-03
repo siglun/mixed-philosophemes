@@ -1,0 +1,32 @@
+.\"G1
+
+a = 1
+b = 1
+c = 0.1
+p = 0.75
+beta = 0.2
+N0=1
+
+frame invis ht 2.5 wid 2.5 left solid color "black" bot solid color "black"
+
+ticks left out at 0.0 "0.0 ", 0.5 "0.5 ", 1.0 "1.0 "
+ticks bot  out at 0.0 "0.0 ", 0.5 "0.5 ", 1.0 "1.0 " 
+
+coord x 0,1 y 0,1
+define yx { N0 - $1 - (c* $1 )/(a*(1 - p) + beta*$1) }
+define yy { a*p*(N0 - $1 )/(a*p+b) }
+
+d = 0.1
+
+for i from 0 to 10 by 1 do
+{
+	x  = i*d
+	xn = (i+1)*d
+
+	line from x, yx(x) to xn, yx(xn)
+#	line from x, yy(x) to xn, yy(xn)
+}
+#line from 0, yx(0) to 1, yx(1)
+line from 0, yy(0) to 1, yy(1)
+
+.\"G2
