@@ -120,7 +120,7 @@ worldmodel <- function(t, state, parameters) {
 }
 
 step <- 1
-time <- seq(0, 1000, by = step)
+time <- seq(0, 500, by = step)
 
 
 
@@ -136,7 +136,7 @@ write.table(out, file = "model_data.txt", sep = "\t")
 
 pdf("time_series.pdf")
 
-matplot(out[,"time"],out[2:5], xlab = "Time ", type="l", ylab = "Numbers",col="black")
+matplot(out[,"time"],out[2:5], xlab = "Time ", type="l", ylab = expression("A"[v] * ", A"[a] * ", A" [i] * " and A"[w]),col="black")
 matplot(out[,"time"],out[6:8], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[9:11], xlab = "Time ", type="l", ylab = "Numbers",col="black")
 matplot(out[,"time"],out[12:13], xlab = "Time ", type="l", ylab = "Numbers",col="black")
