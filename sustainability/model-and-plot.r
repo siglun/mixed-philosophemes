@@ -11,10 +11,10 @@ source("./parameters.r")
 
 cat(parameters)
 
-state <- c(Av = Atotal - 1,
+state <- c(Av = Atotal-3,
            Aa = 1,
-           Ai = 0.0,
-           Aw = 0.0,
+           Ai = 1,
+           Aw = 1,
            Rv = Rtotal,
            Rm = 0.0,
            Rw = 0.0,
@@ -34,32 +34,53 @@ worldmodel <- function(t, state, parameters) {
 # rates of changes
 
 #
+#
 # Areas
+#
 #
 
 # virgin land
 
-        dAv <- -( am * ni + aa * na ) * Av + awv * Aw
+        dAv <- - ( am * ni + aa * na ) * Av + awv * Aw
+
+# Av is declining at a rate proportional to product of it and the sum of
+# of the rate at which it is encountered by agriculotural and industrial
+# population.
+# waste land is becoming virgin again at a very low rate
 
 # agricultural land
 
         dAa <- aa * na * Av - aw * Aa
 
+# increases at the rate in which virgin land is colonised and decreases
+# as it is left to became waste land
+
+# 
+#
+
 # industrial land
 
         dAi <- am * ni * Av - ai * Ai
 
-# land that are no longer used which will be recycled
+# industrial land increases at a rate at which it is colonised from virgin land
+
+# land that are no longer used which will be recycled (waste land)
 
         dAw <- aw * Aa + ai * Ai - awv * Aw
 
+# increases as agricultural and industrial land are left by its inhabitants
+# and  and decreases as it again becomes virgin
+
 # resource dynamics
+#
 # Virgin resource which is mined by the industrial population
 
-        dRv <- -krm * (RT - Rm - Rw) * ni
+        dRv <- - krm * (Rtotal - Rm - Rw) * ni
+
+# Rv = Rtotal - Rm - Rw where Rtotal is a constant
 
 # material in use
-        dRm <- krm * (RT - Rm - Rw) * ni - krw * Rm  + kwm * ni * Rw
+        dRm <- krm * (Rtotal - Rm - Rw) * ni - krw * Rm  + kwm * ni * Rw
 
 # waste resource
         dRw <- krw * Rm - kwm * ni *Rw
