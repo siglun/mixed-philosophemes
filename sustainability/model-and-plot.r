@@ -144,5 +144,7 @@ matplot(out[,"time"],out[14:15], xlab = "Time ", type="l", ylab = "Numbers",col=
 
 plot(table)
 
+Sys.getlocale()
+
 # legend("topright", inset=0, legend=c("X (susceptible)", "Y (infected)", "Z (immune)"),  lty=1:3,  col="black",  bty = "n", horiz=FALSE)
 # mtext(outer = TRUE, side = 3, "SIR Model", cex = 1.5)
